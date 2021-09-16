@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>List of culture categories in NPG:</h2>
+    <div id='totalCulture'></div>
+
+    <svg width="1000" height="500"></svg>
+                   
+    <svg width="960" height="500"></svg>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    
+<script>
+ const api = 'api_key='+'7uGECQUQp4L06H0EhPGinVVToEECK8SGLH86o4KU'
+  const query = 'q=data_source:%22National+Portrait+Gallery%22'
+ const cultureURL = 'https://api.si.edu/openaccess/api/v1.0/terms/topic?' + api + '&' + query; 
+    fetch(cultureURL)
+      .then((resp) => resp.json())
+      .then((d) => { 
+        document.getElementById('totalCulture').innerHTML = d.response.terms.map((d) => '<br>' + d);  
+        console.log(d)
+});
+</script>
+
+
+</body>
+</html>

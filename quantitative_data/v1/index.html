@@ -29,7 +29,7 @@
         // const query = 'q=data_source:%22National+Museum+of+American+History%22&'
         //q=&fq=data_source%3A"National+Portrait+Gallery"&fq=online_visual_material%3Atrue&fq=onphysicalexhibit:"Yes"
         // const query = "q=data_source:%22National+Portrait+Gallery%22&onphysicalexhibit:%22Yes%22"
-        const query = 'q=data_source:%22National+Portrait+Gallery%22&media.CC0=true&fq=onphysicalexhibit:%22Yes%22'
+        const query = 'q=data_source:%22National+Portrait+Gallery%22'
 
         const url = starter + api +'&'+ query;
         console.log(url)
@@ -46,7 +46,8 @@
             })
 
        
-        const cultureURL = 'https://api.si.edu/openaccess/api/v1.0/terms/culture?' + api + '&' + query; 
+        // const cultureURL = 'https://api.si.edu/openaccess/api/v1.0/terms/culture?' + api + '&' + query; 
+        const cultureURL = 'https://api.si.edu/openaccess/api/v1.0/terms/topic?' + api + '&' + query; 
 
         // const statURL = 'https://api.si.edu/openaccess/api/v1.0/stats?' + api + '&' + query;
         // console.log(statURL)
@@ -56,6 +57,7 @@
             .then((resp) => resp.json())
             .then((d) => { 
                 document.getElementById('totalCulture').innerHTML = d.response.terms.map((d) => '<br>' + d);     })
+                console.log(d)
                 
                 // document.getElementById('totalCulture').innerHTML= d.response.terms.map(function(elem) {
                 //     const q = starter + api +'&q='+ elem + '&fq=data_source:%22National+Museum+of+American+History%22&'
