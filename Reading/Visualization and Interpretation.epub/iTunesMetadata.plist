@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BKAllocatedSize</key>
+	<integer>23810048</integer>
+	<key>BKDisplayName</key>
+	<string>Johanna Drucker - Visualization and Interpretation_ Humanistic Approaches to Display-MIT Press (2020)</string>
+	<key>BKGenerationCount</key>
+	<integer>2</integer>
+	<key>BKInsertionDate</key>
+	<integer>652983557</integer>
+	<key>artistName</key>
+	<string>Johanna Drucker</string>
+	<key>book-info</key>
+	<dict>
+		<key>cover-image-hash</key>
+		<string>E587C4ED1925BFD06B3C2A6550659957</string>
+		<key>cover-image-path</key>
+		<string>OEBPS/images/9780262361163.jpg</string>
+		<key>mime-type</key>
+		<string>application/epub+zip</string>
+		<key>package-file-hash</key>
+		<string>538AFF5E7B6F675637E396109C76067F</string>
+		<key>publisher-unique-id</key>
+		<string>9780262361163</string>
+		<key>unique-id</key>
+		<integer>6964222163551609081</integer>
+		<key>update-level</key>
+		<integer>2</integer>
+	</dict>
+	<key>bookDescription</key>
+	<string>&lt;b&gt;An analysis of visual epistemology in the digital humanities, reorienting the creation of digital tools within humanities contexts.&lt;/b&gt;&lt;br&gt;In the several decades since humanists have taken up computational tools, they have borrowed many techniques from other fields, including visualization methods to create charts, graphs, diagrams, maps, and other graphic displays of information. But are these visualizations actually adequate for the interpretative approach that distinguishes much of the work in the humanities? Information visualization, as practiced today, lacks the interpretivist frameworks required for humanities-oriented methodologies. In this book, Johanna Drucker continues her interrogation of visual epistemology in the digital humanities, reorienting the creation of digital tools within humanities contexts.</string>
+	<key>isPreview</key>
+	<false/>
+	<key>itemName</key>
+	<string>Visualization and Interpretation</string>
+</dict>
+</plist>

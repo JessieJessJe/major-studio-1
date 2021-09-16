@@ -1,0 +1,922 @@
+{
+    "status": 200,
+    "responseCode": 1,
+    "response": {
+        "rows": [
+            {
+                "id": "edanmdm-nmah_374593",
+                "title": "poster Mrs. Fiske in \"Ghosts\"",
+                "unitCode": "NMAH",
+                "type": "edanmdm",
+                "url": "edanmdm:nmah_374593",
+                "content": {
+                    "descriptiveNonRepeating": {
+                        "record_ID": "nmah_374593",
+                        "unit_code": "NMAH",
+                        "title_sort": "POSTER MRS. FISKE IN \"GHOSTS\"",
+                        "guid": "http://n2t.net/ark:/65665/ng49ca746a1-9703-704b-e053-15f76fa0b4fa",
+                        "title": {
+                            "label": "Title",
+                            "content": "poster Mrs. Fiske in \"Ghosts\""
+                        },
+                        "metadata_usage": {
+                            "access": "CC0"
+                        },
+                        "data_source": "National Museum of American History"
+                    },
+                    "indexedStructured": {
+                        "object_type": [
+                            "Posters",
+                            "Poster; Theater; Entertainment",
+                            "poster Mrs. Fiske in \"Ghosts\""
+                        ],
+                        "name": [
+                            "Thayer, Edward"
+                        ],
+                        "topic": [
+                            "Theater"
+                        ]
+                    },
+                    "freetext": {
+                        "setName": [
+                            {
+                                "label": "See more items in",
+                                "content": "Cultural and Community Life: Entertainment"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "label": "ID Number",
+                                "content": "ET.234377.002H"
+                            },
+                            {
+                                "label": "catalog number",
+                                "content": "234377.002H"
+                            },
+                            {
+                                "label": "accession number",
+                                "content": "234377"
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "label": "Location",
+                                "content": "Currently not on view"
+                            }
+                        ],
+                        "name": [
+                            {
+                                "label": "maker",
+                                "content": "Thayer, Edward"
+                            }
+                        ],
+                        "topic": [
+                            {
+                                "label": "subject",
+                                "content": "Theater"
+                            }
+                        ],
+                        "physicalDescription": [
+                            {
+                                "label": "Measurements",
+                                "content": "overall: 21 in x 10 3/8 in; 53.34 cm x 26.3525 cm"
+                            }
+                        ],
+                        "dataSource": [
+                            {
+                                "label": "Data Source",
+                                "content": "National Museum of American History"
+                            }
+                        ],
+                        "objectType": [
+                            {
+                                "label": "Object Name",
+                                "content": "Poster"
+                            },
+                            {
+                                "label": "Object Name",
+                                "content": "poster"
+                            },
+                            {
+                                "label": "Object Name",
+                                "content": "poster Mrs. Fiske in \"Ghosts\""
+                            },
+                            {
+                                "label": "Other Terms",
+                                "content": "Poster; Theater; Entertainment"
+                            }
+                        ]
+                    }
+                },
+                "hash": "aeb778f248b7ce89ba858cde7982144dea4193f8",
+                "docSignature": "8429ac47d45003072e29786feb05dd0a4771836c_f9d786e627ba7b801faa8e5a020fac4a",
+                "timestamp": "1622712638",
+                "lastTimeUpdated": "1622712638",
+                "version": ""
+            },
+            {
+                "id": "edanmdm-siris_sil_510720",
+                "title": "Decade of protest : political posters from the United States, Viet Nam, Cuba 1965-1975 / editor, Susan Martin",
+                "unitCode": "SIL",
+                "type": "edanmdm",
+                "url": "edanmdm:siris_sil_510720",
+                "content": {
+                    "descriptiveNonRepeating": {
+                        "record_ID": "siris_sil_510720",
+                        "unit_code": "SIL",
+                        "title_sort": "DECADE OF PROTEST : POLITICAL POSTERS FROM THE UNITED STATES VIET NAM CUBA 19651975 EDITOR SUSAN MARTIN",
+                        "record_link": "https://siris-libraries.si.edu/ipac20/ipac.jsp?&profile=liball&source=~!silibraries&uri=full=3100001~!510720~!0#focus",
+                        "title": {
+                            "label": "Title",
+                            "content": "Decade of protest : political posters from the United States, Viet Nam, Cuba 1965-1975 / editor, Susan Martin"
+                        },
+                        "metadata_usage": {
+                            "access": "CC0"
+                        },
+                        "data_source": "Smithsonian Libraries"
+                    },
+                    "indexedStructured": {
+                        "date": [
+                            "1990s"
+                        ],
+                        "object_type": [
+                            "Exhibitions (events)"
+                        ],
+                        "name": [
+                            "Center for the Study of Political Graphics",
+                            "Track 16 Gallery and Mainspace",
+                            "Martin, Susan"
+                        ],
+                        "topic": [
+                            "Posters, Vietnamese",
+                            "Posters, Cuban",
+                            "Political posters, Cuban",
+                            "Posters, American",
+                            "Political posters, American",
+                            "Political posters, Vietnamese"
+                        ],
+                        "language": [
+                            "English language"
+                        ]
+                    },
+                    "freetext": {
+                        "date": [
+                            {
+                                "label": "Date",
+                                "content": "1996"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "label": "Call number",
+                                "content": "E183 .D43 1996"
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "label": "Notes",
+                                "content": "Catalog of an exhibition held at the Track 16 Gallery, Jan. 19 - Mar. 9, 1996."
+                            },
+                            {
+                                "label": "Notes",
+                                "content": "\"Exhibition and catalogue organized with the Center for the Study of Political Graphics.\""
+                            }
+                        ],
+                        "name": [
+                            {
+                                "label": "Author",
+                                "content": "Martin, Susan"
+                            },
+                            {
+                                "label": "Author",
+                                "content": "Track 16 Gallery and Mainspace"
+                            },
+                            {
+                                "label": "Author",
+                                "content": "Center for the Study of Political Graphics"
+                            }
+                        ],
+                        "topic": [
+                            {
+                                "label": "Topic",
+                                "content": "Political posters, American"
+                            },
+                            {
+                                "label": "Topic",
+                                "content": "Political posters, Vietnamese"
+                            },
+                            {
+                                "label": "Topic",
+                                "content": "Political posters, Cuban"
+                            },
+                            {
+                                "label": "Topic",
+                                "content": "Posters, American"
+                            },
+                            {
+                                "label": "Topic",
+                                "content": "Posters, Vietnamese"
+                            },
+                            {
+                                "label": "Topic",
+                                "content": "Posters, Cuban"
+                            }
+                        ],
+                        "physicalDescription": [
+                            {
+                                "label": "Physical description",
+                                "content": "112 p. : ill. (some col.) ; 31 cm"
+                            }
+                        ],
+                        "dataSource": [
+                            {
+                                "label": "Data Source",
+                                "content": "Smithsonian Libraries"
+                            }
+                        ],
+                        "objectType": [
+                            {
+                                "label": "Type",
+                                "content": "Exhibitions"
+                            }
+                        ]
+                    }
+                },
+                "hash": "658ea3564302dcec5e92b16661b29256808e372e",
+                "docSignature": "aa09ee6fad49033c692d7418c4be594ebfb2707d_e3e0777283f76fc1a66b3e1df5cceb6f",
+                "timestamp": "1618243235",
+                "lastTimeUpdated": "1618242319",
+                "version": ""
+            },
+            {
+                "id": "edanmdm-nmah_1916673",
+                "title": "poster",
+                "unitCode": "NMAH",
+                "type": "edanmdm",
+                "url": "edanmdm:nmah_1916673",
+                "content": {
+                    "descriptiveNonRepeating": {
+                        "record_ID": "nmah_1916673",
+                        "unit_code": "NMAH",
+                        "title_sort": "POSTER",
+                        "guid": "http://n2t.net/ark:/65665/ng49ca746b4-7144-704b-e053-15f76fa0b4fa",
+                        "title": {
+                            "label": "Object Name",
+                            "content": "poster"
+                        },
+                        "metadata_usage": {
+                            "access": "CC0"
+                        },
+                        "data_source": "National Museum of American History"
+                    },
+                    "indexedStructured": {
+                        "object_type": [
+                            "Posters"
+                        ],
+                        "topic": [
+                            "Princeton Posters"
+                        ],
+                        "online_media_type": [
+                            "Images"
+                        ]
+                    },
+                    "freetext": {
+                        "setName": [
+                            {
+                                "label": "See more items in",
+                                "content": "Princeton Posters"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "label": "ID Number",
+                                "content": "1986..0116.088"
+                            },
+                            {
+                                "label": "accession number",
+                                "content": "1986.0116"
+                            },
+                            {
+                                "label": "catalog number",
+                                "content": "1986.0116.088"
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "label": "Description",
+                                "content": "An anti Vietnam War poster."
+                            }
+                        ],
+                        "dataSource": [
+                            {
+                                "label": "Data Source",
+                                "content": "National Museum of American History"
+                            }
+                        ],
+                        "objectType": [
+                            {
+                                "label": "Object Name",
+                                "content": "poster"
+                            }
+                        ]
+                    }
+                },
+                "hash": "4b2aec490824d04ff11fe061d69f6cd0cf8f60c4",
+                "docSignature": "8f1fed2abe47612809e65af54debb88067037564_55803a07264fade582f719b455bb5324",
+                "timestamp": "1622711765",
+                "lastTimeUpdated": "1622711765",
+                "version": ""
+            },
+            {
+                "id": "edanmdm-nmah_540002",
+                "title": "poster",
+                "unitCode": "NMAH",
+                "type": "edanmdm",
+                "url": "edanmdm:nmah_540002",
+                "content": {
+                    "descriptiveNonRepeating": {
+                        "record_ID": "nmah_540002",
+                        "unit_code": "NMAH",
+                        "title_sort": "POSTER",
+                        "guid": "http://n2t.net/ark:/65665/ng49ca746b4-739c-704b-e053-15f76fa0b4fa",
+                        "title": {
+                            "label": "Object Name",
+                            "content": "poster"
+                        },
+                        "metadata_usage": {
+                            "access": "CC0"
+                        },
+                        "data_source": "National Museum of American History"
+                    },
+                    "indexedStructured": {
+                        "object_type": [
+                            "Posters"
+                        ],
+                        "topic": [
+                            "Princeton Posters"
+                        ],
+                        "online_media_type": [
+                            "Images"
+                        ]
+                    },
+                    "freetext": {
+                        "setName": [
+                            {
+                                "label": "See more items in",
+                                "content": "Political and Military History: Political History"
+                            },
+                            {
+                                "label": "See more items in",
+                                "content": "Princeton Posters"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "label": "ID Number",
+                                "content": "1986.0534.18"
+                            },
+                            {
+                                "label": "accession number",
+                                "content": "1986.0534"
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "label": "Description",
+                                "content": "A 1972 anti-Richard Nixon campaign poster."
+                            },
+                            {
+                                "label": "Location",
+                                "content": "Currently not on view"
+                            }
+                        ],
+                        "dataSource": [
+                            {
+                                "label": "Data Source",
+                                "content": "National Museum of American History"
+                            }
+                        ],
+                        "objectType": [
+                            {
+                                "label": "Object Name",
+                                "content": "Poster"
+                            }
+                        ]
+                    }
+                },
+                "hash": "fd91e79ded64d96e4da73ad6f17b8006d7f8617f",
+                "docSignature": "084e2086579d5fc06bbf03059d677fd052ac5009_ff381fe45ffb0e487cacdb12936d9ef8",
+                "timestamp": "1622711767",
+                "lastTimeUpdated": "1622711767",
+                "version": ""
+            },
+            {
+                "id": "edanmdm-nmah_1916753",
+                "title": "poster",
+                "unitCode": "NMAH",
+                "type": "edanmdm",
+                "url": "edanmdm:nmah_1916753",
+                "content": {
+                    "descriptiveNonRepeating": {
+                        "record_ID": "nmah_1916753",
+                        "unit_code": "NMAH",
+                        "title_sort": "POSTER",
+                        "guid": "http://n2t.net/ark:/65665/ng49ca746b4-8bee-704b-e053-15f76fa0b4fa",
+                        "title": {
+                            "label": "Object Name",
+                            "content": "poster"
+                        },
+                        "metadata_usage": {
+                            "access": "CC0"
+                        },
+                        "data_source": "National Museum of American History"
+                    },
+                    "indexedStructured": {
+                        "object_type": [
+                            "Posters"
+                        ],
+                        "topic": [
+                            "Princeton Posters"
+                        ],
+                        "online_media_type": [
+                            "Images"
+                        ]
+                    },
+                    "freetext": {
+                        "setName": [
+                            {
+                                "label": "See more items in",
+                                "content": "Princeton Posters"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "label": "ID Number",
+                                "content": "2008.0087.180"
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "label": "Description",
+                                "content": "A poster supporting Democrat Dennis Kucinich, Representative from Ohio 1997-2013, who sought the nomination for President in 2008."
+                            }
+                        ],
+                        "dataSource": [
+                            {
+                                "label": "Data Source",
+                                "content": "National Museum of American History"
+                            }
+                        ],
+                        "objectType": [
+                            {
+                                "label": "Object Name",
+                                "content": "poster"
+                            }
+                        ]
+                    }
+                },
+                "hash": "046eb8df5e73cc82d9307a358eb17245327fe5f6",
+                "docSignature": "1ef6dcd7301df5879d84775fe61b527445474fac_c17b48314cdb5aba1d6c576e4842ad9a",
+                "timestamp": "1622712357",
+                "lastTimeUpdated": "1622712357",
+                "version": ""
+            },
+            {
+                "id": "edanmdm-nmah_538537",
+                "title": "poster",
+                "unitCode": "NMAH",
+                "type": "edanmdm",
+                "url": "edanmdm:nmah_538537",
+                "content": {
+                    "descriptiveNonRepeating": {
+                        "record_ID": "nmah_538537",
+                        "unit_code": "NMAH",
+                        "title_sort": "POSTER",
+                        "guid": "http://n2t.net/ark:/65665/ng49ca746b4-7174-704b-e053-15f76fa0b4fa",
+                        "title": {
+                            "label": "Object Name",
+                            "content": "poster"
+                        },
+                        "metadata_usage": {
+                            "access": "CC0"
+                        },
+                        "data_source": "National Museum of American History"
+                    },
+                    "indexedStructured": {
+                        "object_type": [
+                            "Posters"
+                        ],
+                        "topic": [
+                            "Princeton Posters"
+                        ],
+                        "online_media_type": [
+                            "Images"
+                        ]
+                    },
+                    "freetext": {
+                        "setName": [
+                            {
+                                "label": "See more items in",
+                                "content": "Political and Military History: Political History"
+                            },
+                            {
+                                "label": "See more items in",
+                                "content": "Princeton Posters"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "label": "ID Number",
+                                "content": "1986.0756.01"
+                            },
+                            {
+                                "label": "accession number",
+                                "content": "1986.0756"
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "label": "Description",
+                                "content": "An anti-censorship poster. Poster was donated by a group \"dedicated to the preservation of civil liberties and an independent judiciary.\""
+                            },
+                            {
+                                "label": "Location",
+                                "content": "Currently not on view"
+                            }
+                        ],
+                        "dataSource": [
+                            {
+                                "label": "Data Source",
+                                "content": "National Museum of American History"
+                            }
+                        ],
+                        "objectType": [
+                            {
+                                "label": "Object Name",
+                                "content": "Poster"
+                            }
+                        ]
+                    }
+                },
+                "hash": "7be743fad6fe83542adae10dd2d234ebb4aea20b",
+                "docSignature": "8f4f713a4865075cdaf50730afe0849bdee755f1_e69fa73e4528ae3e56aab9cebe514531",
+                "timestamp": "1622711768",
+                "lastTimeUpdated": "1622711768",
+                "version": ""
+            },
+            {
+                "id": "edanmdm-nmah_449915",
+                "title": "poster",
+                "unitCode": "NMAH",
+                "type": "edanmdm",
+                "url": "edanmdm:nmah_449915",
+                "content": {
+                    "descriptiveNonRepeating": {
+                        "record_ID": "nmah_449915",
+                        "unit_code": "NMAH",
+                        "title_sort": "POSTER",
+                        "guid": "http://n2t.net/ark:/65665/ng49ca746a2-89ff-704b-e053-15f76fa0b4fa",
+                        "title": {
+                            "label": "Object Name",
+                            "content": "poster"
+                        },
+                        "metadata_usage": {
+                            "access": "CC0"
+                        },
+                        "data_source": "National Museum of American History"
+                    },
+                    "indexedStructured": {
+                        "object_type": [
+                            "Posters",
+                            "Poster; Marine Corps"
+                        ],
+                        "topic": [
+                            "Princeton Posters"
+                        ],
+                        "online_media_type": [
+                            "Images"
+                        ]
+                    },
+                    "freetext": {
+                        "setName": [
+                            {
+                                "label": "See more items in",
+                                "content": "Political and Military History: Armed Forces History, Naval"
+                            },
+                            {
+                                "label": "See more items in",
+                                "content": "Princeton Posters"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "label": "ID Number",
+                                "content": "ZZ.RSN79679W12"
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "label": "Location",
+                                "content": "Currently not on view"
+                            }
+                        ],
+                        "physicalDescription": [
+                            {
+                                "label": "Measurements",
+                                "content": "overall: 61.4 cm x 46 cm x .0508 cm; 24 3/16 in x 18 1/8 in x in"
+                            }
+                        ],
+                        "dataSource": [
+                            {
+                                "label": "Data Source",
+                                "content": "National Museum of American History"
+                            }
+                        ],
+                        "objectType": [
+                            {
+                                "label": "Object Name",
+                                "content": "Poster"
+                            },
+                            {
+                                "label": "Other Terms",
+                                "content": "Poster; Marine Corps"
+                            }
+                        ]
+                    }
+                },
+                "hash": "21579dcbd31977588022d7a35dcf5db00287d2b2",
+                "docSignature": "6d5c0bcacfd3c8e041c6179d54c485d01e6bb0f9_fa5162359fe5b9375b00383bbbd53d53",
+                "timestamp": "1622711271",
+                "lastTimeUpdated": "1622711271",
+                "version": ""
+            },
+            {
+                "id": "edanmdm-nmah_449973",
+                "title": "poster",
+                "unitCode": "NMAH",
+                "type": "edanmdm",
+                "url": "edanmdm:nmah_449973",
+                "content": {
+                    "descriptiveNonRepeating": {
+                        "record_ID": "nmah_449973",
+                        "unit_code": "NMAH",
+                        "title_sort": "POSTER",
+                        "guid": "http://n2t.net/ark:/65665/ng49ca746a2-8c29-704b-e053-15f76fa0b4fa",
+                        "title": {
+                            "label": "Object Name",
+                            "content": "poster"
+                        },
+                        "metadata_usage": {
+                            "access": "CC0"
+                        },
+                        "data_source": "National Museum of American History"
+                    },
+                    "indexedStructured": {
+                        "object_type": [
+                            "Posters",
+                            "Poster; Marine Corps"
+                        ],
+                        "topic": [
+                            "Princeton Posters"
+                        ],
+                        "online_media_type": [
+                            "Images"
+                        ]
+                    },
+                    "freetext": {
+                        "setName": [
+                            {
+                                "label": "See more items in",
+                                "content": "Political and Military History: Armed Forces History, Naval"
+                            },
+                            {
+                                "label": "See more items in",
+                                "content": "Princeton Posters"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "label": "ID Number",
+                                "content": "ZZ.RSN79679W70"
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "label": "Location",
+                                "content": "Currently not on view"
+                            }
+                        ],
+                        "physicalDescription": [
+                            {
+                                "label": "Measurements",
+                                "content": "overall: 22 3/4 in x 17 3/4 in x in; 57.785 cm x 45.085 cm x .0508 cm"
+                            }
+                        ],
+                        "dataSource": [
+                            {
+                                "label": "Data Source",
+                                "content": "National Museum of American History"
+                            }
+                        ],
+                        "objectType": [
+                            {
+                                "label": "Object Name",
+                                "content": "Poster"
+                            },
+                            {
+                                "label": "Other Terms",
+                                "content": "Poster; Marine Corps"
+                            }
+                        ]
+                    }
+                },
+                "hash": "210b15b2a599e10713a9be188cc50c47cb48785d",
+                "docSignature": "e6e6f3eb45fdb0dea6b9b78c8ecfc5239050dce7_991df77331ac4d2d0946a5ef1a2a3be4",
+                "timestamp": "1622711271",
+                "lastTimeUpdated": "1622711271",
+                "version": ""
+            },
+            {
+                "id": "edanmdm-nmah_858422",
+                "title": "poster",
+                "unitCode": "NMAH",
+                "type": "edanmdm",
+                "url": "edanmdm:nmah_858422",
+                "content": {
+                    "descriptiveNonRepeating": {
+                        "record_ID": "nmah_858422",
+                        "unit_code": "NMAH",
+                        "title_sort": "POSTER",
+                        "guid": "http://n2t.net/ark:/65665/ng49ca746a6-a217-704b-e053-15f76fa0b4fa",
+                        "title": {
+                            "label": "Object Name",
+                            "content": "poster"
+                        },
+                        "metadata_usage": {
+                            "access": "CC0"
+                        },
+                        "data_source": "National Museum of American History"
+                    },
+                    "indexedStructured": {
+                        "object_type": [
+                            "Posters",
+                            "poster:",
+                            "Poster: \"Mutton and Lamb Chops\""
+                        ],
+                        "online_media_type": [
+                            "Images"
+                        ]
+                    },
+                    "freetext": {
+                        "setName": [
+                            {
+                                "label": "See more items in",
+                                "content": "Work and Industry: Agriculture"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "label": "ID Number",
+                                "content": "ZZ.RSN79701Z04"
+                            },
+                            {
+                                "label": "accession number",
+                                "content": "065045"
+                            },
+                            {
+                                "label": "accession number",
+                                "content": "065045"
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "label": "Location",
+                                "content": "Currently not on view"
+                            }
+                        ],
+                        "physicalDescription": [
+                            {
+                                "label": "Measurements",
+                                "content": "overall: 74.5 cm x 53.2 cm; 29 5/16 in x 20 15/16 in"
+                            }
+                        ],
+                        "dataSource": [
+                            {
+                                "label": "Data Source",
+                                "content": "National Museum of American History"
+                            }
+                        ],
+                        "objectType": [
+                            {
+                                "label": "Object Name",
+                                "content": "Poster: \"Mutton and Lamb Chops\""
+                            },
+                            {
+                                "label": "Object Name",
+                                "content": "poster:"
+                            },
+                            {
+                                "label": "Object Name",
+                                "content": "poster"
+                            }
+                        ]
+                    }
+                },
+                "hash": "2874630c24aebe2f2b5fa2b19af131f7fe2214de",
+                "docSignature": "7a248203028a5eec760dcc8cd6c03b93ad4a9b73_e162a4038ee8899e2824ed4beb142166",
+                "timestamp": "1622711271",
+                "lastTimeUpdated": "1622711271",
+                "version": ""
+            },
+            {
+                "id": "edanmdm-nmah_1146737",
+                "title": "poster",
+                "unitCode": "NMAH",
+                "type": "edanmdm",
+                "url": "edanmdm:nmah_1146737",
+                "content": {
+                    "descriptiveNonRepeating": {
+                        "record_ID": "nmah_1146737",
+                        "unit_code": "NMAH",
+                        "title_sort": "POSTER",
+                        "guid": "http://n2t.net/ark:/65665/ng49ca746a9-eb47-704b-e053-15f76fa0b4fa",
+                        "title": {
+                            "label": "Object Name",
+                            "content": "poster"
+                        },
+                        "metadata_usage": {
+                            "access": "CC0"
+                        },
+                        "data_source": "National Museum of American History"
+                    },
+                    "indexedStructured": {
+                        "object_type": [
+                            "Posters"
+                        ],
+                        "topic": [
+                            "Princeton Posters"
+                        ],
+                        "online_media_type": [
+                            "Images"
+                        ]
+                    },
+                    "freetext": {
+                        "setName": [
+                            {
+                                "label": "See more items in",
+                                "content": "Political and Military History: Political History, General History Collection"
+                            },
+                            {
+                                "label": "See more items in",
+                                "content": "Princeton Posters"
+                            }
+                        ],
+                        "identifier": [
+                            {
+                                "label": "ID Number",
+                                "content": "1982.0314.06"
+                            },
+                            {
+                                "label": "catalog number",
+                                "content": "1982.0314.06"
+                            },
+                            {
+                                "label": "accession number",
+                                "content": "1982.0314"
+                            }
+                        ],
+                        "notes": [
+                            {
+                                "label": "Description",
+                                "content": "An anti Reagan, pro ERA poster 1980 campaign poster."
+                            },
+                            {
+                                "label": "Location",
+                                "content": "Currently not on view"
+                            }
+                        ],
+                        "dataSource": [
+                            {
+                                "label": "Data Source",
+                                "content": "National Museum of American History"
+                            }
+                        ],
+                        "objectType": [
+                            {
+                                "label": "Object Name",
+                                "content": "Poster"
+                            }
+                        ]
+                    }
+                },
+                "hash": "60e0e66bc5b0ef02621104bc2ca96a076d5c4202",
+                "docSignature": "75f6c4af212ab7cc814efb53a73ca1b5149a8add_d5859a6c167de71cb845e987928bc2fb",
+                "timestamp": "1622711754",
+                "lastTimeUpdated": "1622711754",
+                "version": ""
+            }
+        ],
+        "rowCount": 14051,
+        "message": "content found"
+    }
+}

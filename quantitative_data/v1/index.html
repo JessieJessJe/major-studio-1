@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Counts of items in NMAH:</h2>
+    <p id='totalResult'></p>
+    <p><a href="https://collections.si.edu/search/results.htm?q=&gfq=CSILP_1&fq=data_source%3A%22National+Museum+of+American+History%22" target="_blank" rel="noopener noreferrer">view the collection</a></p>
+
+    <h2>List of culture categories in NMAH:</h2>
+    <div id='totalCulture'></div>
+
+    <svg width="1000" height="500"></svg>
+                   
+    <svg width="960" height="500"></svg>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    
+    <script>
+        
+        const api = 'api_key='+'7uGECQUQp4L06H0EhPGinVVToEECK8SGLH86o4KU'
+        const starter = 'https://api.si.edu/openaccess/api/v1.0/search?'
+
+        //limit to museum objects
+        // const query = 'q=data_source:%22National+Museum+of+American+History%22&'
+        //q=&fq=data_source%3A"National+Portrait+Gallery"&fq=online_visual_material%3Atrue&fq=onphysicalexhibit:"Yes"
+        // const query = "q=data_source:%22National+Portrait+Gallery%22&onphysicalexhibit:%22Yes%22"
+        const query = 'q=data_source:%22National+Portrait+Gallery%22&media.CC0=true&fq=onphysicalexhibit:%22Yes%22'
+
+        const url = starter + api +'&'+ query;
+        console.log(url)
+
+        let data;
+        const culture = 'African Americans,Africans,Americans,Amish,Asian Pacific Americans,Asians,Baptists,Blacks,Buddhists,Chinese,Chinese Americans,Christian Scientists,Christians,Cossacks,Creek Indians,Eskimos,Europeans,Filipino Americans,Filipinos,French,Germans,Hawaiians,Hindus,Hippies,Hispanics,Indians of North America,Israelis,Italians,Japanese,Japanese Americans,Jews,Kabyles,Latin Americans,Latinos,Mexican Americans,Mexicans,Muslims,Native Americans,Romanies,Russians,Scots,Spaniards,Turks,Vietnamese'.split(',')
+
+        
+        fetch(url)
+            .then((resp) => resp.json())
+            .then((d) => {
+                data = d.response.rows;
+                document.getElementById('totalResult').innerHTML = d.response.rowCount;
+            })
+
+       
+        const cultureURL = 'https://api.si.edu/openaccess/api/v1.0/terms/culture?' + api + '&' + query; 
+
+        // const statURL = 'https://api.si.edu/openaccess/api/v1.0/stats?' + api + '&' + query;
+        // console.log(statURL)
+        let result='';
+
+        fetch(cultureURL)
+            .then((resp) => resp.json())
+            .then((d) => { 
+                document.getElementById('totalCulture').innerHTML = d.response.terms.map((d) => '<br>' + d);     })
+                
+                // document.getElementById('totalCulture').innerHTML= d.response.terms.map(function(elem) {
+                //     const q = starter + api +'&q='+ elem + '&fq=data_source:%22National+Museum+of+American+History%22&'
+                //     console.log(q)
+
+                //     fetch(q)
+                //         .then((resp) => resp.json())
+                //         .then((d) => {
+                //             let data = 0;
+                //             if (d.response.rowCount){ data = d.response.rowCount};
+                            
+                //             console.log(data, elem)
+
+                //             result = elem + ' ' + data + '<br>'
+                //         })
+
+                //     return result
+
+                // });
+//http://bl.ocks.org/tjaensch/ee2685d323bde1a6cb0574de15d7d47b pie chart
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height"),
+    radius = Math.min(width, height) / 2,
+    g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+var color = d3.scaleSequential()
+  .interpolator(d3.interpolateViridis);
+
+var pie = d3.pie()
+    .sort(null)
+    .value(function(d) { return d.count; });
+
+var path = d3.arc()
+    .outerRadius(radius - 10)
+    .innerRadius(0);
+
+var label = d3.arc()
+    .outerRadius(radius - 40)
+    .innerRadius(radius - 40);
+
+d3.json("data.json", function(d){
+        cc = ''
+        for (var i in d){
+            cc += d[i].count + ' ,'
+        }
+        console.log(cc)
+})
+
+d3.csv("data.csv", function(d) {
+  d.count = +d.count;
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  var arc = g.selectAll(".arc")
+    .data(pie(data))
+    .enter().append("g")
+      .attr("class", "arc");
+
+  arc.append("path")
+      .attr("d", path)
+      .attr("fill", function(d) { return color(d.datname); });
+
+  arc.append("text")
+      .attr("transform", function(d) { return "translate(" + label.centroid(d) + ")"; })
+      .attr("dy", "0.35em")
+      .text(function(d) { return d.data.name; });
+});
+
+</script>
+
+
+</body>
+</html>
