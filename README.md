@@ -1,3 +1,3 @@
-#Major Studio 1 Projects
+# Major Studio 1 Projects
 
-##work in progress
+## work in progress
