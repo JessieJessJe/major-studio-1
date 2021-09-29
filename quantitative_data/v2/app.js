@@ -339,7 +339,7 @@ function whatText(scrollIndex = 0){
     let number = new Intl.NumberFormat('en-IN').format(parseInt(ENCODE[cc].count))
 
     if ( cc < ENCODE.length && cc > 0 ){
-        if (ENCODE[cc].fill){ return `${number} items \n belong to ${ENCODE[cc].name}` }
+        if (ENCODE[cc].fill){ return `${number} items \n tagged as ${ENCODE[cc].name} culture` }
         else return 'move your mouse to explore more'
     } else {
         return 'move your mouse to explore more'
