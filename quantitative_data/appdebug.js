@@ -1,8 +1,8 @@
 
 
 const JSON = [{"name": "African Americans", "count": "14848"}, {"name": "Africans", "count": "49334"}, {"name": "Americans", "count": "1806801"}, {"name": "Asian Pacific Americans", "count": "628"}, {"name": "Amish", "count": "28"}, {"name": "Asians", "count": "18280"}, {"name": "Buddhists", "count": "950"}, {"name": "Baptists", "count": "2133"}, {"name": "Blacks", "count": "216411"}, {"name": "Chinese Americans", "count": "9765"}, {"name": "Chinese", "count": "24479"}, {"name": "Christian Scientists", "count": "21"}, {"name": "Christians", "count": "16382"}, {"name": "Cossacks", "count": "127"}, {"name": "Creek Indians", "count": "7814"}, {"name": "Europeans", "count": "21028"}, {"name": "Filipino Americans", "count": "329"}, {"name": "Filipinos", "count": "2063"}, {"name": "Eskimos", "count": "36984"}, {"name": "French", "count": "135335"}, {"name": "Hispanics", "count": "1766"}, {"name": "Hippies", "count": "48"}, {"name": "Hawaiians", "count": "20105"}, {"name": "Germans", "count": "21449"}, {"name": "Hindus", "count": "422"}, {"name": "Israelis", "count": "488"}, {"name": "Italians", "count": "8308"}, {"name": "Japanese", "count": "22293"}, {"name": "Indians of North America", "count": "2585354"}, {"name": "Japanese Americans", "count": "4716"}, {"name": "Kabyles", "count": "39"}, {"name": "Jews", "count": "2151"}, {"name": "Latinos", "count": "1899"}, {"name": "Latin Americans", "count": "3698"}, {"name": "Muslims", "count": "1656"}, {"name": "Mexicans", "count": "46254"}, {"name": "Native Americans", "count": "262636"}, {"name": "Russians", "count": "18665"}, {"name": "Romanies", "count": "218"}, {"name": "Native Americans", "count": "262636"}, {"name": "Russians", "count": "18665"}, {"name": "Scots", "count": "1302"}, {"name": "Vietnamese", "count": "501"}, {"name": "Turks", "count": "3190"}, {"name": "Spaniards", "count": "717"}];
-let graphics,cover,mycursor;
-let img, w, h;
+let graphics,mycursor;
+let img, w=window.innerWidth, h;
 let c, colcounts;
 
 let sum; //total number of artifacts
@@ -21,23 +21,98 @@ function preload(){
     // img = loadImage('type3.jpg');
   }
 
+function drawType(){
+
+     
+    let cols = Math.floor(width/cell);
+    let rows = Math.floor(height/cell);
+    let numCells = cols * rows;
+
+    c = new Array(cols).fill(false);
+    colcounts = 0;
+
+    img.loadPixels(); // loads image
+    img.resize(cols, 0); // resizes image to canvas width
+    img.updatePixels(); // updates image
+
+
+    for (let i = 0; i < numCells; i++) {
+        const col = i % cols;
+        const row = Math.floor(i / cols);
+
+        const r = img.pixels[i * 4 + 0];
+        const g = img.pixels[i * 4 + 1];
+        const b = img.pixels[i * 4 + 2];
+        const a = img.pixels[i * 4 + 3];
+
+        
+        if (isRec(r,g,b)){isFirstCol(col);}
+
+    }
+    assignCol();
+    // getNoise(cols, rows);
+
+    for (let i = 0; i < numCells; i++) {
+        const col = i % cols;
+        const row = Math.floor(i / cols);
+
+        const r = img.pixels[i * 4 + 0];
+        const g = img.pixels[i * 4 + 1];
+        const b = img.pixels[i * 4 + 2];
+        // const a = img.pixels[i * 4 + 3];
+        
+        if (isRec(r,g,b)){
+
+            if (ENCODE[col].fill){
+
+                // graphics.fill(ENCODE[col].color);
+                // graphics.stroke(ENCODE[col].color)                
+                // graphics.rect( col * cell , row * cell ,cell,cell)}
+
+                fill(ENCODE[col].color);
+                stroke(ENCODE[col].color)                
+                rect( col * cell , row * cell ,cell,cell)}
+
+        }
+
+        else{
+            //particles in the background
+            if(int(random(0, 40)) == 1){
+
+                let n = myNoise[i] * 3 + 0.5;
+
+                // graphics.fill(255);
+                // graphics.noStroke();
+                // graphics.ellipseMode(CENTER)
+                // graphics.ellipse(col * cell , row * cell - n/2, n , n)
+
+                fill(255);
+                noStroke();
+                ellipseMode(CENTER)
+                ellipse(col * cell , row * cell - n/2, n , n)
+
+            }
+        }
+
+    }
+
+}
+
+
+
 function setup(){
-    // w = img.width*2;
-    // h = img.height*2;
-
-    w = windowWidth;
-    // h = windowHeight;
-
-    h = windowWidth * (img.height/img.width);
+ 
+    h = w * (img.height/img.width);
 
     createCanvas(w, h*1.5);
     // pixelDensity(1);
 
     graphics = createGraphics(w, h);
-    cover = createGraphics(w, height);
+    // graphics.pixelDensity(1);
     
     mycursor = createGraphics(80, 80);
     mycursor.stroke('white')
+    mycursor.line(1,0, 1,height-50)
    
     let cols = Math.floor(width/cell);
     let rows = Math.floor(height/cell);
@@ -81,40 +156,14 @@ function setup(){
 
             if (ENCODE[col].fill){
 
-                graphics.fill(ENCODE[col].color);
-                graphics.stroke(ENCODE[col].color)
+                // graphics.fill(ENCODE[col].color);
+                // graphics.stroke(ENCODE[col].color)                
+                // graphics.rect( col * cell , row * cell ,cell,cell)}
 
-                
-                graphics.rect( col * cell , row * cell ,cell,cell)}
+                fill(ENCODE[col].color);
+                stroke(ENCODE[col].color)                
+                rect( col * cell , row * cell ,cell,cell)}
 
-                // graphics.ellipseMode(CENTER)
-                // graphics.circle( col * cell , row * cell, 1, 1)}
-
-                // console.log(particleScale(ENCODE[col].count), ENCODE[col].name)
-
-                // if (random([true,false,false,false]) && row % ENCODE[col].loc == 0){
-
-                //     let r1 = random(0,1) * 100; 
-                //     let r2 = random(0,ENCODE[col].loc) + 10;
-                //     let r3 = random(0,2) * 40;
-
-                //     graphics.stroke(255);
-                //     graphics.strokeWeight(2);
-                //     graphics.line(col * cell - r2, row * cell - r1, col * cell+ r2, row * cell-r1);
-                    
-                //     graphics.stroke(255);
-                //     // graphics.strokeWeight(ENCODE[col].loc);
-                //     graphics.line(col * cell + r3, row * cell - r1, col * cell + r3, row * cell+ r1);
-
-                // }
-
-                // if (random([true,false]) && row % ENCODE[col].loc == 0 || (col) % ENCODE[col].loc == 1){
-                    
-                //     graphics.stroke(255);
-                //     graphics.strokeWeight(ENCODE[col].loc/8);
-
-                //     graphics.line(col * cell , row * cell, col * cell,row * cell+100);
-                // }
         }
 
         else{
@@ -123,31 +172,77 @@ function setup(){
 
                 let n = myNoise[i] * 3 + 0.5;
 
-                console.log(n)
+                // graphics.fill(255);
+                // graphics.noStroke();
+                // graphics.ellipseMode(CENTER)
+                // graphics.ellipse(col * cell , row * cell - n/2, n , n)
 
-                graphics.fill(255);
-                graphics.noStroke();
-                graphics.ellipseMode(CENTER)
-                graphics.ellipse(col * cell , row * cell - n/2, n , n)
+                fill(255);
+                noStroke();
+                ellipseMode(CENTER)
+                ellipse(col * cell , row * cell - n/2, n , n)
 
             }
         }
-        
-        // else{
-            
-        //     if (isLine(r,g,b)){
-        //         graphics.fill(255,204,0);
-        //         graphics.stroke(255,204,0);
-        //         graphics.rect(col * cell , row * cell ,cell,cell)
 
-               
-        //     }
-           
-        // }
     }
+
 }
 
+function draw(){
 
+    // clear();
+
+    // drawType();
+
+    imageMode(CENTER)
+   
+    // image(graphics, width/2,height/2);
+    // image(graphics, width/2, height/2);
+
+
+    drawLine(scrollIndex);
+
+    noStroke();
+    // rectMode(CORNER)
+    textFont('Helvetica')
+
+    cursor('none')
+
+    scrollText = whatText(scrollIndex);
+
+    if (scrollText == 'move your mouse to explore more'){
+
+        // push();
+        // // translate(scrollIndex, height/2);
+        // // rotate( HALF_PI )
+        // textSize(12);
+        // textAlign(LEFT, CENTER);
+        // text(scrollText,scrollIndex + 40, mouseY, 50);
+        // pop();
+    }
+    else {
+        
+        if (mycursor){
+            // mycursor.textSize(16);
+            // mycursor.textAlign(CENTER);
+            // mycursor.text(scrollText,mouseX, height - 50);
+    
+            // //where it my text
+            // // console.log(scrollIndex,height - 30, width);
+    
+            // mycursor.fill(whatColor(scrollIndex));
+            // mycursor.circle(mycursor.width/2, mycursor.height/2,mycursor.height/2)
+
+            image(mycursor,scrollIndex,mouseY)
+        }
+        
+
+        
+    }
+  
+    
+};
 
 // function particleScale(count){
 //     // return Math.floor( (parseInt(count)/sum) * 20 );
@@ -272,71 +367,24 @@ function isRec(r,g,b){
 }
 
 
-function draw(){
-
-    clear();
-
-    imageMode(CENTER)
-    image(graphics, width/2,height/2);
+function drawLine(clientX){
 
 
-    // cover.rectMode(CORNER)
-    // cover.fill(155)
-    // cover.rect(0,0,10,h)
+        
+    stroke(whatColor(scrollIndex));
 
-    dottedLine(scrollIndex)
-    // mytext.textSize(20);
-    // mytext.textAlign(LEFT, TOP);
+    let a = 0;
+    let b = height;
+   
+    line(clientX-1,a, clientX+1, b-40)
 
-    // mytext.fill(155);
-    // mytext.strokeWeight(1);
-
-    // mytext.rect(0,0,200,20)
-
-    // scrollText = whatText(scrollIndex);
-
-    // mytext.text = (scrollText,0, 0);
-
-    // imageMode(CORNER)
-    // image(cover, scrollIndex, h);
-
-    noStroke();
-    // rectMode(CORNER)
-    textFont('Helvetica')
-
-    cursor('none')
-
-    scrollText = whatText(scrollIndex);
-
-    if (scrollText == 'move your mouse to explore more'){
-
-        // push();
-        // // translate(scrollIndex, height/2);
-        // // rotate( HALF_PI )
-        // textSize(12);
-        // textAlign(LEFT, CENTER);
-        // text(scrollText,scrollIndex + 40, mouseY, 50);
-        // pop();
-    }
-    else {
-       
-        textSize(16);
-        textAlign(CENTER);
-        text(scrollText,mouseX,height - 50);
-
-        mycursor.fill(whatColor(scrollIndex));
-        mycursor.circle(mycursor.width/2, mycursor.height/2,mycursor.height/2)
-        image(mycursor,scrollIndex,mouseY)
-    }
-  
-    
-};
+}
 
 function whatText(scrollIndex = 0){
 
     let cc = Math.floor(scrollIndex/cell)
 
-    let number = new Intl.NumberFormat().format(parseInt(ENCODE[cc].count))
+    let number = new Intl.NumberFormat('en-IN').format(parseInt(ENCODE[cc].count))
 
     if ( cc < ENCODE.length && cc > 0 ){
         if (ENCODE[cc].fill){ return `${number} items \n tagged as ${ENCODE[cc].name} culture` }
@@ -362,45 +410,53 @@ function whatColor(scrollIndex = 0){
 
 //https://p5js.org/reference/#/p5/mouseWheel
 function mouseMoved(event) {
-    // scrollIndex += event.delta;
-    scrollIndex = event.clientX;
+    
+    if (mycursor){
+        mycursor.remove();
+    }
 
+    scrollIndex = event.clientX;
     scrollText = whatText(scrollIndex);
 
-    console.log(scrollIndex);
-    //move the square according to the vertical scroll amount
+    mycursor.textSize(16);
+    mycursor.textAlign(CENTER);
+    mycursor.text(scrollText,mouseX, height - 50);
+
+    //where it my text
+    // console.log(scrollIndex,height - 30, width);
+
+    mycursor.fill(whatColor(scrollIndex));
+    mycursor.circle(mycursor.width/2, mycursor.height/2,mycursor.height/2)
+
     // console.log(scrollIndex);
-    //uncomment to block page scrolling
+    //move the square according to the vertical scroll amount
+ 
     return false;
   }
 
 //instance mode https://p5js.org/reference/#/p5/p5
 //all p5 functions are bound up in a single variable
 
-function dottedLine(clientX){
+// function dottedLine(clientX){
 
-    // rectMode(CENTER)
+//     rectMode(CENTER)
     
-    fill(whatColor(scrollIndex));
+//     fill(whatColor(scrollIndex));
 
-    // let a = 0;
-    // let b = height;
-    // let dotCounts = 40;
+//     let a = 0;
+//     let b = height;
+//     let dotCounts = 40;
 
-    // // point(clientX, a);
-    // // point(clientX, b)
-    // let hh = (height / dotCounts) / 2;
+//     // point(clientX, a);
+//     // point(clientX, b)
+//     let hh = (height / dotCounts) / 2;
 
-    // for (let i=1; i < dotCounts - 2; i++){
+//     for (let i=1; i < dotCounts - 2; i++){
 
-    //     rect(clientX,lerp(a, b, i/dotCounts), 4, hh)
+//         rect(clientX,lerp(a, b, i/dotCounts), 4, hh)
 
-    //     // point(clientX,lerp(a, b, i/dotCounts) )
-    // }
-
-    stroke(whatColor(scrollIndex));
-    line(clientX-1, 0, clientX+1, height - 50);
-
+//         // point(clientX,lerp(a, b, i/dotCounts) )
+//     }
     //isolation mode
     // cover.clear();
 
@@ -423,4 +479,4 @@ function dottedLine(clientX){
     // }
 
 
-}
+// }
