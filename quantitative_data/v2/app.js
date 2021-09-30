@@ -1,23 +1,100 @@
+const url = `https://collections.si.edu/search/results.htm?q=&fq=data_source%3A%22National+Museum+of+American+History%22&fq=culture:`
 
+const MYJSON = [{"name": "African Americans", "count": "14848"}, {"name": "Africans", "count": "49334"}, {"name": "Americans", "count": "1806801"}, {"name": "Asian Pacific Americans", "count": "628"}, {"name": "Amish", "count": "28"}, {"name": "Asians", "count": "18280"}, {"name": "Buddhists", "count": "950"}, {"name": "Baptists", "count": "2133"}, {"name": "Blacks", "count": "216411"}, {"name": "Chinese Americans", "count": "9765"}, {"name": "Chinese", "count": "24479"}, {"name": "Christian Scientists", "count": "21"}, {"name": "Christians", "count": "16382"}, {"name": "Cossacks", "count": "127"}, {"name": "Creek Indians", "count": "7814"}, {"name": "Europeans", "count": "21028"}, {"name": "Filipino Americans", "count": "329"}, {"name": "Filipinos", "count": "2063"}, {"name": "Eskimos", "count": "36984"}, {"name": "French", "count": "135335"}, {"name": "Hispanics", "count": "1766"}, {"name": "Hippies", "count": "48"}, {"name": "Hawaiians", "count": "20105"}, {"name": "Germans", "count": "21449"}, {"name": "Hindus", "count": "422"}, {"name": "Israelis", "count": "488"}, {"name": "Italians", "count": "8308"}, {"name": "Japanese", "count": "22293"}, {"name": "Indians of North America", "count": "2585354"}, {"name": "Japanese Americans", "count": "4716"}, {"name": "Kabyles", "count": "39"}, {"name": "Jews", "count": "2151"}, {"name": "Latinos", "count": "1899"}, {"name": "Latin Americans", "count": "3698"}, {"name": "Muslims", "count": "1656"}, {"name": "Mexicans", "count": "46254"}, {"name": "Native Americans", "count": "262636"}, {"name": "Russians", "count": "18665"}, {"name": "Romanies", "count": "218"}, {"name": "Russians", "count": "18665"}, {"name": "Scots", "count": "1302"}, {"name": "Vietnamese", "count": "501"}, {"name": "Turks", "count": "3190"}, {"name": "Spaniards", "count": "717"}];
 
-const JSON = [{"name": "African Americans", "count": "14848"}, {"name": "Africans", "count": "49334"}, {"name": "Americans", "count": "1806801"}, {"name": "Asian Pacific Americans", "count": "628"}, {"name": "Amish", "count": "28"}, {"name": "Asians", "count": "18280"}, {"name": "Buddhists", "count": "950"}, {"name": "Baptists", "count": "2133"}, {"name": "Blacks", "count": "216411"}, {"name": "Chinese Americans", "count": "9765"}, {"name": "Chinese", "count": "24479"}, {"name": "Christian Scientists", "count": "21"}, {"name": "Christians", "count": "16382"}, {"name": "Cossacks", "count": "127"}, {"name": "Creek Indians", "count": "7814"}, {"name": "Europeans", "count": "21028"}, {"name": "Filipino Americans", "count": "329"}, {"name": "Filipinos", "count": "2063"}, {"name": "Eskimos", "count": "36984"}, {"name": "French", "count": "135335"}, {"name": "Hispanics", "count": "1766"}, {"name": "Hippies", "count": "48"}, {"name": "Hawaiians", "count": "20105"}, {"name": "Germans", "count": "21449"}, {"name": "Hindus", "count": "422"}, {"name": "Israelis", "count": "488"}, {"name": "Italians", "count": "8308"}, {"name": "Japanese", "count": "22293"}, {"name": "Indians of North America", "count": "2585354"}, {"name": "Japanese Americans", "count": "4716"}, {"name": "Kabyles", "count": "39"}, {"name": "Jews", "count": "2151"}, {"name": "Latinos", "count": "1899"}, {"name": "Latin Americans", "count": "3698"}, {"name": "Muslims", "count": "1656"}, {"name": "Mexicans", "count": "46254"}, {"name": "Native Americans", "count": "262636"}, {"name": "Russians", "count": "18665"}, {"name": "Romanies", "count": "218"}, {"name": "Native Americans", "count": "262636"}, {"name": "Russians", "count": "18665"}, {"name": "Scots", "count": "1302"}, {"name": "Vietnamese", "count": "501"}, {"name": "Turks", "count": "3190"}, {"name": "Spaniards", "count": "717"}];
 let graphics,cover,mycursor;
-let img, w, h;
-let c, colcounts;
+let img, w, h, cols, rows;
+let c, colcounts, colheight = [];
+
+let square=[], letterA=[], myline=[], squareSize=0, squareH, ASize = 0, linePos = [], lineTotal = 0;
 
 let sum; //total number of artifacts
 let scrollIndex = 1;
 let scroll = 'scroll up or down to explore more';
+
 let ENCODE = [];
+
+let whichcolor = 0;
 let cell = 2;
 
 const palette = ['ffe66d','2ec4b6','ffc857','cbf3f0','b8b8ff']
 // const palette = ['000000','333333','666666','999999','CCCCCC','EEEEEE']
 // const palette = ['9f1853','4589ff','ff7eb6','bae6ff','007d79']
 
+function pickColor(){
+    if (whichcolor == palette.length){
+        return 0
+    } else {
+        whichcolor += 1;
+        return whichcolor
+    }
+}
+
+function prepareSquare(){
+
+    // figure out what is the height of the rectangles
+    colheight.every( d =>{
+        if (d == 0){ return true }
+        else { 
+            squareH = d;
+            return false;}
+    })
+
+    square = new Array(cols).fill(false);
+    colheight.forEach((d,i) =>{
+        if (d== squareH){
+            square[i] = true;
+            squareSize += squareH; 
+        }
+    })
+}
+
+function prepareA(){
+
+    letterA = new Array(cols).fill(false);
+
+    let begin = Math.trunc((251 / 494) * cols);
+    let end = Math.trunc((355 / 494) * cols);
+
+    for (let i = begin; i<end; i++){
+        if (colheight[i] > 0){
+            letterA[i] = true;
+            ASize += colheight[i];
+        }
+    }
+}
+
+function prepareLine(){
+    myline = new Array(cols).fill(false);
+
+    for ( let i=0; i<cols; i++){
+
+        if (!letterA[i] && colheight[i]>0 && colheight[i] < (squareH/5) ){
+            myline[i] = true;
+            lineTotal += 1;
+            c[i] = false;
+            colcounts -= 1;
+
+            console.log(i)
+
+            for ( let j=0; j<rows; j++){
+                const r = img.pixels[(j*cols+i) * 4 + 0];
+                const g = img.pixels[(j*cols+i) * 4 + 1];
+                const b = img.pixels[(j*cols+i) * 4 + 2];
+
+                if (isRec(r,g,b)){
+                    linePos[i] = j;
+                  
+                }
+            }
+        }
+    }
+
+}
+
 function preload(){
     
-    img = loadImage('type2.jpg');
+    img = loadImage('type4.jpg');
     // img = loadImage('type3.jpg');
   }
 
@@ -39,11 +116,12 @@ function setup(){
     mycursor = createGraphics(80, 80);
     mycursor.stroke('white')
    
-    let cols = Math.floor(width/cell);
-    let rows = Math.floor(height/cell);
+    cols = Math.floor(width/cell);
+    rows = Math.floor(height/cell);
     let numCells = cols * rows;
 
     c = new Array(cols).fill(false);
+    colheight = new Array(cols).fill(0);
     colcounts = 0;
 
     img.loadPixels(); // loads image
@@ -61,9 +139,13 @@ function setup(){
         const a = img.pixels[i * 4 + 3];
 
         
-        if (isRec(r,g,b)){isFirstCol(col);}
+        if (isRec(r,g,b)){registerCol(col);}
 
     }
+
+    prepareSquare();
+    prepareA();
+    prepareLine();
 
     assignCol();
     getNoise(cols, rows);
@@ -78,52 +160,25 @@ function setup(){
         // const a = img.pixels[i * 4 + 3];
         
         if (isRec(r,g,b)){
+            if (ENCODE[col]){
+                if (ENCODE[col].fill){
 
-            if (ENCODE[col].fill){
-
-                graphics.fill(ENCODE[col].color);
-                graphics.stroke(ENCODE[col].color)
-
-                
-                graphics.rect( col * cell , row * cell ,cell,cell)}
-
-                // graphics.ellipseMode(CENTER)
-                // graphics.circle( col * cell , row * cell, 1, 1)}
-
-                // console.log(particleScale(ENCODE[col].count), ENCODE[col].name)
-
-                // if (random([true,false,false,false]) && row % ENCODE[col].loc == 0){
-
-                //     let r1 = random(0,1) * 100; 
-                //     let r2 = random(0,ENCODE[col].loc) + 10;
-                //     let r3 = random(0,2) * 40;
-
-                //     graphics.stroke(255);
-                //     graphics.strokeWeight(2);
-                //     graphics.line(col * cell - r2, row * cell - r1, col * cell+ r2, row * cell-r1);
+                    graphics.fill(ENCODE[col].color);
+                    graphics.stroke(ENCODE[col].color)
+    
                     
-                //     graphics.stroke(255);
-                //     // graphics.strokeWeight(ENCODE[col].loc);
-                //     graphics.line(col * cell + r3, row * cell - r1, col * cell + r3, row * cell+ r1);
+                    graphics.rect( col * cell , row * cell ,cell,cell)}
+            }
+            }
 
-                // }
-
-                // if (random([true,false]) && row % ENCODE[col].loc == 0 || (col) % ENCODE[col].loc == 1){
-                    
-                //     graphics.stroke(255);
-                //     graphics.strokeWeight(ENCODE[col].loc/8);
-
-                //     graphics.line(col * cell , row * cell, col * cell,row * cell+100);
-                // }
-        }
 
         else{
+
+            drawLine(col)
             //particles in the background
             if(int(random(0, 40)) == 1){
 
                 let n = myNoise[i] * 3 + 0.5;
-
-                console.log(n)
 
                 graphics.fill(255);
                 graphics.noStroke();
@@ -133,20 +188,25 @@ function setup(){
             }
         }
         
-        // else{
-            
-        //     if (isLine(r,g,b)){
-        //         graphics.fill(255,204,0);
-        //         graphics.stroke(255,204,0);
-        //         graphics.rect(col * cell , row * cell ,cell,cell)
-
-               
-        //     }
-           
-        // }
     }
 }
 
+function drawLine(col){
+
+    let j = col +1;
+
+    if (myline[col] && col % 2 == 0 ){
+        graphics.stroke(255,255,255);
+        graphics.strokeWeight(1);
+
+        graphics.line(col * cell , linePos[col] * cell - 5, col * cell , linePos[col] * cell+ 10)
+   
+ 
+
+           
+        }
+     
+}
 
 
 // function particleScale(count){
@@ -183,21 +243,22 @@ let originalLoc = [] //store the location in the array before sorting
 
 function assignCol(){
     
-    //from less to more
-    JSON.sort(function(a, b) {
-        return a.count - b.count;})
+    //ascending Order
+    
+    MYJSON.sort(function(a, b) {
+        return parseInt(a.count) - parseInt(b.count);})
 
     sum = 0;
     let jsonid = 0;
 
-    JSON.forEach( d => {
+    //assign unique ID based on the descending order
+    MYJSON.forEach( d => {
         sum += parseInt(d.count)
         d.jsonid = jsonid;
         jsonid += 1;
-    })
+    })     
 
-
-    let sizeScaleRaw = JSON.map(d =>{
+    let sizeScaleRaw = MYJSON.map(d =>{
 		return Math.floor((parseInt(d.count)/sum)*colcounts)+1 })
 
     sizeScaleRaw.forEach((d, index)=>{
@@ -205,8 +266,31 @@ function assignCol(){
         else {  sizeScale.unshift(d); originalLoc.unshift(index) }
     })
 
+  
+
     colorScroll(sizeScale.length)
+
+    //----------------------------- version 3 begin
+
+    // calculating 
+    let topRatio = (parseInt(MYJSON[0].count) + parseInt(MYJSON[1].count) + parseInt(MYJSON[2].count) + parseInt(MYJSON[3].count) + parseInt(MYJSON[4].count) + parseInt(MYJSON[5].count))/ sum;
+    let totalSize = Math.round((squareSize + ASize) / topRatio);
+    let lineMaxH = (totalSize - (squareSize + ASize)) / lineTotal; 
+
+    //counts per pixel
+    let cpp = (squareSize + ASize) / totalSize;
+
+    console.log(lineMaxH)
+    console.log(topRatio);
+    console.log(totalSize);
+    console.log(squareSize + ASize)
+
+    // COLOR = new Array(cols * rows)
+
+    // drawLarge(cpp, 5)
+
 }
+
 
 function colorScroll(scrollIndex){
 
@@ -231,9 +315,9 @@ function colorScroll(scrollIndex){
                             'id': index,
                             'fill': true,
                             'color': color,
-                            'name': JSON[ori].name,
-                            'count':JSON[ori].count,
-                            'loc':JSON[ori].jsonid
+                            'name': MYJSON[ori].name,
+                            'count': parseInt(MYJSON[ori].count),
+                            'loc': MYJSON[ori].jsonid
                         }
 
                         ENCODE.push(obj);
@@ -256,12 +340,14 @@ function colorScroll(scrollIndex){
 
 
 
-
-function isFirstCol(col){
+function registerCol(col){
     if (!c[col]){
         c[col] = true;
         colcounts += 1;
-    } 
+        colheight[col] = 1;
+    } else {
+        colheight[col] += 1;
+    }
 }
 
 function isRec(r,g,b){
@@ -336,10 +422,10 @@ function whatText(scrollIndex = 0){
 
     let cc = Math.floor(scrollIndex/cell)
 
-    let number = new Intl.NumberFormat().format(parseInt(ENCODE[cc].count))
+    let number = new Intl.NumberFormat().format(ENCODE[cc].count)
 
     if ( cc < ENCODE.length && cc > 0 ){
-        if (ENCODE[cc].fill){ return `${number} items \n tagged as ${ENCODE[cc].name} culture` }
+        if (ENCODE[cc].fill){ return `${number} items \n have tag: ${ENCODE[cc].name}` }
         else return 'move your mouse to explore more'
     } else {
         return 'move your mouse to explore more'
@@ -366,8 +452,6 @@ function mouseMoved(event) {
     scrollIndex = event.clientX;
 
     scrollText = whatText(scrollIndex);
-
-    console.log(scrollIndex);
     //move the square according to the vertical scroll amount
     // console.log(scrollIndex);
     //uncomment to block page scrolling
@@ -383,44 +467,110 @@ function dottedLine(clientX){
     
     fill(whatColor(scrollIndex));
 
-    // let a = 0;
-    // let b = height;
-    // let dotCounts = 40;
-
-    // // point(clientX, a);
-    // // point(clientX, b)
-    // let hh = (height / dotCounts) / 2;
-
-    // for (let i=1; i < dotCounts - 2; i++){
-
-    //     rect(clientX,lerp(a, b, i/dotCounts), 4, hh)
-
-    //     // point(clientX,lerp(a, b, i/dotCounts) )
-    // }
-
     stroke(whatColor(scrollIndex));
-    line(clientX-1, 0, clientX+1, height - 50);
-
-    //isolation mode
-    // cover.clear();
-
-    // cover.strokeWeight(2);
-
-    // clientX = clientX / 4;
-
-    // let a = 0;
-    // let b = cover.height;
-    // // let btw = [];
-    // let dotCounts = 100;
-
-    // cover.point(clientX, a);
-    // cover.point(clientX, b)
-
-    // for (let i=1; i<dotCounts; i++){
-    //     // btw.push(lerp(a, b, i/dotCounts))
-
-    //     cover.point(clientX,lerp(a, b, i/dotCounts) )
-    // }
+    line(clientX-1, 0, clientX+1, height - 80);
 
 
 }
+
+
+// function drawLarge(cpp, count){
+//     let numCells = rows * cols;
+
+//     //fix A first:
+//     let remainFirst = parseInt(MYJSON[0].count) - (cpp * ASize);
+
+//     console.log(COLOR)
+
+//     //define pixels in A:
+//     for (let i=0; i<cols; i++){
+
+//         if (letterA[i]){
+           
+//             for ( let j=0; j<rows; j++){
+//                 const r = img.pixels[(j*rows+i) * 4 + 0];
+//                 const g = img.pixels[(j*rows+i) * 4 + 1];
+//                 const b = img.pixels[(j*rows+i) * 4 + 2];
+    
+//                 if (isRec(r,g,b)){
+
+//                     let obj = {    
+//                         'fill': true,
+//                         'color': palette[pickColor()],
+//                         'name': MYJSON[0].name,
+//                         'count': parseInt(MYJSON[0].count),
+//                         'loc': MYJSON[0].jsonid
+//                     }
+
+               
+//                         //  COLOR.push(j*rows+i-1, 1, obj);
+//                         COLOR.push(obj);
+                    
+//                 }
+//             }
+
+//         }
+
+//     }
+
+//     //now assign squares.....
+
+//     let remain;
+//     let currentCol = cols; // storing current col - from right to left
+
+    //looping through the first five JSON objects
+    // for (let ha = 0; ha < count; ha++ ){
+
+    //     if (ha=0){ remain = remainFirst; }
+    //     else { remain = parseInt(MYJSON[ha].count)}
+
+    //     let fullColumn = Math.trunc(remain / (cpp * squareH));
+    //     remain = remain - fullColumn * cpp * squareH;
+
+    //     for (let i = currentCol; i>0; i--){
+    //         for (let j= )
+    //     }
+
+    // }
+
+    //     let haColor = palette[pickColor()];
+   
+    //     while (remain>0 && i > 0){
+
+    //         if (square[i]){
+
+    //             let j = 0;
+
+    //             while(j<rows){
+
+    //                 const r = img.pixels[(j*rows+i) * 4 + 0];
+    //                 const g = img.pixels[(j*rows+i) * 4 + 1];
+    //                 const b = img.pixels[(j*rows+i) * 4 + 2];
+        
+    //                 if (isRec(r,g,b)){
+    
+    //                     let obj = {    
+    //                         'fill': true,
+    //                         'color': haColor,
+    //                         'name': MYJSON[ha].name,
+    //                         'count': parseInt(MYJSON[ha].count),
+    //                         'loc': MYJSON[ha].jsonid
+    //                     }
+    
+    //                     COLOR[j*rows+i] = obj;
+    //                     remain = remain - cpp;
+    //                 }
+
+    //                 j++;
+
+    //             }
+
+    //         }
+
+    //         i = i - 1;
+    //     }
+ 
+
+    // }
+
+// }
