@@ -441,7 +441,9 @@ function howFar(cc, name, totalN){
             else break;
     
         }
-        num1 = new Intl.NumberFormat().format(Math.round(steps * cpp))
+
+        let numInt = Math.round(steps * cpp);
+        num1 = new Intl.NumberFormat().format(numInt)
     }
 
 
