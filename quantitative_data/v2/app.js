@@ -1,10 +1,12 @@
 const url = `https://collections.si.edu/search/results.htm?q=&fq=data_source%3A%22National+Museum+of+American+History%22&fq=culture:`
 
+const bigN = 5390280;
+
 const MYJSON = [{"name": "African Americans", "count": "14848"}, {"name": "Africans", "count": "49334"}, {"name": "Americans", "count": "1806801"}, {"name": "Asian Pacific Americans", "count": "628"}, {"name": "Amish", "count": "28"}, {"name": "Asians", "count": "18280"}, {"name": "Buddhists", "count": "950"}, {"name": "Baptists", "count": "2133"}, {"name": "Blacks", "count": "216411"}, {"name": "Chinese Americans", "count": "9765"}, {"name": "Chinese", "count": "24479"}, {"name": "Christian Scientists", "count": "21"}, {"name": "Christians", "count": "16382"}, {"name": "Cossacks", "count": "127"}, {"name": "Creek Indians", "count": "7814"}, {"name": "Europeans", "count": "21028"}, {"name": "Filipino Americans", "count": "329"}, {"name": "Filipinos", "count": "2063"}, {"name": "Eskimos", "count": "36984"}, {"name": "French", "count": "135335"}, {"name": "Hispanics", "count": "1766"}, {"name": "Hippies", "count": "48"}, {"name": "Hawaiians", "count": "20105"}, {"name": "Germans", "count": "21449"}, {"name": "Hindus", "count": "422"}, {"name": "Israelis", "count": "488"}, {"name": "Italians", "count": "8308"}, {"name": "Japanese", "count": "22293"}, {"name": "Indians of North America", "count": "2585354"}, {"name": "Japanese Americans", "count": "4716"}, {"name": "Kabyles", "count": "39"}, {"name": "Jews", "count": "2151"}, {"name": "Latinos", "count": "1899"}, {"name": "Latin Americans", "count": "3698"}, {"name": "Muslims", "count": "1656"}, {"name": "Mexicans", "count": "46254"}, {"name": "Native Americans", "count": "262636"}, {"name": "Russians", "count": "18665"}, {"name": "Romanies", "count": "218"}, {"name": "Russians", "count": "18665"}, {"name": "Scots", "count": "1302"}, {"name": "Vietnamese", "count": "501"}, {"name": "Turks", "count": "3190"}, {"name": "Spaniards", "count": "717"}];
 
 let graphics,cover,mycursor;
 let img, w, h, cols, rows;
-let c, colcounts, colheight = [];
+let c, colcounts, colheight = [], cbegin = 0;
 
 let square=[], letterA=[], myline=[], squareSize=0, squareH, ASize = 0, linePos = [], lineTotal = 0;
 
@@ -14,21 +16,13 @@ let scroll = 'scroll up or down to explore more';
 
 let ENCODE = [];
 
-let whichcolor = 0;
 let cell = 2;
 
 const palette = ['ffe66d','2ec4b6','ffc857','b8b8ff','cbf3f0']
 // const palette = ['000000','333333','666666','999999','CCCCCC','EEEEEE']
 // const palette = ['9f1853','4589ff','ff7eb6','bae6ff','007d79']
 
-function pickColor(){
-    if (whichcolor == palette.length){
-        return 0
-    } else {
-        whichcolor += 1;
-        return whichcolor
-    }
-}
+
 
 function prepareSquare(){
 
@@ -147,6 +141,8 @@ function setup(){
     prepareA();
     prepareLine();
 
+    findBeginCol();
+
     assignCol();
     getNoise(cols, rows);
 
@@ -200,10 +196,7 @@ function drawLine(col){
         graphics.strokeWeight(1);
 
         graphics.line(col * cell , linePos[col] * cell - 5, col * cell , linePos[col] * cell+ 10)
-   
- 
-
-           
+       
         }
      
 }
@@ -338,6 +331,14 @@ function colorScroll(scrollIndex){
 
 }
 
+function findBeginCol(){
+    for (let i=0; i<cols; i++){
+        if (c[i]){
+            cbegin = i-1;
+            break;
+        }
+    }
+}
 
 
 function registerCol(col){
@@ -418,18 +419,75 @@ function draw(){
     
 };
 
+
+
+
+function howFar(cc, name, totalN){
+    //counts per pixel
+    let cpp = bigN / colcounts;
+    let num1;
+    let steps = 0;
+
+    if (ENCODE[cc].count < cpp){
+        steps = ENCODE[cc].count
+        num1 = new Intl.NumberFormat().format(steps)
+
+    } else {
+
+        for (let i=cc; i>0; i-- ){
+
+            if (ENCODE[i].name == name ){
+                steps += 1}
+            else break;
+    
+        }
+        num1 = new Intl.NumberFormat().format(Math.round(steps * cpp))
+    }
+
+
+    let num2 = new Intl.NumberFormat().format(totalN)
+    let num3 = new Intl.NumberFormat().format(cc * cpp)
+
+    document.getElementById("leftText").innerHTML = `<p class='ll'>${num3}</p>records viewed</p>`;
+    document.getElementById("rightText").innerHTML = `<p class='ll'> ${num1} </p><p>/${num2} </p> records of ${name}`;
+
+    return num2
+}
+
 function whatText(scrollIndex = 0){
 
     let cc = Math.floor(scrollIndex/cell)
 
-    let number = new Intl.NumberFormat().format(ENCODE[cc].count)
+    // let number = new Intl.NumberFormat().format(ENCODE[cc].count)
 
     if ( cc < ENCODE.length && cc > 0 ){
-        if (ENCODE[cc].fill){ return `${number} items \n have tag: ${ENCODE[cc].name}` }
-        else return 'move your mouse to explore more'
-    } else {
+
+        if (cc<=cbegin){
+            document.getElementById("leftText").innerHTML = `<p class='ll'>0</p>records viewed</p>`;
+            document.getElementById("rightText").innerHTML = `<p class='ll'>5,390,280 </p> records in total</p>`;
+            return 'move your mouse to explore more'
+        
+        } else {
+
+            if (ENCODE[cc].fill){ 
+
+                let number =  howFar(cc, ENCODE[cc].name, ENCODE[cc].count)
+                
+                
+                return `${ENCODE[cc].name} \n ${number} records` 
+            
+            }
+            else return 'move your mouse to explore more'
+        } 
+    
+    
+    
+    }else {
         return 'move your mouse to explore more'
-    }
+    }  
+
+
+
 }
 
 function whatColor(scrollIndex = 0){
@@ -451,11 +509,21 @@ function mouseMoved(event) {
     // scrollIndex += event.delta;
     scrollIndex = event.clientX;
 
-    scrollText = whatText(scrollIndex);
-    //move the square according to the vertical scroll amount
-    // console.log(scrollIndex);
-    //uncomment to block page scrolling
-    return false;
+    //temporary
+    if (mouseY< 100){
+        document.getElementById("leftText").innerHTML = `<p class = 'll' style="display: inline;">National Museum of American History has attached 5,390,280 cultural tags to its collections </p>            >>> What are they? How often does each tag appear?         >>> Hover on to learn more<`;
+  
+    } else {
+
+        scrollText = whatText(scrollIndex);
+        //move the square according to the vertical scroll amount
+        // console.log(scrollIndex);
+        //uncomment to block page scrolling
+        return false;
+
+        }
+
+
   }
 
 //instance mode https://p5js.org/reference/#/p5/p5
