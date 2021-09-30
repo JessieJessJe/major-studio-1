@@ -449,7 +449,7 @@ function howFar(cc, name, totalN){
     let num3 = new Intl.NumberFormat().format(cc * cpp)
 
     document.getElementById("leftText").innerHTML = `<p class='ll'>${num3}</p>records viewed</p>`;
-    document.getElementById("rightText").innerHTML = `<p class='ll'> ${num1} </p><p>/${num2} </p> records of ${name}`;
+    document.getElementById("rightText").innerHTML = `<p class='ll'> ${num1} </p><p>/ ${num2} </p> records of ${name}`;
 
     return num2
 }
