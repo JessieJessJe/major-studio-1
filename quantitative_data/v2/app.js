@@ -17,7 +17,7 @@ let ENCODE = [];
 let whichcolor = 0;
 let cell = 2;
 
-const palette = ['ffe66d','2ec4b6','ffc857','cbf3f0','b8b8ff']
+const palette = ['ffe66d','2ec4b6','ffc857','b8b8ff','cbf3f0']
 // const palette = ['000000','333333','666666','999999','CCCCCC','EEEEEE']
 // const palette = ['9f1853','4589ff','ff7eb6','bae6ff','007d79']
 
