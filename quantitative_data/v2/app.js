@@ -255,9 +255,18 @@ function assignCol(){
 		return Math.floor((parseInt(d.count)/sum)*colcounts)+1 })
 
     sizeScaleRaw.forEach((d, index)=>{
-        if (index % 2 == 0){ sizeScale.push(d); originalLoc.push(index) }
-        else {  sizeScale.unshift(d); originalLoc.unshift(index) }
-    })
+            if (index % 2 == 0){ sizeScale.push(d); originalLoc.push(index) }
+            else {  sizeScale.unshift(d); originalLoc.unshift(index) }
+        })
+    
+
+    MYJSON.forEach( (d,i) => {
+        sum += parseInt(d.count)
+        d.jsonid = jsonid;
+        d.scale = sizeScale[i];
+        jsonid += 1;
+    })  
+
 
   
 
@@ -310,7 +319,7 @@ function colorScroll(scrollIndex){
                             'color': color,
                             'name': MYJSON[ori].name,
                             'count': parseInt(MYJSON[ori].count),
-                            'loc': MYJSON[ori].jsonid
+                            'scale': MYJSON[ori].scale
                         }
 
                         ENCODE.push(obj);
@@ -424,9 +433,13 @@ function draw(){
 
 function howFar(cc, name, totalN){
     //counts per pixel
+
     let cpp = bigN / colcounts;
-    let num1;
+    let num1, sum3 = 0, numInt = 0;
     let steps = 0;
+
+    let cSteps = 0;
+    let cRatio = 0;
 
     if (ENCODE[cc].count < cpp){
         steps = ENCODE[cc].count
@@ -434,24 +447,90 @@ function howFar(cc, name, totalN){
 
     } else {
 
+        let cSteps = 0;
+        let cRatio = 0;
+
         for (let i=cc; i>0; i-- ){
 
             if (ENCODE[i].name == name ){
-                steps += 1}
-            else break;
+                cSteps += 1
+                cRatio = cSteps / ENCODE[cc].scale
+            }
+            else {
+                steps = Math.round(cRatio * ENCODE[cc].count);
+
+                console.log( ENCODE[cc].scale , cRatio)
+
+                break
+        };
     
         }
+  
 
-        let numInt = Math.round(steps * cpp).toFixed();
-        num1 = new Intl.NumberFormat().format(numInt)
+        // numInt = Math.round(steps * cpp);
+        num1 = new Intl.NumberFormat().format(steps)
     }
+
+   
 
 
     let num2 = new Intl.NumberFormat().format(totalN)
-    let num3 = new Intl.NumberFormat().format(cc * cpp)
+
+    let ss = 0;
+    // let ccType = 0;
+
+    // for (ccl=0; ccl<cols; ccl++){
+
+    //     if (c[ccl]){
+    //       ccType += 1;
+    //     }
+    //     if (ccType > cc){
+    //         break;
+    //     }
+    // }
+
+    let cCat = ENCODE[cc].name;
+
+    for (i=0; i<cols; i++){
+
+        if (ENCODE[i]){
+            if (ENCODE[i].fill){
+                if (ENCODE[i].name == name){
+                    break;
+                } else{
+                    if (ENCODE[i].name != cCat){
+                        cCat = ENCODE[i].name;
+                        ss += ENCODE[i].count;
+                    }
+                }
+            }
+        }
+
+
+        // ss += sizeScale[i]
+        // console.log(ccl);
+
+    //     if (ss <= ccl){
+               
+    //             sum3 += MYJSON[originalLoc[i]].count
+                
+    //         //   console.log(MYJSON[originalLoc[i]].name)
+            
+    //    } else {
+    //        break;
+    //    }     
+    }
+
+    sum3 = ss + steps;
+
+    let num3 = new Intl.NumberFormat().format(sum3);
+
+    // document.getElementById("leftText").innerHTML = `<p class='ll'>${num3}</p>records viewed</p>`;
+    // document.getElementById("rightText").innerHTML = `<p class='ll'> ${num1} / ${num2} </p>records of ${name}`;
+
 
     document.getElementById("leftText").innerHTML = `<p class='ll'>${num3}</p>records viewed</p>`;
-    document.getElementById("rightText").innerHTML = `<p class='ll'> ${num1} </p><p>/ ${num2} </p> records of ${name}`;
+    document.getElementById("rightText").innerHTML = `<p class='ll'> ${num1} </p>/ records of ${name}`;
 
     return num2
 }
