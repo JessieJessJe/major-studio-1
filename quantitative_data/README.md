@@ -2,7 +2,7 @@
 A typographic visualization on cultural tagging in NMAH | 
 [Link to the Page](https://jessiejessje.github.io/major-studio-1/quantitative_data/v2/)
 
-![demo](https://github.com/JessieJessJe/major-studio-1/blob/master/quantitative_data/recording.gif)
+<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/quantitative_data/recording.gif" width=100%>
 
 ### About
 
@@ -43,15 +43,17 @@ const url = starter + api +'&'+ query;
 ### Process
 
 #### sketch
-<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/quantitative_data/v2/sketch.jpeg" width=100%>
+Initially we each proposed three ideas for this project. After getting feedbacks from the class, I decided to develop my third idea to the next phase – a typographic experiment that uses type as medium to present quantitative data. | [View all three sketches](https://github.com/JessieJessJe/major-studio-1/tree/master/quantitative_data/v0)
+
+<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/quantitative_data/v0/sketch_3.png" width=100%>
 
 
-#### first prototype
-<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/quantitative_data/v1/Screen%20Shot%202021-09-15%20at%208.59.51%20PM.png" width=50% height=50%>
-<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/quantitative_data/v1/Screen%20Shot%202021-09-16%20at%2010.45.44%20AM.png" width=50% height=50%>
+#### first iteration
+<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/quantitative_data/iteration_1.png" width=100%>
 
-#### second prototype
 
-Because the dataset I've chosen is highly skewed, it's hard to represent all the data points on one scale. Therefore in this round, I've added a sliding feature, allowing visitors to slide through the type horizontally, to get detailed information on each category. Furthermore, there's a large marker on the slider, whose color is the same as the category being hovered on – to better help visitors distinguish categories in the condensed area.   
+#### second iteration
+<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/quantitative_data/iteration_2.png" width=100%>
 
-![picture](https://github.com/JessieJessJe/major-studio-1/blob/master/quantitative_data/v2/AT.jpeg)
+
+
