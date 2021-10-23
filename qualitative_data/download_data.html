@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Artworks of Helen Hyde in Smithsonian American Art Museum</h2>
+    <p id='totalResult'></p>
+   
+    
+    <script>
+        
+
+        // const url = `https://api.si.edu/openaccess/api/v1.0/search?q=online_visual_material:true+AND+type:edanmdm+AND+helen%20hyde+&api_key=7uGECQUQp4L06H0EhPGinVVToEECK8SGLH86o4KU&rows=125`;
+        const url = `https://api.si.edu/openaccess/api/v1.0/search?q=online_visual_material:true+AND+type:edanmdm+AND+helen%20hyde+&api_key=7uGECQUQp4L06H0EhPGinVVToEECK8SGLH86o4KU`;
+        
+
+        let data;
+        let mylist = []
+
+        fetch(url)
+            .then((resp) => resp.json())
+            .then((d) => {
+                data = d.response.rows;
+                data.forEach(e => {
+                    console.log(e)
+
+                   let topics = ( e.content.indexedStructured.topic === undefined ) ?  '' : e.content.indexedStructured.topic;
+
+                   let mydata = {
+                        'id': e.id,
+                        'title': e.title,
+                        'image_link': e.content.descriptiveNonRepeating.online_media.media[0].thumbnail,
+                        'record_link': e.content.descriptiveNonRepeating.online_media.record_link,
+                        'medium': e.content.freetext.physicalDescription[0].content,
+                        'topic': topics,
+                        'date': e.content.freetext.date[0].content
+
+                    }
+
+                    mylist.push(mydata)
+                    
+                });
+
+                document.getElementById('totalResult').innerText = JSON.stringify(mylist, null, "\t");
+            })
+
+       
+
+</script>
+
+
+</body>
+</html>
