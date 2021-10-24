@@ -12,16 +12,22 @@
 - - [x] Outliers: Date (`ca. 1896-1898` to `1898`)
 - - [x] Outliers: Title: \"The Goblins 'l Git Yer\"
 - - [ ] Crop Images: 30/125
-- - [x] UMAP Sorting 
+- - [x] T-SNE Sorting
+- - [x] Modify Timeline/Color tagging
+
 - [ ] D3
-- - [ ] Grid Overview
-- - [x] Bar Chart 
+- - [x] Gallery view
+- - [x] Bar Chart view
 - - [ ] What if stacked vertically?  
 - - [x] Timeline/Theme filter -> based on research about the artist
 - - [ ] Amination
-- - [ ] Click -> tooltip
+- - [ ] Tooltip
+- - [ ] Legend
+
 - [ ] Front-end Devs
+- - [ ] Landing page
 - - [ ] Responsive charts / tilesizes 
 - - [ ] React?
+
 - [ ] UI/UX
 - [ ] Storytelling

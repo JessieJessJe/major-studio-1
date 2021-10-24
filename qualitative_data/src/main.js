@@ -3,7 +3,7 @@ var tileSize = 80;
 var barWidth = tilesPerRow * tileSize + 10;
 
 var filteredData; 
-var selectMode = "show", selectedYearBegin = "1894", selectedYearEnd = "1919";
+var selectMode = "show", selectedYearBegin = "1894", selectedYearEnd = "1919", selectView = "bar";
 
 const COLOR = {
   "USA": "#8CC6D4",
@@ -11,6 +11,10 @@ const COLOR = {
   "Mexico": "#EAD971"
 }
 
+function setTilesPerRow(a){
+  tilesPerRow = a;
+  barWidth = tilesPerRow * tileSize + 10;
+}
 
 function getTiles(num) {
   var tiles = [];
@@ -128,14 +132,14 @@ function updateLabel(i, items) {
       .style("fill", "#777");
   }
   
-  if (items[0]){
+  if (items[0] && selectView == "bar"){
     el.text(items[0].group);
   }
 
 }
 
 
-function updateBars(group_items, selectMode) {
+function updateBars(group_items) {
 
   var u = d3.select("g.bars")
     .selectAll("g").remove();
@@ -153,7 +157,7 @@ function updateBars(group_items, selectMode) {
     })
   }
 
-  else{
+  else if (selectMode == "hide"){
     u.enter()
     .append("g")
     .attr("id", function(d,i){ return "_" + i; } )
@@ -161,7 +165,6 @@ function updateBars(group_items, selectMode) {
     .each(function(d,i){
       updateBarHide(d, i, group_items[i])  
     })
-
   }
   
   u.exit().remove();
@@ -169,14 +172,16 @@ function updateBars(group_items, selectMode) {
 
 
 function getGroupCounts(group_items){
-  let counts = new Array(group_items.length).fill(0);
 
-  for (let i=0; i< group_items.length; i++){
-    counts[i] = group_items[i].length
+    let counts = new Array(group_items.length).fill(0);
+
+    for (let i=0; i< group_items.length; i++){
+      counts[i] = group_items[i].length
+    }
+  
+    return counts
+  
   }
-
-  return counts
-}
 
 //re-arrange the data_json file to creat bar charts in d3
 function prepareJson(data, selectedYearBegin, selectedYearEnd){
@@ -225,22 +230,132 @@ function prepareJson(data, selectedYearBegin, selectedYearEnd){
       })
     }
 
+  console.log(group_items)
+
    return group_items
 
 }
 
-d3.json("./data_crop.json", function(err, data) {
+function prepareGrid(data, selectedYearBegin, selectedYearEnd){
   
- 
-  let group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
+  let group_items = []
+  group_items[0] = []
 
-  updateBars(group_items, selectMode);
+  for (let d in data){
 
-  d3.select("select.mode")
-  .on("change", function() {
-    selectMode = this.value;
-    updateBars(group_items, selectMode);
+    //filtering by group, year
+    if (data[d].date >= selectedYearBegin && data[d].date <= selectedYearEnd ){
+      group_items[0].push(data[d])
+    }
+  }
+
+  group_items[0].sort(function(a,b){
+        return a.posid - b.posid})
+
+  group_items[0].splice().forEach(function(d){
+      d.group = "overview"
   })
+
+  console.log( 'overview' ,group_items)
+
+  return group_items
+ 
+}
+
+d3.json("./data_crop.json", function(err, data) {
+
+  initialize(data);
+
+  //-------------filter---view---------------------
+
+  d3.select("#barview")
+  .on("change", function() {
+
+    if (d3.select("#barview").property("checked") == true){
+
+      d3.select("#gridview").property('checked', false);
+
+      selectView = "bar";
+      setTilesPerRow(5);
+      group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
+      updateBars(group_items, selectMode);
+
+    }
+
+    else if (d3.select("#barview").property("checked") == false){
+
+      d3.select("#gridview").property('checked', true);
+
+      selectView = "grid";
+      setTilesPerRow(30)
+
+      group_items = prepareGrid(data, selectedYearBegin, selectedYearEnd)
+      updateBars(group_items, selectMode);
+    }
+    
+  })
+
+
+  d3.select("#gridview")
+  .on("change", function() {
+
+    if (d3.select("#gridview").property("checked") == true){
+
+      d3.select("#barview").property('checked', false);
+
+      selectView = "grid";
+      setTilesPerRow(20);
+
+      group_items = prepareGrid(data, selectedYearBegin, selectedYearEnd)
+      updateBars(group_items, selectMode);
+
+    }
+
+    else if (d3.select("#gridview").property("checked") == false){
+
+      d3.select("#barview").property('checked', true);
+
+      selectView = "bar";
+      setTilesPerRow(5)
+      group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
+      updateBars(group_items, selectMode);
+
+    }
+    
+  })
+
+  //-------------filter---image---------------------
+  d3.select("#showimg")
+  .on("change", function() {
+
+    if (d3.select("#showimg").property("checked") == true){
+      d3.select("#hideimg").property('checked', false);
+      selectMode = "show";
+      updateBars(group_items, selectMode);
+    } else {
+      d3.select("#hideimg").property('checked', true);
+      selectMode = "hide";
+      updateBars(group_items, selectMode);
+    }
+      
+  })
+
+  d3.select("#hideimg")
+  .on("change", function() {
+
+    if (d3.select("#hideimg").property("checked") == true){
+      d3.select("#showimg").property('checked', false);
+      selectMode = "hide";
+      updateBars(group_items, selectMode);
+    } else {
+      d3.select("#showimg").property('checked', true);
+      selectMode = "show";
+      updateBars(group_items, selectMode);
+    }
+      
+  })
+
+  //-------------filter---year---------------------
 
   d3.select("select.year")
   .on("change", function() {
@@ -248,8 +363,32 @@ d3.json("./data_crop.json", function(err, data) {
     
     selectedYearBegin = parseInt(value.split(',')[0])
     selectedYearEnd = parseInt(value.split(',')[1])
-    let group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
-    updateBars(group_items, selectMode);
+
+    if (selectView == "bar"){
+ 
+      group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
+      updateBars(group_items, selectMode);
+    }
+    else{
+      group_items = prepareGrid(data, selectedYearBegin, selectedYearEnd);
+      updateBars(group_items, selectMode);
+    }
+
   })
 
 });
+
+function initialize(data){
+
+  d3.select("#barview").property('checked', true);
+  d3.select("#gridview").property('checked', false);
+  
+  d3.select("#showimg").property('checked', true);
+  d3.select("#hideimg").property('checked', false);
+
+  let group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
+
+  updateBars(group_items, selectMode);
+
+
+}

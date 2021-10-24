@@ -21,10 +21,35 @@
         </svg>
       </div>
       <div id="menu">
-        <select class="mode">
-          <option value="show">Show Tiles</option>
-          <option value="hide">Hide Tiles</option>
-        </select>
+
+        <div>
+          
+          <h3>View</h3>
+
+          <input id="barview" class="view" type="checkbox">
+          <label>Cluster</label>
+        
+          <input id="gridview" class="view" type="checkbox">
+          <label>Gallery</label>
+        
+        </div>
+
+        <h3>Filter</h3>
+
+        <p>Images</p>
+
+        <input id="showimg" class="mode" type="checkbox">
+        <label>Show</label>
+
+        <input id="hideimg" class="mode" type="checkbox">
+        <label>Hide</label>
+
+        <!-- <select class="mode">
+          <option value="show">Show Images</option>
+          <option value="hide">Hide Images</option>
+        </select> -->
+
+        <p>Time</p>
         <select class="year">
           <option value="1894,1919">All</option>
           <option value="1894,1899">1894–1899 | USA</option>
