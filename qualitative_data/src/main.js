@@ -1,5 +1,6 @@
-var tilesPerRow = 25;
+var tilesPerRow = 4;
 var tileSize = 100;
+var barWidth = tilesPerRow * tileSize + 10;
 
 function getTiles(num) {
   var tiles = [];
@@ -15,13 +16,14 @@ function getTiles(num) {
   return tiles
 }
 
-function updateBar(d, title) {
+function updateBar(d, i, items) {
+
+  console.log (d, i, items)
+
   var tiles = getTiles(d);
 
-  console.log(title)
-
-  var u = d3.select(".bars")
-    .attr("transform", "translate(100, 600)")
+  var u = d3.select("#_" + i)
+    .attr("transform", "translate(" + i * barWidth + ", 800)")
     .selectAll("image")
     .data(tiles);
 
@@ -29,13 +31,8 @@ function updateBar(d, title) {
       // customize image------------------------------
       u.enter()
       .append("svg:image")
-      // .style("opacity", 0)
-      // .style("stroke", "white")
-      // .style("stroke-width", "0.5")
-      // .style("shape-rendering", "crispEdges")
       .merge(u)
-      .attr("x", function(d) {
-        
+      .attr("x", function(d) {       
         return d.x;
       })
       .attr("y", function(d) {
@@ -50,24 +47,104 @@ function updateBar(d, title) {
       .style("opacity", 1)
 
       .attr("xlink:href", function(d,i){
-        return `./images/${title[i]}.jpg`
+        return `${items[i].root}`
       })
       // .attr("xlink:href", `https://s3.amazonaws.com/assets.saam.media/files/styles/x_large/s3/files/images/1992/SAAM-1992.13.107_1.jpg`)
       //end of customize
 
 
   u.exit().remove();
+
+  updateLabel(i, items)
+
 }
 
 
-d3.json("./data_raw.json", function(err, data) {
+function updateLabel(i, items) {
+  var el = d3.select("#_" + i)
+    .select("text");
+ 
+  if(el.empty()) {
+    el = d3.select("#_" + i)
+      .append("text")
+      .attr("y", -4)
+      .attr("y", +40)
+      // .attr("transform", "(rotate(-90))")
+      .style("font-weight", "bold")
+      .style("font-size", "30px")
+      .style("fill", "#777");
+  }
+ 
+  el.text(items[0].group);
+}
+
+
+function updateBars(group_items) {
+
+  var u = d3.select("g.bars")
+    .selectAll("g")
+    .data(getGroupCounts(group_items));
+   
+  u.enter()
+    .append("g")
+    .attr("id", function(d,i){ return "_" + i; } )
+    .merge(u)
+    .each(function(d,i){
+      updateBar(d, i, group_items[i])
+     
+    })
+   
+      
+      
+      
+   
+  u.exit().remove();
+}
+
+
+function getGroupCounts(group_items){
+  let counts = new Array(group_items.length).fill(0);
+
+  for (let i=0; i< group_items.length; i++){
+    counts[i] = group_items[i].length
+  }
+
+  return counts
+}
+
+
+d3.json("./data_crop.json", function(err, data) {
   
+ //re-arrange the data_json file to creat bar charts in d3
+ let groups = ['Child', 'Figur', 'Tools', 'Lands', 'Animl', 'Plant']
+
+ let group_counts = new Array(groups.length).fill(0);
+ let group_items = [];
+
+ for (let i=0; i< groups.length; i++){
+   group_items[i] = [];
+ }
+
+ for (let i=0; i< groups.length; i++){
+
+    for (let d in data){
+
+      if (data[d].group === groups[i]){
+
+        group_counts[i] += 1;
+        group_items[i].push(data[d]);
+      }
+    }
+ }
+
+  console.log(group_items)
 
   // initialize();
   // update();
 
-  
+  updateBars(group_items);
 
-  updateBar(125, data.map( d => d.title));
+
+  // updateBar(15, data.map( d => d.root));
 
 });
