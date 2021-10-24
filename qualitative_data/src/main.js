@@ -1,5 +1,7 @@
+var w = window.innerWidth * 0.7;
+// var w = 3000;
 var tilesPerRow = 5;
-var tileSize = 80;
+var tileSize = w / (tilesPerRow * 6) ;
 var barWidth = tilesPerRow * tileSize + 10;
 
 var filteredData; 
@@ -155,6 +157,9 @@ function updateBars(group_items) {
     .each(function(d,i){
       updateBar(d, i, group_items[i])  
     })
+
+    console.log("updateBars", u)
+
   }
 
   else if (selectMode == "hide"){
@@ -264,7 +269,8 @@ function prepareGrid(data, selectedYearBegin, selectedYearEnd){
 
 d3.json("./data_crop.json", function(err, data) {
 
-  initialize(data);
+  let group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
+  initialize(group_items);
 
   //-------------filter---view---------------------
 
@@ -304,7 +310,7 @@ d3.json("./data_crop.json", function(err, data) {
       d3.select("#barview").property('checked', false);
 
       selectView = "grid";
-      setTilesPerRow(20);
+      setTilesPerRow(30);
 
       group_items = prepareGrid(data, selectedYearBegin, selectedYearEnd)
       updateBars(group_items, selectMode);
@@ -378,7 +384,7 @@ d3.json("./data_crop.json", function(err, data) {
 
 });
 
-function initialize(data){
+function initialize(group_items){
 
   d3.select("#barview").property('checked', true);
   d3.select("#gridview").property('checked', false);
@@ -386,7 +392,7 @@ function initialize(data){
   d3.select("#showimg").property('checked', true);
   d3.select("#hideimg").property('checked', false);
 
-  let group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
+
 
   updateBars(group_items, selectMode);
 

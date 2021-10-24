@@ -4,25 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Codystar">
+    <link rel="stylesheet" href="./style/main.css">
     <title>Helen Hyde</title>
 </head>
 <body>
+
+  <div id="landing-page-left-fixed">
+
+    <div id="left-up" class="up">
+      <div class="page-title"><h1>The <br>World<br> Created <br>by <br>Helen <br>Hyde</h1></div>
+    </div>
+    <div id="left-down" class="down">
+      <div class="page-title page-title-small">
+        <b>Data Source</b>
+        <br>
+        Smithsonian Open Access
+        <br> 
+        <br> 
+        <b>Author</b> 
+        <br>
+        Jessie Han, MSDV @Parsons </div>
+    </div>
+  
+  
+  </div>
+  
+  <div id="landing-page">
+          <div id="landing-page-left">
+
+            <!-- <div id="left-up" class="up">
+              <div class="page-title"><h1>The <br>World<br> Created <br>by <br>Helen <br>Hyde</h1></div>
+            </div>
+            <div id="left-down" class="down">
+              <div class="page-title page-title-small">
+                <b>Data Source</b>
+                <br>
+                Smithsonian Open Access
+                <br> 
+                <br> 
+                <b>Author</b> 
+                <br>
+                Jessie Han, MSDV @Parsons </div>
+            </div> -->
+
+
+          </div>
+  <div id="landing-page-right">
+
+    <div id="right-up" class="up">
+      
+      <div id="right-usa" class="country-block up">
+
+        <div class="country-color-solid usa-color"></div>
+        <div class="country-color-gradient"></div>
+
+        <h2 class="country-name">USA</h2>
+      </div>
+      <div id="right-france" class="country-block up">
+
+        <div class="country-color-solid france-color"></div>
+        <div class="country-color-gradient"></div>
+        
+
+        <h2 class="country-name">France</h2>
+      </div>
+      <div id="right-japan" class="country-block up">
+
+        <div class="country-color-solid japan-color"></div>
+        <div class="country-color-gradient"></div>
+        
+
+        <h2 class="country-name">Japan</h2>
+      </div>
+      <div id="right-mexico" class="country-block up">
+
+        <div class="country-color-solid mexico-color"></div>
+        <div class="country-color-gradient"></div>
+        
+
+        <h2 class="country-name">Mexico</h2>
+      </div>
+
+
+    </div>
+    <div id="right-down" class="down"></div>
+
+  </div>
+
+</div>
+
+<div id="visualization">
+
     <div id="chart">
-        <svg width="3000" height="1000">
-          <g class="chart" transform="translate(20, 40)">
+        <svg id="mysvg">
+          <g class="chart">
             <text class="title" y="-9">Helen Hyde</text>
             <!-- <g class="legend" transform="translate(870,-20)" >
               <rect width="13" height="13" />
               <text x="17" y="11">= 1 year</text>
             </g> -->
-            <g class="y axis" />
-            <g class="bars" transform="translate(10, 0)"></g>
+            <!-- <g class="y axis" />
+           -->
+           <g class="bars" transform="translate(10, 0)"></g> 
           </g>
         </svg>
-      </div>
+    </div>
       <div id="menu">
 
-        <div>
+        <div class="filter-section">
           
           <h3>View</h3>
 
@@ -34,22 +124,25 @@
         
         </div>
 
-        <h3>Filter</h3>
-
-        <p>Images</p>
+        <div class="filter-section">
+        <h3>Images</h3>
 
         <input id="showimg" class="mode" type="checkbox">
         <label>Show</label>
 
         <input id="hideimg" class="mode" type="checkbox">
         <label>Hide</label>
+        </div>
 
         <!-- <select class="mode">
           <option value="show">Show Images</option>
           <option value="hide">Hide Images</option>
         </select> -->
 
-        <p>Time</p>
+        <div class="filter-section">
+
+        <h3>Time</h3>
+
         <select class="year">
           <option value="1894,1919">All</option>
           <option value="1894,1899">1894–1899 | USA</option>
@@ -60,8 +153,12 @@
           <option value="1912,1914">1912–1914 | Japan</option>
           <option value="1914,1919">1914–1919 | USA</option>
         </select>
+
+        </div>
+
       </div>
-  
+</div> 
+
       <script src="lib/d3.min.js"></script>
       <script src="lib/lodash.min.js"></script>
       <script src="src/main.js"></script>

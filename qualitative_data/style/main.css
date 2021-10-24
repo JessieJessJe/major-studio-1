@@ -2,10 +2,192 @@ body {
   font-family: sans-serif;
 }
 
-#menu {
-  margin-left: 20px;
+h1 {
+  font-family: Codystar;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 80;
+  margin: 0;
+  /* f
+  line-height: 59px; */
+  /* letter-spacing: 0em; */
+ 
+
 }
 
+.usa-color{
+  background-color: #8CC6D4;
+}
+
+.france-color{
+  background-color: #DED9DD;
+}
+
+.japan-color{
+  background-color: #BAABC8;
+}
+
+.mexico-color{
+  background-color: #EAD971;
+}
+
+.up{
+  height: 69vh;
+}
+
+#landing-page{
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: row;
+
+}
+
+#landing-page-left-fixed{
+  position: fixed;
+  display: flex;
+  width: 23%;
+  height: 100%;
+  background-color: #efefef;
+  flex-direction: column;
+  border-right: 1px solid black;
+  padding-top: 3%;
+  padding-left: 1vw;
+
+  z-index: 10;
+}
+
+#landing-page-left{
+
+  display: flex;
+  width: 23%;
+  background-color: #efefef;
+  flex-direction: column;
+  border-right: 1px solid black;
+  padding-top: 3%;
+  padding-left: 1vw;
+
+  z-index: 1;
+
+  visibility: hidden;
+}
+
+#left-up{
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+#left-down{
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.page-title{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  justify-content: center;
+
+  display: block;
+  margin: 0 auto auto 0; 
+  
+}
+
+.page-title-small{
+  
+  margin-top: 12%;
+
+}
+
+#landing-page-right{
+  display: flex;
+  width: 77%;
+  /* background-color: rgb(167, 209, 178); */
+  flex-direction: column;
+  padding-top: 3%;
+  margin-right: 1vw;
+  border-bottom: 1px solid black;
+}
+
+#right-up{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+}
+
+.country-block{
+  position: relative;
+  height: 30%;
+  width: 24%;
+  background-color: azure;
+}
+
+.country-color-solid{
+  height: 100%;
+  width: 100%;
+  /* position: fixed; */
+}
+
+.country-color-gradient{
+  position: absolute;
+  bottom: 0;
+  height: 70%;
+  width: 100%;
+  /* position: fixed; */
+
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 57.81%);
+  mix-blend-mode: hard-light;
+}
+
+.country-name{
+  position: relative;
+
+  top: -40%;
+
+  font-size: 3.5rem;
+
+}
+
+/* d3 styling */
+
+#visualization{
+  /* position: fixed; */
+  display: block;
+  top: 70vh;
+  width: 77vw;
+  margin-left: 25vw;
+  z-index: 100;
+  padding-bottom: 10vh;
+
+}
+#mysvg {
+  width: 100%;
+  height: 1000px
+}
+
+
+#menu {
+  display: flex;
+  /* margin-left: 20px; */
+}
+
+.filter-section{
+  width: 10vw;
+  gap: 4%;
+  display: flex;
+  align-items: center;
+
+}
 select {
   width: 200px;
   padding: 3px;
