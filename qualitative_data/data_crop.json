@@ -1,653 +1,932 @@
 [
     {
-        "itemid": "62",
-        "group": "Plant",
-        "title": "Little Pink Plum",
-        "date": "1913",
-        "root": "./images/cropping/Plant62@Little Pink Plum.jpg"
-    },
-    {
-        "itemid": "79",
-        "group": "Plant",
-        "title": "Moon Bridge at Kameido",
-        "date": "1914",
-        "root": "./images/cropping/Plant79@Moon Bridge at Kameido.jpg"
-    },
-    {
-        "itemid": "48",
-        "group": "Child",
-        "title": "The Goblins 'l Git Yer",
-        "date": "1918",
-        "root": "./images/cropping/Child48@The Goblins 'l Git Yer.jpg"
-    },
-    {
-        "itemid": "65",
-        "group": "Child",
-        "title": "Mother and Child",
-        "date": "1901",
-        "root": "./images/cropping/Child65@Mother and Child.jpg"
-    },
-    {
-        "itemid": "74",
-        "group": "Figur",
-        "title": "A Monarch of Japan",
-        "date": "1901",
-        "root": "./images/cropping/Figur74@A Monarch of Japan.jpg"
-    },
-    {
+        "posid": 0,
         "itemid": "30",
         "group": "Child",
         "title": "A Roundelay",
-        "date": "1906",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
         "root": "./images/cropping/Child30@A Roundelay.jpg"
     },
     {
-        "itemid": "34",
-        "group": "Tools",
-        "title": "August",
-        "date": "1914",
-        "root": "./images/cropping/Tools34@August.jpg"
-    },
-    {
-        "itemid": "23",
-        "group": "Figur",
-        "title": "From the Rice Fields",
-        "date": "1901",
-        "root": "./images/cropping/Figur23@From the Rice Fields.jpg"
-    },
-    {
-        "itemid": "85",
-        "group": "Child",
-        "title": "The White Peacock",
-        "date": "1914",
-        "root": "./images/cropping/Child85@The White Peacock.jpg"
-    },
-    {
-        "itemid": "26",
-        "group": "Plant",
-        "title": "From the Rice Fields",
-        "date": "1901",
-        "root": "./images/cropping/Plant26@From the Rice Fields.jpg"
-    },
-    {
-        "itemid": "47",
-        "group": "Child",
-        "title": "The Home of Gabriel",
-        "date": "1918",
-        "root": "./images/cropping/Child47@The Home of Gabriel.jpg"
-    },
-    {
-        "itemid": "63",
-        "group": "Child",
-        "title": "Little Pink Plum",
-        "date": "1913",
-        "root": "./images/cropping/Child63@Little Pink Plum.jpg"
-    },
-    {
-        "itemid": "38",
-        "group": "Tools",
-        "title": "New Brooms",
-        "date": "1910",
-        "root": "./images/cropping/Tools38@New Brooms.jpg"
-    },
-    {
-        "itemid": "29",
-        "group": "Child",
-        "title": "A Roundelay",
-        "date": "1906",
-        "root": "./images/cropping/Child29@A Roundelay.jpg"
-    },
-    {
-        "itemid": "1",
-        "group": "Child",
-        "title": "Bamboo Gate",
-        "date": "1915",
-        "root": "./images/cropping/Child1@Bamboo Gate.jpg"
-    },
-    {
-        "itemid": "6",
-        "group": "Child",
-        "title": "Bamboo Gate",
-        "date": "1915",
-        "root": "./images/cropping/Child6@Bamboo Gate.jpg"
-    },
-    {
-        "itemid": "51",
-        "group": "Plant",
-        "title": "First Spring",
-        "date": "1918",
-        "root": "./images/cropping/Plant51@First Spring.jpg"
-    },
-    {
-        "itemid": "57",
-        "group": "Plant",
-        "title": "Complaints",
-        "date": "1914",
-        "root": "./images/cropping/Plant57@Complaints.jpg"
-    },
-    {
-        "itemid": "58",
-        "group": "Tools",
-        "title": "A Weary Little Mother",
-        "date": "1914",
-        "root": "./images/cropping/Tools58@A Weary Little Mother.jpg"
-    },
-    {
-        "itemid": "33",
-        "group": "Child",
-        "title": "August",
-        "date": "1914",
-        "root": "./images/cropping/Child33@August.jpg"
-    },
-    {
-        "itemid": "17",
-        "group": "Child",
-        "title": "Little Miss Muffet",
-        "date": "1918",
-        "root": "./images/cropping/Child17@Little Miss Muffet.jpg"
-    },
-    {
-        "itemid": "24",
-        "group": "Child",
-        "title": "From the Rice Fields",
-        "date": "1901",
-        "root": "./images/cropping/Child24@From the Rice Fields.jpg"
-    },
-    {
-        "itemid": "84",
-        "group": "Plant",
-        "title": "The White Peacock",
-        "date": "1914",
-        "root": "./images/cropping/Plant84@The White Peacock.jpg"
-    },
-    {
-        "itemid": "35",
-        "group": "Child",
-        "title": "New Brooms",
-        "date": "1910",
-        "root": "./images/cropping/Child35@New Brooms.jpg"
-    },
-    {
-        "itemid": "69",
-        "group": "Child",
-        "title": "In Their Holiday Clothes",
-        "date": "1914",
-        "root": "./images/cropping/Child69@In Their Holiday Clothes.jpg"
-    },
-    {
-        "itemid": "87",
-        "group": "Child",
-        "title": "The White Peacock",
-        "date": "1914",
-        "root": "./images/cropping/Child87@The White Peacock.jpg"
-    },
-    {
-        "itemid": "45",
-        "group": "Lands",
-        "title": "Oaxaca Market",
-        "date": "1912",
-        "root": "./images/cropping/Lands45@Oaxaca Market.jpg"
-    },
-    {
-        "itemid": "82",
-        "group": "Animl",
-        "title": "The White Peacock",
-        "date": "1914",
-        "root": "./images/cropping/Animl82@The White Peacock.jpg"
-    },
-    {
+        "posid": 1,
         "itemid": "25",
         "group": "Child",
         "title": "From the Rice Fields",
-        "date": "1901",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
         "root": "./images/cropping/Child25@From the Rice Fields.jpg"
     },
     {
-        "itemid": "60",
-        "group": "Child",
-        "title": "A Weary Little Mother",
-        "date": "1914",
-        "root": "./images/cropping/Child60@A Weary Little Mother.jpg"
-    },
-    {
-        "itemid": "10",
-        "group": "Tools",
-        "title": "The Blue Umbrella",
-        "date": "1914",
-        "root": "./images/cropping/Tools10@The Blue Umbrella.jpg"
-    },
-    {
-        "itemid": "39",
-        "group": "Animl",
-        "title": "The Furious Dragon",
-        "date": "1914",
-        "root": "./images/cropping/Animl39@The Furious Dragon.jpg"
-    },
-    {
-        "itemid": "90",
-        "group": "Child",
-        "title": "Sunday Morning",
-        "date": "1912",
-        "root": "./images/cropping/Child90@Sunday Morning.jpg"
-    },
-    {
-        "itemid": "78",
-        "group": "Child",
-        "title": "Moon Bridge at Kameido",
-        "date": "1914",
-        "root": "./images/cropping/Child78@Moon Bridge at Kameido.jpg"
-    },
-    {
-        "itemid": "19",
-        "group": "Plant",
-        "title": "Little Miss Muffet",
-        "date": "1918",
-        "root": "./images/cropping/Plant19@Little Miss Muffet.jpg"
-    },
-    {
-        "itemid": "72",
-        "group": "Plant",
-        "title": "A Monarch of Japan",
-        "date": "1901",
-        "root": "./images/cropping/Plant72@A Monarch of Japan.jpg"
-    },
-    {
-        "itemid": "28",
-        "group": "Aminl",
-        "title": "On the Bund at Tokyo",
-        "date": "1900",
-        "root": "./images/cropping/Aminl28@On the Bund at Tokyo.jpg"
-    },
-    {
-        "itemid": "49",
-        "group": "Child",
-        "title": "The Goblins 'l Git Yer",
-        "date": "1918",
-        "root": "./images/cropping/Child49@The Goblins 'l Git Yer.jpg"
-    },
-    {
-        "itemid": "8",
-        "group": "Lands",
-        "title": "Sausalito",
-        "date": "1898",
-        "root": "./images/cropping/Lands8@Sausalito.jpg"
-    },
-    {
-        "itemid": "75",
-        "group": "Figur",
-        "title": "A Monarch of Japan",
-        "date": "1901",
-        "root": "./images/cropping/Figur75@A Monarch of Japan.jpg"
-    },
-    {
-        "itemid": "31",
-        "group": "Child",
-        "title": "A Roundelay",
-        "date": "1906",
-        "root": "./images/cropping/Child31@A Roundelay.jpg"
-    },
-    {
-        "itemid": "27",
-        "group": "Figur",
-        "title": "On the Bund at Tokyo",
-        "date": "1900",
-        "root": "./images/cropping/Figur27@On the Bund at Tokyo.jpg"
-    },
-    {
-        "itemid": "73",
-        "group": "Child",
-        "title": "A Monarch of Japan",
-        "date": "1901",
-        "root": "./images/cropping/Child73@A Monarch of Japan.jpg"
-    },
-    {
-        "itemid": "36",
-        "group": "Child",
-        "title": "New Brooms",
-        "date": "1910",
-        "root": "./images/cropping/Child36@New Brooms.jpg"
-    },
-    {
-        "itemid": "46",
-        "group": "Lands",
-        "title": "The Home of Gabriel",
-        "date": "1918",
-        "root": "./images/cropping/Lands46@The Home of Gabriel.jpg"
-    },
-    {
-        "itemid": "13",
-        "group": "Child",
-        "title": "Head of Ah Ho",
-        "date": "1899",
-        "root": "./images/cropping/Child13@Head of Ah Ho.jpg"
-    },
-    {
-        "itemid": "9",
-        "group": "Lands",
-        "title": "Sausalito",
-        "date": "1898",
-        "root": "./images/cropping/Lands9@Sausalito.jpg"
-    },
-    {
-        "itemid": "32",
-        "group": "Plant",
-        "title": "A Roundelay",
-        "date": "1906",
-        "root": "./images/cropping/Plant32@A Roundelay.jpg"
-    },
-    {
-        "itemid": "56",
-        "group": "Child",
-        "title": "Complaints",
-        "date": "1914",
-        "root": "./images/cropping/Child56@Complaints.jpg"
-    },
-    {
-        "itemid": "5",
-        "group": "Child",
-        "title": "Bamboo Gate",
-        "date": "1915",
-        "root": "./images/cropping/Child5@Bamboo Gate.jpg"
-    },
-    {
-        "itemid": "41",
-        "group": "Child",
-        "title": "The Furious Dragon",
-        "date": "1914",
-        "root": "./images/cropping/Child41@The Furious Dragon.jpg"
-    },
-    {
-        "itemid": "66",
-        "group": "Figur",
-        "title": "Mother and Child",
-        "date": "1901",
-        "root": "./images/cropping/Figur66@Mother and Child.jpg"
-    },
-    {
-        "itemid": "70",
-        "group": "Figur",
-        "title": "O Tsuyu San",
-        "date": "1900",
-        "root": "./images/cropping/Figur70@O Tsuyu San.jpg"
-    },
-    {
-        "itemid": "16",
-        "group": "Child",
-        "title": "The Joggling Board",
-        "date": "1918",
-        "root": "./images/cropping/Child16@The Joggling Board.jpg"
-    },
-    {
-        "itemid": "89",
-        "group": "Figur",
-        "title": "Sunday Morning",
-        "date": "1912",
-        "root": "./images/cropping/Figur89@Sunday Morning.jpg"
-    },
-    {
-        "itemid": "76",
-        "group": "Child",
-        "title": "Moon Bridge at Kameido",
-        "date": "1914",
-        "root": "./images/cropping/Child76@Moon Bridge at Kameido.jpg"
-    },
-    {
-        "itemid": "81",
-        "group": "Child",
-        "title": "Moon Bridge at Kameido",
-        "date": "1914",
-        "root": "./images/cropping/Child81@Moon Bridge at Kameido.jpg"
-    },
-    {
-        "itemid": "15",
-        "group": "Child",
-        "title": "The Joggling Board",
-        "date": "1918",
-        "root": "./images/cropping/Child15@The Joggling Board.jpg"
-    },
-    {
-        "itemid": "53",
-        "group": "Child",
-        "title": "The Daikon and the Baby",
-        "date": "1903",
-        "root": "./images/cropping/Child53@The Daikon and the Baby.jpg"
-    },
-    {
-        "itemid": "22",
-        "group": "Tools",
-        "title": "A Child of the People",
-        "date": "1901",
-        "root": "./images/cropping/Tools22@A Child of the People.jpg"
-    },
-    {
-        "itemid": "18",
-        "group": "Animl",
-        "title": "Little Miss Muffet",
-        "date": "1918",
-        "root": "./images/cropping/Animl18@Little Miss Muffet.jpg"
-    },
-    {
-        "itemid": "83",
-        "group": "Animl",
-        "title": "The White Peacock",
-        "date": "1914",
-        "root": "./images/cropping/Animl83@The White Peacock.jpg"
-    },
-    {
-        "itemid": "86",
-        "group": "Child",
-        "title": "The White Peacock",
-        "date": "1914",
-        "root": "./images/cropping/Child86@The White Peacock.jpg"
-    },
-    {
-        "itemid": "2",
-        "group": "Child",
-        "title": "Bamboo Gate",
-        "date": "1915",
-        "root": "./images/cropping/Child2@Bamboo Gate.jpg"
-    },
-    {
-        "itemid": "55",
-        "group": "Animl",
-        "title": "Complaints",
-        "date": "1914",
-        "root": "./images/cropping/Animl55@Complaints.jpg"
-    },
-    {
-        "itemid": "54",
-        "group": "Tools",
-        "title": "Complaints",
-        "date": "1914",
-        "root": "./images/cropping/Tools54@Complaints.jpg"
-    },
-    {
-        "itemid": "61",
-        "group": "Figur",
-        "title": "A Weary Little Mother",
-        "date": "1914",
-        "root": "./images/cropping/Figur61@A Weary Little Mother.jpg"
-    },
-    {
-        "itemid": "20",
-        "group": "Lands",
-        "title": "The Year at the Spring",
-        "date": "1899",
-        "root": "./images/cropping/Lands20@The Year at the Spring.jpg"
-    },
-    {
-        "itemid": "93",
-        "group": "Plant",
-        "title": "Sunday Morning",
-        "date": "1912",
-        "root": "./images/cropping/Plant93@Sunday Morning.jpg"
-    },
-    {
-        "itemid": "43",
-        "group": "Child",
-        "title": "A Japanese Madonna",
-        "date": "1900",
-        "root": "./images/cropping/Child43@A Japanese Madonna.jpg"
-    },
-    {
-        "itemid": "64",
-        "group": "Tools",
-        "title": "Little Pink Plum",
-        "date": "1913",
-        "root": "./images/cropping/Tools64@Little Pink Plum.jpg"
-    },
-    {
-        "itemid": "50",
-        "group": "Child",
-        "title": "The Goblins 'l Git Yer",
-        "date": "1918",
-        "root": "./images/cropping/Child50@The Goblins 'l Git Yer.jpg"
-    },
-    {
-        "itemid": "11",
-        "group": "Child",
-        "title": "The Blue Umbrella",
-        "date": "1914",
-        "root": "./images/cropping/Child11@The Blue Umbrella.jpg"
-    },
-    {
-        "itemid": "37",
-        "group": "Plant",
-        "title": "New Brooms",
-        "date": "1910",
-        "root": "./images/cropping/Plant37@New Brooms.jpg"
-    },
-    {
-        "itemid": "44",
-        "group": "Lands",
-        "title": "Mount Orizaba",
-        "date": "1912",
-        "root": "./images/cropping/Lands44@Mount Orizaba.jpg"
-    },
-    {
-        "itemid": "3",
-        "group": "Child",
-        "title": "Bamboo Gate",
-        "date": "1915",
-        "root": "./images/cropping/Child3@Bamboo Gate.jpg"
-    },
-    {
-        "itemid": "67",
-        "group": "Figur",
-        "title": "In Their Holiday Clothes",
-        "date": "1914",
-        "root": "./images/cropping/Figur67@In Their Holiday Clothes.jpg"
-    },
-    {
-        "itemid": "21",
-        "group": "Child",
-        "title": "A Child of the People",
-        "date": "1901",
-        "root": "./images/cropping/Child21@A Child of the People.jpg"
-    },
-    {
-        "itemid": "68",
-        "group": "Child",
-        "title": "In Their Holiday Clothes",
-        "date": "1914",
-        "root": "./images/cropping/Child68@In Their Holiday Clothes.jpg"
-    },
-    {
-        "itemid": "52",
-        "group": "Plant",
-        "title": "The Daikon and the Baby",
-        "date": "1903",
-        "root": "./images/cropping/Plant52@The Daikon and the Baby.jpg"
-    },
-    {
-        "itemid": "12",
-        "group": "Figur",
-        "title": "The Blue Umbrella",
-        "date": "1914",
-        "root": "./images/cropping/Figur12@The Blue Umbrella.jpg"
-    },
-    {
-        "itemid": "14",
-        "group": "Child",
-        "title": "The Joggling Board",
-        "date": "1918",
-        "root": "./images/cropping/Child14@The Joggling Board.jpg"
-    },
-    {
+        "posid": 2,
         "itemid": "91",
-        "group": "Figur",
+        "group": "Mother(Adult)",
         "title": "Sunday Morning",
-        "date": "1912",
+        "date": 1912,
+        "place": "Mexico",
+        "color": "#EAD971",
         "root": "./images/cropping/Figur91@Sunday Morning.jpg"
     },
     {
-        "itemid": "42",
-        "group": "Figur",
-        "title": "A Japanese Madonna",
-        "date": "1900",
-        "root": "./images/cropping/Figur42@A Japanese Madonna.jpg"
-    },
-    {
-        "itemid": "71",
-        "group": "Child",
-        "title": "O Tsuyu San",
-        "date": "1900",
-        "root": "./images/cropping/Child71@O Tsuyu San.jpg"
-    },
-    {
+        "posid": 3,
         "itemid": "92",
-        "group": "Figur",
+        "group": "Mother(Adult)",
         "title": "Sunday Morning",
-        "date": "1912",
+        "date": 1912,
+        "place": "Mexico",
+        "color": "#EAD971",
         "root": "./images/cropping/Figur92@Sunday Morning.jpg"
     },
     {
-        "itemid": "4",
-        "group": "Child",
-        "title": "Bamboo Gate",
-        "date": "1915",
-        "root": "./images/cropping/Child4@Bamboo Gate.jpg"
-    },
-    {
-        "itemid": "59",
+        "posid": 4,
+        "itemid": "57",
         "group": "Plant",
-        "title": "A Weary Little Mother",
-        "date": "1914",
-        "root": "./images/cropping/Plant59@A Weary Little Mother.jpg"
+        "title": "Complaints",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant57@Complaints.jpg"
     },
     {
+        "posid": 5,
+        "itemid": "60",
+        "group": "Child",
+        "title": "A Weary Little Mother",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child60@A Weary Little Mother.jpg"
+    },
+    {
+        "posid": 6,
+        "itemid": "56",
+        "group": "Child",
+        "title": "Complaints",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child56@Complaints.jpg"
+    },
+    {
+        "posid": 7,
         "itemid": "40",
         "group": "Child",
         "title": "The Furious Dragon",
-        "date": "1914",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
         "root": "./images/cropping/Child40@The Furious Dragon.jpg"
     },
     {
+        "posid": 8,
+        "itemid": "6",
+        "group": "Plant",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant6@Bamboo Gate.jpg"
+    },
+    {
+        "posid": 9,
+        "itemid": "39",
+        "group": "Animal",
+        "title": "The Furious Dragon",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl39@The Furious Dragon.jpg"
+    },
+    {
+        "posid": 10,
+        "itemid": "55",
+        "group": "Animal",
+        "title": "Complaints",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl55@Complaints.jpg"
+    },
+    {
+        "posid": 11,
+        "itemid": "61",
+        "group": "Mother(Adult)",
+        "title": "A Weary Little Mother",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur61@A Weary Little Mother.jpg"
+    },
+    {
+        "posid": 12,
+        "itemid": "10",
+        "group": "Tool",
+        "title": "The Blue Umbrella",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools10@The Blue Umbrella.jpg"
+    },
+    {
+        "posid": 13,
+        "itemid": "11",
+        "group": "Child",
+        "title": "The Blue Umbrella",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child11@The Blue Umbrella.jpg"
+    },
+    {
+        "posid": 14,
+        "itemid": "34",
+        "group": "Tool",
+        "title": "August",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools34@August.jpg"
+    },
+    {
+        "posid": 15,
+        "itemid": "43",
+        "group": "Child",
+        "title": "A Japanese Madonna",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child43@A Japanese Madonna.jpg"
+    },
+    {
+        "posid": 16,
+        "itemid": "67",
+        "group": "Mother(Adult)",
+        "title": "In Their Holiday Clothes",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur67@In Their Holiday Clothes.jpg"
+    },
+    {
+        "posid": 17,
+        "itemid": "42",
+        "group": "Mother(Adult)",
+        "title": "A Japanese Madonna",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur42@A Japanese Madonna.jpg"
+    },
+    {
+        "posid": 18,
+        "itemid": "58",
+        "group": "Tool",
+        "title": "A Weary Little Mother",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools58@A Weary Little Mother.jpg"
+    },
+    {
+        "posid": 19,
+        "itemid": "37",
+        "group": "Plant",
+        "title": "New Brooms",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Plant37@New Brooms.jpg"
+    },
+    {
+        "posid": 20,
         "itemid": "7",
-        "group": "Lands",
+        "group": "Landscape",
         "title": "Sausalito",
-        "date": "1898",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
         "root": "./images/cropping/Lands7@Sausalito.jpg"
     },
     {
-        "itemid": "94",
-        "group": "Child",
-        "title": "Sunday Morning",
-        "date": "1912",
-        "root": "./images/cropping/Child94@Sunday Morning.jpg"
+        "posid": 21,
+        "itemid": "23",
+        "group": "Mother(Adult)",
+        "title": "From the Rice Fields",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur23@From the Rice Fields.jpg"
     },
     {
-        "itemid": "80",
+        "posid": 22,
+        "itemid": "24",
         "group": "Child",
-        "title": "Moon Bridge at Kameido",
-        "date": "1914",
-        "root": "./images/cropping/Child80@Moon Bridge at Kameido.jpg"
+        "title": "From the Rice Fields",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child24@From the Rice Fields.jpg"
     },
     {
+        "posid": 23,
+        "itemid": "31",
+        "group": "Child",
+        "title": "A Roundelay",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child31@A Roundelay.jpg"
+    },
+    {
+        "posid": 24,
+        "itemid": "54",
+        "group": "Tool",
+        "title": "Complaints",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools54@Complaints.jpg"
+    },
+    {
+        "posid": 25,
         "itemid": "77",
         "group": "Child",
         "title": "Moon Bridge at Kameido",
-        "date": "1914",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
         "root": "./images/cropping/Child77@Moon Bridge at Kameido.jpg"
+    },
+    {
+        "posid": 26,
+        "itemid": "33",
+        "group": "Child",
+        "title": "August",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child33@August.jpg"
+    },
+    {
+        "posid": 27,
+        "itemid": "68",
+        "group": "Child",
+        "title": "In Their Holiday Clothes",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child68@In Their Holiday Clothes.jpg"
+    },
+    {
+        "posid": 28,
+        "itemid": "35",
+        "group": "Child",
+        "title": "New Brooms",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Child35@New Brooms.jpg"
+    },
+    {
+        "posid": 29,
+        "itemid": "41",
+        "group": "Child",
+        "title": "The Furious Dragon",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child41@The Furious Dragon.jpg"
+    },
+    {
+        "posid": 30,
+        "itemid": "1",
+        "group": "Child",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child1@Bamboo Gate.jpg"
+    },
+    {
+        "posid": 31,
+        "itemid": "52",
+        "group": "Plant",
+        "title": "The Daikon and the Baby",
+        "date": 1903,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant52@The Daikon and the Baby.jpg"
+    },
+    {
+        "posid": 32,
+        "itemid": "63",
+        "group": "Child",
+        "title": "Little Pink Plum",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child63@Little Pink Plum.jpg"
+    },
+    {
+        "posid": 33,
+        "itemid": "12",
+        "group": "Mother(Adult)",
+        "title": "The Blue Umbrella",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur12@The Blue Umbrella.jpg"
+    },
+    {
+        "posid": 34,
+        "itemid": "59",
+        "group": "Plant",
+        "title": "A Weary Little Mother",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant59@A Weary Little Mother.jpg"
+    },
+    {
+        "posid": 35,
+        "itemid": "38",
+        "group": "Tool",
+        "title": "New Brooms",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Tools38@New Brooms.jpg"
+    },
+    {
+        "posid": 36,
+        "itemid": "84",
+        "group": "Plant",
+        "title": "The White Peacock",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant84@The White Peacock.jpg"
+    },
+    {
+        "posid": 37,
+        "itemid": "9",
+        "group": "Landscape",
+        "title": "Sausalito",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands9@Sausalito.jpg"
+    },
+    {
+        "posid": 38,
+        "itemid": "32",
+        "group": "Plant",
+        "title": "A Roundelay",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant32@A Roundelay.jpg"
+    },
+    {
+        "posid": 39,
+        "itemid": "82",
+        "group": "Animal",
+        "title": "The White Peacock",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl82@The White Peacock.jpg"
+    },
+    {
+        "posid": 40,
+        "itemid": "72",
+        "group": "Plant",
+        "title": "A Monarch of Japan",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant72@A Monarch of Japan.jpg"
+    },
+    {
+        "posid": 41,
+        "itemid": "21",
+        "group": "Child",
+        "title": "A Child of the People",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child21@A Child of the People.jpg"
+    },
+    {
+        "posid": 42,
+        "itemid": "85",
+        "group": "Child",
+        "title": "The White Peacock",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child85@The White Peacock.jpg"
+    },
+    {
+        "posid": 43,
+        "itemid": "28",
+        "group": "Animal",
+        "title": "On the Bund at Tokyo",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Animl28@On the Bund at Tokyo.jpg"
+    },
+    {
+        "posid": 44,
+        "itemid": "86",
+        "group": "Child",
+        "title": "The White Peacock",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child86@The White Peacock.jpg"
+    },
+    {
+        "posid": 45,
+        "itemid": "69",
+        "group": "Child",
+        "title": "In Their Holiday Clothes",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child69@In Their Holiday Clothes.jpg"
+    },
+    {
+        "posid": 46,
+        "itemid": "2",
+        "group": "Child",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child2@Bamboo Gate.jpg"
+    },
+    {
+        "posid": 47,
+        "itemid": "3",
+        "group": "Child",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child3@Bamboo Gate.jpg"
+    },
+    {
+        "posid": 48,
+        "itemid": "5",
+        "group": "Child",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child5@Bamboo Gate.jpg"
+    },
+    {
+        "posid": 49,
+        "itemid": "53",
+        "group": "Child",
+        "title": "The Daikon and the Baby",
+        "date": 1903,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child53@The Daikon and the Baby.jpg"
+    },
+    {
+        "posid": 50,
+        "itemid": "45",
+        "group": "Landscape",
+        "title": "Oaxaca Market",
+        "date": 1912,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Lands45@Oaxaca Market.jpg"
+    },
+    {
+        "posid": 51,
+        "itemid": "20",
+        "group": "Landscape",
+        "title": "The Year at the Spring",
+        "date": 1899,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Lands20@The Year at the Spring.jpg"
+    },
+    {
+        "posid": 52,
+        "itemid": "64",
+        "group": "Tool",
+        "title": "Little Pink Plum",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools64@Little Pink Plum.jpg"
+    },
+    {
+        "posid": 53,
+        "itemid": "27",
+        "group": "Mother(Adult)",
+        "title": "On the Bund at Tokyo",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur27@On the Bund at Tokyo.jpg"
+    },
+    {
+        "posid": 54,
+        "itemid": "66",
+        "group": "Mother(Adult)",
+        "title": "Mother and Child",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur66@Mother and Child.jpg"
+    },
+    {
+        "posid": 55,
+        "itemid": "18",
+        "group": "Animal",
+        "title": "Little Miss Muffet",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl18@Little Miss Muffet.jpg"
+    },
+    {
+        "posid": 56,
+        "itemid": "48",
+        "group": "Child",
+        "title": "The Goblins 'l Git Yer",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child48@The Goblins 'l Git Yer.jpg"
+    },
+    {
+        "posid": 57,
+        "itemid": "22",
+        "group": "Tool",
+        "title": "A Child of the People",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools22@A Child of the People.jpg"
+    },
+    {
+        "posid": 58,
+        "itemid": "83",
+        "group": "Animal",
+        "title": "The White Peacock",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl83@The White Peacock.jpg"
+    },
+    {
+        "posid": 59,
+        "itemid": "13",
+        "group": "Child",
+        "title": "Head of Ah Ho",
+        "date": 1899,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child13@Head of Ah Ho.jpg"
+    },
+    {
+        "posid": 60,
+        "itemid": "62",
+        "group": "Plant",
+        "title": "Little Pink Plum",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant62@Little Pink Plum.jpg"
+    },
+    {
+        "posid": 61,
+        "itemid": "79",
+        "group": "Plant",
+        "title": "Moon Bridge at Kameido",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant79@Moon Bridge at Kameido.jpg"
+    },
+    {
+        "posid": 62,
+        "itemid": "73",
+        "group": "Child",
+        "title": "A Monarch of Japan",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child73@A Monarch of Japan.jpg"
+    },
+    {
+        "posid": 63,
+        "itemid": "8",
+        "group": "Landscape",
+        "title": "Sausalito",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands8@Sausalito.jpg"
+    },
+    {
+        "posid": 64,
+        "itemid": "36",
+        "group": "Child",
+        "title": "New Brooms",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Child36@New Brooms.jpg"
+    },
+    {
+        "posid": 65,
+        "itemid": "76",
+        "group": "Child",
+        "title": "Moon Bridge at Kameido",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child76@Moon Bridge at Kameido.jpg"
+    },
+    {
+        "posid": 66,
+        "itemid": "71",
+        "group": "Child",
+        "title": "O Tsuyu San",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child71@O Tsuyu San.jpg"
+    },
+    {
+        "posid": 67,
+        "itemid": "4",
+        "group": "Child",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child4@Bamboo Gate.jpg"
+    },
+    {
+        "posid": 68,
+        "itemid": "65",
+        "group": "Child",
+        "title": "Mother and Child",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child65@Mother and Child.jpg"
+    },
+    {
+        "posid": 69,
+        "itemid": "70",
+        "group": "Mother(Adult)",
+        "title": "O Tsuyu San",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur70@O Tsuyu San.jpg"
+    },
+    {
+        "posid": 70,
+        "itemid": "46",
+        "group": "Landscape",
+        "title": "The Home of Gabriel",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands46@The Home of Gabriel.jpg"
+    },
+    {
+        "posid": 71,
+        "itemid": "44",
+        "group": "Landscape",
+        "title": "Mount Orizaba",
+        "date": 1912,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Lands44@Mount Orizaba.jpg"
+    },
+    {
+        "posid": 72,
+        "itemid": "26",
+        "group": "Plant",
+        "title": "From the Rice Fields",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant26@From the Rice Fields.jpg"
+    },
+    {
+        "posid": 73,
+        "itemid": "19",
+        "group": "Plant",
+        "title": "Little Miss Muffet",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant19@Little Miss Muffet.jpg"
+    },
+    {
+        "posid": 74,
+        "itemid": "93",
+        "group": "Plant",
+        "title": "Sunday Morning",
+        "date": 1912,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Plant93@Sunday Morning.jpg"
+    },
+    {
+        "posid": 75,
+        "itemid": "17",
+        "group": "Child",
+        "title": "Little Miss Muffet",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child17@Little Miss Muffet.jpg"
+    },
+    {
+        "posid": 76,
+        "itemid": "49",
+        "group": "Child",
+        "title": "The Goblins 'l Git Yer",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child49@The Goblins 'l Git Yer.jpg"
+    },
+    {
+        "posid": 77,
+        "itemid": "50",
+        "group": "Child",
+        "title": "The Goblins 'l Git Yer",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child50@The Goblins 'l Git Yer.jpg"
+    },
+    {
+        "posid": 80,
+        "itemid": "29",
+        "group": "Child",
+        "title": "A Roundelay",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child29@A Roundelay.jpg"
+    },
+    {
+        "posid": 81,
+        "itemid": "89",
+        "group": "Mother(Adult)",
+        "title": "Sunday Morning",
+        "date": 1912,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Figur89@Sunday Morning.jpg"
+    },
+    {
+        "posid": 82,
+        "itemid": "81",
+        "group": "Child",
+        "title": "Moon Bridge at Kameido",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child81@Moon Bridge at Kameido.jpg"
+    },
+    {
+        "posid": 83,
+        "itemid": "80",
+        "group": "Child",
+        "title": "Moon Bridge at Kameido",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child80@Moon Bridge at Kameido.jpg"
+    },
+    {
+        "posid": 84,
+        "itemid": "78",
+        "group": "Child",
+        "title": "Moon Bridge at Kameido",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child78@Moon Bridge at Kameido.jpg"
+    },
+    {
+        "posid": 85,
+        "itemid": "87",
+        "group": "Child",
+        "title": "The White Peacock",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child87@The White Peacock.jpg"
+    },
+    {
+        "posid": 86,
+        "itemid": "90",
+        "group": "Child",
+        "title": "Sunday Morning",
+        "date": 1912,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Child90@Sunday Morning.jpg"
+    },
+    {
+        "posid": 87,
+        "itemid": "94",
+        "group": "Child",
+        "title": "Sunday Morning",
+        "date": 1912,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Child94@Sunday Morning.jpg"
+    },
+    {
+        "posid": 88,
+        "itemid": "74",
+        "group": "Mother(Adult)",
+        "title": "A Monarch of Japan",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur74@A Monarch of Japan.jpg"
+    },
+    {
+        "posid": 89,
+        "itemid": "75",
+        "group": "Mother(Adult)",
+        "title": "A Monarch of Japan",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur75@A Monarch of Japan.jpg"
+    },
+    {
+        "posid": 90,
+        "itemid": "47",
+        "group": "Child",
+        "title": "The Home of Gabriel",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child47@The Home of Gabriel.jpg"
+    },
+    {
+        "posid": 91,
+        "itemid": "51",
+        "group": "Plant",
+        "title": "First Spring",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant51@First Spring.jpg"
+    },
+    {
+        "posid": 92,
+        "itemid": "14",
+        "group": "Child",
+        "title": "The Joggling Board",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child14@The Joggling Board.jpg"
+    },
+    {
+        "posid": 93,
+        "itemid": "16",
+        "group": "Child",
+        "title": "The Joggling Board",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child16@The Joggling Board.jpg"
+    },
+    {
+        "posid": 94,
+        "itemid": "15",
+        "group": "Child",
+        "title": "The Joggling Board",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child15@The Joggling Board.jpg"
     }
 ]

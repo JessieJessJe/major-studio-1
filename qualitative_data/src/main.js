@@ -178,29 +178,23 @@ function getGroupCounts(group_items){
   return counts
 }
 
+//re-arrange the data_json file to creat bar charts in d3
 function prepareJson(data, selectedYearBegin, selectedYearEnd){
 
-    //re-arrange the data_json file to creat bar charts in d3
+    //make sure after filtering, the remaining categories stored in 'groups' still in the same order
+   
     let order = ['Child', 'Mother(Adult)', 'Tool', 'Landscape', 'Animal', 'Plant']
 
     let g = data.map( d => { return d.group})
-
     let groups_raw = [...new Set(g)]
 
     let groups = order.map( function(g){
-
-      console.log(g)
       if (groups_raw.includes(g)){
         return g
       }
     });
 
-    // groups = groups.slice().sort(function(a,b) {
-    //   return order.indexOf( a.group ) - order.indexOf( b.group );
-    // })
-
-    console.log(groups)
-
+    //initializing...
     let group_counts = new Array(groups.length).fill(0);
     let group_items = [];
 
@@ -208,16 +202,27 @@ function prepareJson(data, selectedYearBegin, selectedYearEnd){
       group_items[i] = [];
     }
 
+
     for (let i=0; i< groups.length; i++){
 
         for (let d in data){
 
+          //filtering by group, year
           if (data[d].group === groups[i] && data[d].date >= selectedYearBegin && data[d].date <= selectedYearEnd ){
 
             group_counts[i] += 1;
             group_items[i].push(data[d]);
           }
         }
+    }
+
+    //rearranging the image tiles based on T-SNE result
+
+    for (let g in group_items){
+
+      group_items[g].sort( function(a,b){
+        return a.posid - b.posid
+      })
     }
 
    return group_items
