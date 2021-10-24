@@ -8,12 +8,14 @@
 ### Roadmap
 
 - [x] Download Raw Info + Images from Smithsonian API
-- [x] Adjust Date (`ca. 1896-1898` to `1898`)
-- [ ] Crop Images: 10/125
+- [x] Outliers: Date (`ca. 1896-1898` to `1898`)
+- [x] Outliers: Title: \"The Goblins 'l Git Yer\"
+- [ ] Crop Images: 30/125
 - [x] Grid View in D3
 - [ ] Bar Chart in D3
-- [ ] Timeline/Theme filter -> created based on research about the artist
-- [ ] Responsive charts in D3 
+- [ ] Timeline/Theme filter -> based on research about the artist
+- [ ] Responsive charts width but same height in D3
+- [ ] Responsive charts / tilesizes in D3 
 - [ ] Sort cropped images using UMAP
 - [ ] Implement UMAP Sorting in D3
 - [ ] UI/UX

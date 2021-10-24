@@ -1,10 +1,52 @@
 [
     {
+        "itemid": "62",
+        "group": "Plant",
+        "title": "Little Pink Plum",
+        "date": "1913",
+        "root": "./images/cropping/Plant62@Little Pink Plum.jpg"
+    },
+    {
+        "itemid": "79",
+        "group": "Plant",
+        "title": "Moon Bridge at Kameido",
+        "date": "1914",
+        "root": "./images/cropping/Plant79@Moon Bridge at Kameido.jpg"
+    },
+    {
+        "itemid": "48",
+        "group": "Child",
+        "title": "The Goblins 'l Git Yer",
+        "date": "1918",
+        "root": "./images/cropping/Child48@The Goblins 'l Git Yer.jpg"
+    },
+    {
+        "itemid": "65",
+        "group": "Child",
+        "title": "Mother and Child",
+        "date": "1901",
+        "root": "./images/cropping/Child65@Mother and Child.jpg"
+    },
+    {
+        "itemid": "74",
+        "group": "Figur",
+        "title": "A Monarch of Japan",
+        "date": "1901",
+        "root": "./images/cropping/Figur74@A Monarch of Japan.jpg"
+    },
+    {
         "itemid": "30",
         "group": "Child",
         "title": "A Roundelay",
         "date": "1906",
         "root": "./images/cropping/Child30@A Roundelay.jpg"
+    },
+    {
+        "itemid": "34",
+        "group": "Tools",
+        "title": "August",
+        "date": "1914",
+        "root": "./images/cropping/Tools34@August.jpg"
     },
     {
         "itemid": "23",
@@ -14,11 +56,39 @@
         "root": "./images/cropping/Figur23@From the Rice Fields.jpg"
     },
     {
+        "itemid": "85",
+        "group": "Child",
+        "title": "The White Peacock",
+        "date": "1914",
+        "root": "./images/cropping/Child85@The White Peacock.jpg"
+    },
+    {
         "itemid": "26",
         "group": "Plant",
         "title": "From the Rice Fields",
         "date": "1901",
         "root": "./images/cropping/Plant26@From the Rice Fields.jpg"
+    },
+    {
+        "itemid": "47",
+        "group": "Child",
+        "title": "The Home of Gabriel",
+        "date": "1918",
+        "root": "./images/cropping/Child47@The Home of Gabriel.jpg"
+    },
+    {
+        "itemid": "63",
+        "group": "Child",
+        "title": "Little Pink Plum",
+        "date": "1913",
+        "root": "./images/cropping/Child63@Little Pink Plum.jpg"
+    },
+    {
+        "itemid": "38",
+        "group": "Tools",
+        "title": "New Brooms",
+        "date": "1910",
+        "root": "./images/cropping/Tools38@New Brooms.jpg"
     },
     {
         "itemid": "29",
@@ -42,6 +112,34 @@
         "root": "./images/cropping/Child6@Bamboo Gate.jpg"
     },
     {
+        "itemid": "51",
+        "group": "Plant",
+        "title": "First Spring",
+        "date": "1918",
+        "root": "./images/cropping/Plant51@First Spring.jpg"
+    },
+    {
+        "itemid": "57",
+        "group": "Plant",
+        "title": "Complaints",
+        "date": "1914",
+        "root": "./images/cropping/Plant57@Complaints.jpg"
+    },
+    {
+        "itemid": "58",
+        "group": "Tools",
+        "title": "A Weary Little Mother",
+        "date": "1914",
+        "root": "./images/cropping/Tools58@A Weary Little Mother.jpg"
+    },
+    {
+        "itemid": "33",
+        "group": "Child",
+        "title": "August",
+        "date": "1914",
+        "root": "./images/cropping/Child33@August.jpg"
+    },
+    {
         "itemid": "17",
         "group": "Child",
         "title": "Little Miss Muffet",
@@ -56,11 +154,60 @@
         "root": "./images/cropping/Child24@From the Rice Fields.jpg"
     },
     {
+        "itemid": "84",
+        "group": "Plant",
+        "title": "The White Peacock",
+        "date": "1914",
+        "root": "./images/cropping/Plant84@The White Peacock.jpg"
+    },
+    {
+        "itemid": "35",
+        "group": "Child",
+        "title": "New Brooms",
+        "date": "1910",
+        "root": "./images/cropping/Child35@New Brooms.jpg"
+    },
+    {
+        "itemid": "69",
+        "group": "Child",
+        "title": "In Their Holiday Clothes",
+        "date": "1914",
+        "root": "./images/cropping/Child69@In Their Holiday Clothes.jpg"
+    },
+    {
+        "itemid": "87",
+        "group": "Child",
+        "title": "The White Peacock",
+        "date": "1914",
+        "root": "./images/cropping/Child87@The White Peacock.jpg"
+    },
+    {
+        "itemid": "45",
+        "group": "Lands",
+        "title": "Oaxaca Market",
+        "date": "1912",
+        "root": "./images/cropping/Lands45@Oaxaca Market.jpg"
+    },
+    {
+        "itemid": "82",
+        "group": "Animl",
+        "title": "The White Peacock",
+        "date": "1914",
+        "root": "./images/cropping/Animl82@The White Peacock.jpg"
+    },
+    {
         "itemid": "25",
         "group": "Child",
         "title": "From the Rice Fields",
         "date": "1901",
         "root": "./images/cropping/Child25@From the Rice Fields.jpg"
+    },
+    {
+        "itemid": "60",
+        "group": "Child",
+        "title": "A Weary Little Mother",
+        "date": "1914",
+        "root": "./images/cropping/Child60@A Weary Little Mother.jpg"
     },
     {
         "itemid": "10",
@@ -70,11 +217,39 @@
         "root": "./images/cropping/Tools10@The Blue Umbrella.jpg"
     },
     {
+        "itemid": "39",
+        "group": "Animl",
+        "title": "The Furious Dragon",
+        "date": "1914",
+        "root": "./images/cropping/Animl39@The Furious Dragon.jpg"
+    },
+    {
+        "itemid": "90",
+        "group": "Child",
+        "title": "Sunday Morning",
+        "date": "1912",
+        "root": "./images/cropping/Child90@Sunday Morning.jpg"
+    },
+    {
+        "itemid": "78",
+        "group": "Child",
+        "title": "Moon Bridge at Kameido",
+        "date": "1914",
+        "root": "./images/cropping/Child78@Moon Bridge at Kameido.jpg"
+    },
+    {
         "itemid": "19",
         "group": "Plant",
         "title": "Little Miss Muffet",
         "date": "1918",
         "root": "./images/cropping/Plant19@Little Miss Muffet.jpg"
+    },
+    {
+        "itemid": "72",
+        "group": "Plant",
+        "title": "A Monarch of Japan",
+        "date": "1901",
+        "root": "./images/cropping/Plant72@A Monarch of Japan.jpg"
     },
     {
         "itemid": "28",
@@ -84,11 +259,25 @@
         "root": "./images/cropping/Aminl28@On the Bund at Tokyo.jpg"
     },
     {
+        "itemid": "49",
+        "group": "Child",
+        "title": "The Goblins 'l Git Yer",
+        "date": "1918",
+        "root": "./images/cropping/Child49@The Goblins 'l Git Yer.jpg"
+    },
+    {
         "itemid": "8",
         "group": "Lands",
         "title": "Sausalito",
         "date": "1898",
         "root": "./images/cropping/Lands8@Sausalito.jpg"
+    },
+    {
+        "itemid": "75",
+        "group": "Figur",
+        "title": "A Monarch of Japan",
+        "date": "1901",
+        "root": "./images/cropping/Figur75@A Monarch of Japan.jpg"
     },
     {
         "itemid": "31",
@@ -103,6 +292,27 @@
         "title": "On the Bund at Tokyo",
         "date": "1900",
         "root": "./images/cropping/Figur27@On the Bund at Tokyo.jpg"
+    },
+    {
+        "itemid": "73",
+        "group": "Child",
+        "title": "A Monarch of Japan",
+        "date": "1901",
+        "root": "./images/cropping/Child73@A Monarch of Japan.jpg"
+    },
+    {
+        "itemid": "36",
+        "group": "Child",
+        "title": "New Brooms",
+        "date": "1910",
+        "root": "./images/cropping/Child36@New Brooms.jpg"
+    },
+    {
+        "itemid": "46",
+        "group": "Lands",
+        "title": "The Home of Gabriel",
+        "date": "1918",
+        "root": "./images/cropping/Lands46@The Home of Gabriel.jpg"
     },
     {
         "itemid": "13",
@@ -126,11 +336,39 @@
         "root": "./images/cropping/Plant32@A Roundelay.jpg"
     },
     {
+        "itemid": "56",
+        "group": "Child",
+        "title": "Complaints",
+        "date": "1914",
+        "root": "./images/cropping/Child56@Complaints.jpg"
+    },
+    {
         "itemid": "5",
         "group": "Child",
         "title": "Bamboo Gate",
         "date": "1915",
         "root": "./images/cropping/Child5@Bamboo Gate.jpg"
+    },
+    {
+        "itemid": "41",
+        "group": "Child",
+        "title": "The Furious Dragon",
+        "date": "1914",
+        "root": "./images/cropping/Child41@The Furious Dragon.jpg"
+    },
+    {
+        "itemid": "66",
+        "group": "Figur",
+        "title": "Mother and Child",
+        "date": "1901",
+        "root": "./images/cropping/Figur66@Mother and Child.jpg"
+    },
+    {
+        "itemid": "70",
+        "group": "Figur",
+        "title": "O Tsuyu San",
+        "date": "1900",
+        "root": "./images/cropping/Figur70@O Tsuyu San.jpg"
     },
     {
         "itemid": "16",
@@ -140,11 +378,39 @@
         "root": "./images/cropping/Child16@The Joggling Board.jpg"
     },
     {
+        "itemid": "89",
+        "group": "Figur",
+        "title": "Sunday Morning",
+        "date": "1912",
+        "root": "./images/cropping/Figur89@Sunday Morning.jpg"
+    },
+    {
+        "itemid": "76",
+        "group": "Child",
+        "title": "Moon Bridge at Kameido",
+        "date": "1914",
+        "root": "./images/cropping/Child76@Moon Bridge at Kameido.jpg"
+    },
+    {
+        "itemid": "81",
+        "group": "Child",
+        "title": "Moon Bridge at Kameido",
+        "date": "1914",
+        "root": "./images/cropping/Child81@Moon Bridge at Kameido.jpg"
+    },
+    {
         "itemid": "15",
         "group": "Child",
         "title": "The Joggling Board",
         "date": "1918",
         "root": "./images/cropping/Child15@The Joggling Board.jpg"
+    },
+    {
+        "itemid": "53",
+        "group": "Child",
+        "title": "The Daikon and the Baby",
+        "date": "1903",
+        "root": "./images/cropping/Child53@The Daikon and the Baby.jpg"
     },
     {
         "itemid": "22",
@@ -161,11 +427,46 @@
         "root": "./images/cropping/Animl18@Little Miss Muffet.jpg"
     },
     {
+        "itemid": "83",
+        "group": "Animl",
+        "title": "The White Peacock",
+        "date": "1914",
+        "root": "./images/cropping/Animl83@The White Peacock.jpg"
+    },
+    {
+        "itemid": "86",
+        "group": "Child",
+        "title": "The White Peacock",
+        "date": "1914",
+        "root": "./images/cropping/Child86@The White Peacock.jpg"
+    },
+    {
         "itemid": "2",
         "group": "Child",
         "title": "Bamboo Gate",
         "date": "1915",
         "root": "./images/cropping/Child2@Bamboo Gate.jpg"
+    },
+    {
+        "itemid": "55",
+        "group": "Animl",
+        "title": "Complaints",
+        "date": "1914",
+        "root": "./images/cropping/Animl55@Complaints.jpg"
+    },
+    {
+        "itemid": "54",
+        "group": "Tools",
+        "title": "Complaints",
+        "date": "1914",
+        "root": "./images/cropping/Tools54@Complaints.jpg"
+    },
+    {
+        "itemid": "61",
+        "group": "Figur",
+        "title": "A Weary Little Mother",
+        "date": "1914",
+        "root": "./images/cropping/Figur61@A Weary Little Mother.jpg"
     },
     {
         "itemid": "20",
@@ -175,11 +476,53 @@
         "root": "./images/cropping/Lands20@The Year at the Spring.jpg"
     },
     {
+        "itemid": "93",
+        "group": "Plant",
+        "title": "Sunday Morning",
+        "date": "1912",
+        "root": "./images/cropping/Plant93@Sunday Morning.jpg"
+    },
+    {
+        "itemid": "43",
+        "group": "Child",
+        "title": "A Japanese Madonna",
+        "date": "1900",
+        "root": "./images/cropping/Child43@A Japanese Madonna.jpg"
+    },
+    {
+        "itemid": "64",
+        "group": "Tools",
+        "title": "Little Pink Plum",
+        "date": "1913",
+        "root": "./images/cropping/Tools64@Little Pink Plum.jpg"
+    },
+    {
+        "itemid": "50",
+        "group": "Child",
+        "title": "The Goblins 'l Git Yer",
+        "date": "1918",
+        "root": "./images/cropping/Child50@The Goblins 'l Git Yer.jpg"
+    },
+    {
         "itemid": "11",
         "group": "Child",
         "title": "The Blue Umbrella",
         "date": "1914",
         "root": "./images/cropping/Child11@The Blue Umbrella.jpg"
+    },
+    {
+        "itemid": "37",
+        "group": "Plant",
+        "title": "New Brooms",
+        "date": "1910",
+        "root": "./images/cropping/Plant37@New Brooms.jpg"
+    },
+    {
+        "itemid": "44",
+        "group": "Lands",
+        "title": "Mount Orizaba",
+        "date": "1912",
+        "root": "./images/cropping/Lands44@Mount Orizaba.jpg"
     },
     {
         "itemid": "3",
@@ -189,11 +532,32 @@
         "root": "./images/cropping/Child3@Bamboo Gate.jpg"
     },
     {
+        "itemid": "67",
+        "group": "Figur",
+        "title": "In Their Holiday Clothes",
+        "date": "1914",
+        "root": "./images/cropping/Figur67@In Their Holiday Clothes.jpg"
+    },
+    {
         "itemid": "21",
         "group": "Child",
         "title": "A Child of the People",
         "date": "1901",
         "root": "./images/cropping/Child21@A Child of the People.jpg"
+    },
+    {
+        "itemid": "68",
+        "group": "Child",
+        "title": "In Their Holiday Clothes",
+        "date": "1914",
+        "root": "./images/cropping/Child68@In Their Holiday Clothes.jpg"
+    },
+    {
+        "itemid": "52",
+        "group": "Plant",
+        "title": "The Daikon and the Baby",
+        "date": "1903",
+        "root": "./images/cropping/Plant52@The Daikon and the Baby.jpg"
     },
     {
         "itemid": "12",
@@ -210,6 +574,34 @@
         "root": "./images/cropping/Child14@The Joggling Board.jpg"
     },
     {
+        "itemid": "91",
+        "group": "Figur",
+        "title": "Sunday Morning",
+        "date": "1912",
+        "root": "./images/cropping/Figur91@Sunday Morning.jpg"
+    },
+    {
+        "itemid": "42",
+        "group": "Figur",
+        "title": "A Japanese Madonna",
+        "date": "1900",
+        "root": "./images/cropping/Figur42@A Japanese Madonna.jpg"
+    },
+    {
+        "itemid": "71",
+        "group": "Child",
+        "title": "O Tsuyu San",
+        "date": "1900",
+        "root": "./images/cropping/Child71@O Tsuyu San.jpg"
+    },
+    {
+        "itemid": "92",
+        "group": "Figur",
+        "title": "Sunday Morning",
+        "date": "1912",
+        "root": "./images/cropping/Figur92@Sunday Morning.jpg"
+    },
+    {
         "itemid": "4",
         "group": "Child",
         "title": "Bamboo Gate",
@@ -217,10 +609,45 @@
         "root": "./images/cropping/Child4@Bamboo Gate.jpg"
     },
     {
+        "itemid": "59",
+        "group": "Plant",
+        "title": "A Weary Little Mother",
+        "date": "1914",
+        "root": "./images/cropping/Plant59@A Weary Little Mother.jpg"
+    },
+    {
+        "itemid": "40",
+        "group": "Child",
+        "title": "The Furious Dragon",
+        "date": "1914",
+        "root": "./images/cropping/Child40@The Furious Dragon.jpg"
+    },
+    {
         "itemid": "7",
         "group": "Lands",
         "title": "Sausalito",
         "date": "1898",
         "root": "./images/cropping/Lands7@Sausalito.jpg"
+    },
+    {
+        "itemid": "94",
+        "group": "Child",
+        "title": "Sunday Morning",
+        "date": "1912",
+        "root": "./images/cropping/Child94@Sunday Morning.jpg"
+    },
+    {
+        "itemid": "80",
+        "group": "Child",
+        "title": "Moon Bridge at Kameido",
+        "date": "1914",
+        "root": "./images/cropping/Child80@Moon Bridge at Kameido.jpg"
+    },
+    {
+        "itemid": "77",
+        "group": "Child",
+        "title": "Moon Bridge at Kameido",
+        "date": "1914",
+        "root": "./images/cropping/Child77@Moon Bridge at Kameido.jpg"
     }
 ]

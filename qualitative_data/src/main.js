@@ -1,5 +1,5 @@
-var tilesPerRow = 4;
-var tileSize = 100;
+var tilesPerRow = 5;
+var tileSize = 80;
 var barWidth = tilesPerRow * tileSize + 10;
 
 function getTiles(num) {
@@ -23,7 +23,7 @@ function updateBar(d, i, items) {
   var tiles = getTiles(d);
 
   var u = d3.select("#_" + i)
-    .attr("transform", "translate(" + i * barWidth + ", 800)")
+    .attr("transform", "translate(" + i * barWidth + ", 900)")
     .selectAll("image")
     .data(tiles);
 
