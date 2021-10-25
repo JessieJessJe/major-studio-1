@@ -1,16 +1,38 @@
-var w = window.innerWidth * 0.7;
-// var w = 3000;
-var tilesPerRow = 5;
-var tileSize = w / (tilesPerRow * 6) ;
-var barWidth = tilesPerRow * tileSize + 10;
+Split(['#landing-page-left', '#landing-page-right'], {
+  elementStyle: function (dimension, size, gutterSize) {
+      return {
+          'flex-basis': 'calc(' + size + '% - ' + gutterSize + 'px)',
+      }
+  },
+  gutterStyle: function (dimension, gutterSize) {
+      return {
+          'flex-basis': gutterSize + 'px',
+      }
+  },
+  sizes: [26, 74],
 
-var filteredData; 
-var selectMode = "show", selectedYearBegin = "1894", selectedYearEnd = "1919", selectView = "bar";
+})
 
-const COLOR = {
-  "USA": "#8CC6D4",
-  "Japan": "#BAABC8",
-  "Mexico": "#EAD971"
+
+  // var w = window.innerWidth * 0.7;
+  var w = document.getElementById("landing-page-right").offsetWidth;
+
+  var tilesPerRow = 5;
+  var tileSize = w / (tilesPerRow * 6) ;
+  var barWidth = tilesPerRow * tileSize + 10;
+  
+  var selectMode = "show", selectedYearBegin = "1894", selectedYearEnd = "1919", selectView = "bar";
+
+// const COLOR = {
+//   "USA": "#8CC6D4",
+//   "Japan": "#BAABC8",
+//   "Mexico": "#EAD971"
+// }
+
+function setTileSize(){
+  w = document.getElementById("landing-page-right").offsetWidth;
+  tileSize = w / (tilesPerRow * 6);
+  barWidth = tilesPerRow * tileSize + 10;
 }
 
 function setTilesPerRow(a){
@@ -33,8 +55,6 @@ function getTiles(num) {
 }
 
 function updateBarHide(d, i, items) {
-
-  console.log (d, i, items)
 
   var tiles = getTiles(d);
 
@@ -59,12 +79,12 @@ function updateBarHide(d, i, items) {
       .attr("y", function(d) {
         return d.y;
       })
-      .attr("width", tileSize)
-      .attr("height", tileSize)
       .transition()
       .delay(function(d, i) {
         return i * 20;
       })
+      .attr("width", tileSize)
+      .attr("height", tileSize)
       .style("opacity", 1)
       .style("fill", function(d, i) {
         return items[i].color;
@@ -79,8 +99,6 @@ function updateBarHide(d, i, items) {
 
 
 function updateBar(d, i, items) {
-
-  console.log (d, i, items)
 
   var tiles = getTiles(d);
 
@@ -100,12 +118,12 @@ function updateBar(d, i, items) {
       .attr("y", function(d) {
         return d.y;
       })
-      .attr("width", tileSize)
-      .attr("height", tileSize)
       .transition()
       .delay(function(d, i) {
         return i * 20;
       })
+      .attr("width", tileSize)
+      .attr("height", tileSize)
       .style("opacity", 1)
       .attr("xlink:href", function(d,i){
         return `${items[i].root}`
@@ -127,11 +145,11 @@ function updateLabel(i, items) {
     el = d3.select("#_" + i)
       .append("text")
       .attr("y", -4)
-      .attr("y", +40)
+      .attr("y", +20)
       // .attr("transform", "(rotate(-90))")
-      .style("font-weight", "bold")
-      .style("font-size", "30px")
-      .style("fill", "#777");
+      .style("font-weight", "normal")
+      .style("font-size", "1rem")
+      .style("fill", "black");
   }
   
   if (items[0] && selectView == "bar"){
@@ -267,6 +285,9 @@ function prepareGrid(data, selectedYearBegin, selectedYearEnd){
  
 }
 
+function drawD3(){
+
+
 d3.json("./data_crop.json", function(err, data) {
 
   let group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
@@ -301,7 +322,7 @@ d3.json("./data_crop.json", function(err, data) {
     
   })
 
-
+ 
   d3.select("#gridview")
   .on("change", function() {
 
@@ -383,6 +404,9 @@ d3.json("./data_crop.json", function(err, data) {
   })
 
 });
+    
+}
+
 
 function initialize(group_items){
 
@@ -398,3 +422,30 @@ function initialize(group_items){
 
 
 }
+
+//initial drawing
+drawD3();
+
+
+//once resized, reload the drawing
+
+const resizeObserver = new ResizeObserver(entries => {
+  for (let entry of entries) {
+    if(entry.contentBoxSize) {
+      // Firefox implements `contentBoxSize` as a single content rect, rather than an array
+      const contentBoxSize = Array.isArray(entry.contentBoxSize) ? entry.contentBoxSize[0] : entry.contentBoxSize;
+      console.log("changesize,", entry.contentRect.width)
+          setTileSize();
+          drawD3();
+    } else {
+        console.log("changesize,", entry.contentRect.width)
+          setTileSize();
+          drawD3();
+    }
+  }
+
+});
+
+const observerTarget = document.getElementById("landing-page-right");
+
+resizeObserver.observe(observerTarget);

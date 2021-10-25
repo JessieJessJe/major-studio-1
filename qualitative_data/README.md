@@ -1,9 +1,19 @@
 ## The world created by Helen Hyde 
 
+[link to the demo](https://jessiejessje.github.io/major-studio-1/qualitative_data/)
+
 ### Sketches
-<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/qualitative_data/sketches/overview.png" width=100%>
+
+#### iteration 1
+<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/qualitative_data/sketches/overview.png" width=50%>
+
+<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/qualitative_data/sketches/barchart_unsort.png" width=50%>
+
+#### iteration 2
+<img src="https://github.com/JessieJessJe/major-studio-1/blob/master/qualitative_data/sketches/landingpage.png" width=100%>
 
 <img src="https://github.com/JessieJessJe/major-studio-1/blob/master/qualitative_data/sketches/barchart.png" width=100%>
+
 
 ### Roadmap
 

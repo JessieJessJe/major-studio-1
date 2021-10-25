@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <div id="landing-page-left-fixed">
+  <!-- <div id="landing-page-left-fixed">
 
     <div id="left-up" class="up">
       <div class="page-title"><h1>The <br>World<br> Created <br>by <br>Helen <br>Hyde</h1></div>
@@ -25,15 +25,15 @@
         <b>Author</b> 
         <br>
         Jessie Han, MSDV @Parsons </div>
-    </div>
+    </div> -->
   
   
   </div>
   
   <div id="landing-page">
-          <div id="landing-page-left">
+          <div id="landing-page-left" class="resize">
 
-            <!-- <div id="left-up" class="up">
+            <div id="left-up" class="up">
               <div class="page-title"><h1>The <br>World<br> Created <br>by <br>Helen <br>Hyde</h1></div>
             </div>
             <div id="left-down" class="down">
@@ -46,41 +46,49 @@
                 <b>Author</b> 
                 <br>
                 Jessie Han, MSDV @Parsons </div>
-            </div> -->
+            </div>
 
 
           </div>
-  <div id="landing-page-right">
+  <div id="landing-page-right" class="resize">
 
     <div id="right-up" class="up">
       
       <div id="right-usa" class="country-block up">
-
-        <div class="country-color-solid usa-color"></div>
-        <div class="country-color-gradient"></div>
+        <div class="country-color-wrapper">
+          <div class="country-color-solid usa-color"></div>
+          <div class="country-color-gradient"></div>
+        </div>       
+        
 
         <h2 class="country-name">USA</h2>
       </div>
       <div id="right-france" class="country-block up">
-
-        <div class="country-color-solid france-color"></div>
-        <div class="country-color-gradient"></div>
+        <div class="country-color-wrapper">
+          <div class="country-color-solid france-color"></div>
+          <div class="country-color-gradient"></div>
+        </div>
+        
         
 
         <h2 class="country-name">France</h2>
       </div>
       <div id="right-japan" class="country-block up">
-
-        <div class="country-color-solid japan-color"></div>
-        <div class="country-color-gradient"></div>
+        <div class="country-color-wrapper">
+          <div class="country-color-solid japan-color"></div>
+          <div class="country-color-gradient"></div>
+        </div>
+        
         
 
         <h2 class="country-name">Japan</h2>
       </div>
       <div id="right-mexico" class="country-block up">
-
-        <div class="country-color-solid mexico-color"></div>
-        <div class="country-color-gradient"></div>
+        <div class="country-color-wrapper">
+          <div class="country-color-solid mexico-color"></div>
+          <div class="country-color-gradient"></div>
+        </div>
+       
         
 
         <h2 class="country-name">Mexico</h2>
@@ -90,75 +98,80 @@
     </div>
     <div id="right-down" class="down"></div>
 
-  </div>
+    <div id="visualization">
 
+      <div id="chart">
+          <svg id="mysvg">
+            <g class="chart">
+              <text class="title" y="-9">Helen Hyde</text>
+              <!-- <g class="legend" transform="translate(870,-20)" >
+                <rect width="13" height="13" />
+                <text x="17" y="11">= 1 year</text>
+              </g> -->
+              <!-- <g class="y axis" />
+             -->
+             <g class="bars" transform="translate(10, 0)"></g> 
+            </g>
+          </svg>
+      </div>
+        <div id="menu">
+  
+          <div class="filter-section">
+            
+            <h3>View</h3>
+  
+            <input id="barview" class="view" type="checkbox">
+            <label>Cluster</label>
+          
+            <input id="gridview" class="view" type="checkbox">
+            <label>Gallery</label>
+          
+          </div>
+  
+          <div class="filter-section">
+          <h3>Images</h3>
+  
+          <input id="showimg" class="mode" type="checkbox">
+          <label>Show</label>
+  
+          <input id="hideimg" class="mode" type="checkbox">
+          <label>Hide</label>
+          </div>
+  
+          <!-- <select class="mode">
+            <option value="show">Show Images</option>
+            <option value="hide">Hide Images</option>
+          </select> -->
+  
+          <div class="filter-section">
+  
+          <h3>Time</h3>
+  
+          <select class="year">
+            <option value="1894,1919">All</option>
+            <option value="1894,1899">1894–1899 | USA</option>
+            <option value="1899,1901">1899–1901 | Japan</option>
+            <option value="1901,1902">1901–1902 | USA</option>
+            <option value="1902,1910">1902–1910 | Japan</option>
+            <option value="1910,1912">1910–1912 | Mexico</option>
+            <option value="1912,1914">1912–1914 | Japan</option>
+            <option value="1914,1919">1914–1919 | USA</option>
+          </select>
+  
+          </div>
+  
+        </div>
+  
+        <!-- end of visualization -->
+  </div> 
+   <!-- end of landing-page-right -->
 </div>
 
-<div id="visualization">
 
-    <div id="chart">
-        <svg id="mysvg">
-          <g class="chart">
-            <text class="title" y="-9">Helen Hyde</text>
-            <!-- <g class="legend" transform="translate(870,-20)" >
-              <rect width="13" height="13" />
-              <text x="17" y="11">= 1 year</text>
-            </g> -->
-            <!-- <g class="y axis" />
-           -->
-           <g class="bars" transform="translate(10, 0)"></g> 
-          </g>
-        </svg>
-    </div>
-      <div id="menu">
 
-        <div class="filter-section">
-          
-          <h3>View</h3>
-
-          <input id="barview" class="view" type="checkbox">
-          <label>Cluster</label>
-        
-          <input id="gridview" class="view" type="checkbox">
-          <label>Gallery</label>
-        
-        </div>
-
-        <div class="filter-section">
-        <h3>Images</h3>
-
-        <input id="showimg" class="mode" type="checkbox">
-        <label>Show</label>
-
-        <input id="hideimg" class="mode" type="checkbox">
-        <label>Hide</label>
-        </div>
-
-        <!-- <select class="mode">
-          <option value="show">Show Images</option>
-          <option value="hide">Hide Images</option>
-        </select> -->
-
-        <div class="filter-section">
-
-        <h3>Time</h3>
-
-        <select class="year">
-          <option value="1894,1919">All</option>
-          <option value="1894,1899">1894–1899 | USA</option>
-          <option value="1899,1901">1899–1901 | Japan</option>
-          <option value="1901,1902">1901–1902 | USA</option>
-          <option value="1902,1910">1902–1910 | Japan</option>
-          <option value="1910,1912">1910–1912 | Mexico</option>
-          <option value="1912,1914">1912–1914 | Japan</option>
-          <option value="1914,1919">1914–1919 | USA</option>
-        </select>
-
-        </div>
-
-      </div>
+    <!-- end of landing-page -->
 </div> 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/split.js/1.6.0/split.min.js"></script>
       <script src="lib/d3.min.js"></script>
       <script src="lib/lodash.min.js"></script>
       <script src="src/main.js"></script>
