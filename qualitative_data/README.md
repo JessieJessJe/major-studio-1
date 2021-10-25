@@ -1,6 +1,12 @@
-## The world created by Helen Hyde 
+# The world created by Helen Hyde 
 
 [link to the demo](https://jessiejessje.github.io/major-studio-1/qualitative_data/)
+
+## Design
+
+TBD
+
+## Development
 
 ### Sketches
 
@@ -19,11 +25,11 @@
 
 - [x] Data Processing
 - - [x] Download Raw Info + Images from Smithsonian API
-- - [x] Outliers: Date (`ca. 1896-1898` to `1898`)
-- - [x] Outliers: Title: \"The Goblins 'l Git Yer\"
+- - [x] Edit outliers: Date (`ca. 1896-1898` to `1898`)
+- - [x] Edit outliers: Title: \"The Goblins 'l Git Yer\"
 - - [ ] Crop Images: 30/125
-- - [x] T-SNE Sorting
-- - [x] Modify Timeline/Color tagging
+- - [x] T-SNE Sorting 
+- - [ ] Modify Time/Location Color tagging
 
 - [ ] D3
 - - [x] Gallery view
@@ -37,7 +43,6 @@
 - [ ] Front-end Devs
 - - [ ] Landing page
 - - [ ] Responsive charts / tilesizes 
-- - [ ] React?
+- - [ ] React
 
-- [ ] UI/UX
 - [ ] Storytelling
