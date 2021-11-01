@@ -1,22 +1,6 @@
-Split(['#landing-page-left', '#landing-page-right'], {
-  elementStyle: function (dimension, size, gutterSize) {
-      return {
-          'flex-basis': 'calc(' + size + '% - ' + gutterSize + 'px)',
-      }
-  },
-  gutterStyle: function (dimension, gutterSize) {
-      return {
-          'flex-basis': gutterSize + 'px',
-      }
-  },
-  sizes: [20, 80],
-
-})
-
-
   // var w = window.innerWidth * 0.7;
-  var w = document.getElementById("landing-page-right").offsetWidth;
-  var h = document.getElementById("landing-page-right").offsetHeight;
+  // var w = document.getElementById("landing-page-right").offsetWidth;
+  // var h = document.getElementById("landing-page-right").offsetHeight;
 
   var tilesPerRow = 6;
   var tileSize = (w * 0.9 )/ ((tilesPerRow * 6));
