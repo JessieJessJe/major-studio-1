@@ -9,17 +9,18 @@ Split(['#landing-page-left', '#landing-page-right'], {
           'flex-basis': gutterSize + 'px',
       }
   },
-  sizes: [26, 74],
+  sizes: [20, 80],
 
 })
 
 
   // var w = window.innerWidth * 0.7;
   var w = document.getElementById("landing-page-right").offsetWidth;
+  var h = document.getElementById("landing-page-right").offsetHeight;
 
-  var tilesPerRow = 5;
-  var tileSize = w / (tilesPerRow * 6) ;
-  var barWidth = tilesPerRow * tileSize + 10;
+  var tilesPerRow = 6;
+  var tileSize = (w * 0.9 )/ ((tilesPerRow * 6));
+  var barWidth = tilesPerRow * tileSize + w*0.01;
   
   var selectMode = "show", selectedYearBegin = "1894", selectedYearEnd = "1919", selectView = "bar";
 
@@ -31,8 +32,8 @@ Split(['#landing-page-left', '#landing-page-right'], {
 
 function setTileSize(){
   w = document.getElementById("landing-page-right").offsetWidth;
-  tileSize = w / (tilesPerRow * 6);
-  barWidth = tilesPerRow * tileSize + 10;
+  tileSize = (w * 0.9 )/ ((tilesPerRow * 6));
+  barWidth = tilesPerRow * tileSize + w*0.01;
 }
 
 function setTilesPerRow(a){
@@ -108,27 +109,79 @@ function updateBar(d, i, items) {
     .data(tiles);
 
 
-      // customize image------------------------------
-      u.enter()
-      .append("svg:image")
-      .merge(u)
-      .attr("x", function(d) {       
-        return d.x;
-      })
-      .attr("y", function(d) {
-        return d.y;
-      })
-      .transition()
-      .delay(function(d, i) {
-        return i * 20;
-      })
-      .attr("width", tileSize)
-      .attr("height", tileSize)
-      .style("opacity", 1)
-      .attr("xlink:href", function(d,i){
-        return `${items[i].root}`
-      })
+      // customize image square ------------------------------
+      // u.enter()
+      // .append("svg:image")
+      // .merge(u)
+      // .attr("x", function(d) {       
+      //   return d.x;
+      // })
+      // .attr("y", function(d) {
+      //   return d.y;
+      // })
+      // .transition()
+      // .delay(function(d, i) {
+      //   return i * 20;
+      // })
+      // .attr("width", tileSize)
+      // .attr("height", tileSize)
+      // .style("opacity", 1)
+      // .attr("xlink:href", function(d,i){
+      //   return `${items[i].root}`
+      // })
        //end of customize
+
+       // image in circles
+
+      //  u.append('svg:defs');
+
+      d3.select("#_" + i).append("svg:defs")  
+
+      tiles.forEach(function(d,index){
+
+          d3.select("#_" + i)  
+            .append('clipPath')
+            .attr('id',`clipObj${index}`)
+            .append('circle')
+            .attr('cx', d.x + tileSize / 2)
+            .attr("cy", d.y + tileSize / 2)
+            .attr('r', tileSize / 2)
+        }
+
+      )
+      
+
+    var myimg =  u.enter()
+       .append("svg:image")
+       .merge(u)
+       .attr("x", function(d) {       
+         return d.x;
+       })
+       .attr("y", function(d) {
+         return d.y;
+       })
+       .attr("cursor", "pointer")
+       .on("click", function(d,i) {
+        clickinfo(items[i])
+      })
+
+      myimg.transition()
+       .delay(function(d, i) {
+         return i * 2;
+       })
+       .attr("width", tileSize)
+       .attr("height", tileSize)
+       .style("opacity", 1)
+    
+       .attr("xlink:href", function(d,i){
+         return `${items[i].root}`
+       })
+       .attr('clip-path', function(d,i){
+         return `url(#clipObj${i})`
+       })
+
+
+       // end of image in circles
 
   u.exit().remove();
 
@@ -176,7 +229,7 @@ function updateBars(group_items) {
       updateBar(d, i, group_items[i])  
     })
 
-    console.log("updateBars", u)
+    // console.log("updateBars", u)
 
   }
 
@@ -211,7 +264,7 @@ function prepareJson(data, selectedYearBegin, selectedYearEnd){
 
     //make sure after filtering, the remaining categories stored in 'groups' still in the same order
    
-    let order = ['Child', 'Mother(Adult)', 'Tool', 'Landscape', 'Animal', 'Plant']
+    let order = ['Child', 'Mom(Adult)', 'Tool', 'Landscape', 'Animal', 'Plant']
 
     let g = data.map( d => { return d.group})
     let groups_raw = [...new Set(g)]
@@ -253,8 +306,6 @@ function prepareJson(data, selectedYearBegin, selectedYearEnd){
       })
     }
 
-  console.log(group_items)
-
    return group_items
 
 }
@@ -289,6 +340,18 @@ function drawD3(){
 
 
 d3.json("./data_crop.json", function(err, data) {
+
+  function yearFilterShow(){
+    if (selectView == "bar"){
+          
+      group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
+      updateBars(group_items, selectMode);
+    }
+    else{
+      group_items = prepareGrid(data, selectedYearBegin, selectedYearEnd);
+      updateBars(group_items, selectMode);
+    }
+  }
 
   let group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
   initialize(group_items);
@@ -384,25 +447,89 @@ d3.json("./data_crop.json", function(err, data) {
 
   //-------------filter---year---------------------
 
-  d3.select("select.year")
+  // d3.select("select.year")
+  //   .on("change", function() {
+  //     let value = this.value;
+      
+  //     selectedYearBegin = parseInt(value.split(',')[0])
+  //     selectedYearEnd = parseInt(value.split(',')[1])
+
+  //     if (selectView == "bar"){
+  
+  //       group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
+  //       updateBars(group_items, selectMode);
+  //     }
+  //     else{
+  //       group_items = prepareGrid(data, selectedYearBegin, selectedYearEnd);
+  //       updateBars(group_items, selectMode);
+  //     }
+
+  // })
+
+  //in select mode
+  d3.select("#year1894")
+    .on("change", function() {
+
+    if ( d3.select("#year1894").property("checked") == true){
+      d3.selectAll(".year").property('checked', false);
+
+      let value = this.value;
+
+      selectedYearBegin = parseInt(value.split(',')[0])
+      selectedYearEnd = parseInt(value.split(',')[1])
+
+      yearFilterShow()
+
+    } else {
+      d3.select("#year1894").property('checked', true);
+
+      selectedYearBegin = 1894;
+      selectedYearEnd = 1919;
+  
+      yearFilterShow()
+
+    }
+  }) // ---end of year all
+
+
+  d3.selectAll(".year")
   .on("change", function() {
+
+    console.log(this.checked, 'checkbox')
+
+  if ( this.checked == true){
+
+    d3.selectAll(".year").property('checked', false);
+    d3.select("#year1894").property('checked', false);
+    this.checked = true;
+
     let value = this.value;
+
+    let everytime = d3.selectAll(".year")
+    console.log(everytime, 'everytime')
     
+    // let begin = parseInt(value.split(',')[0])
+    // let end = parseInt(value.split(',')[1])
+    // selectedYearBegin = Math.min(begin, parseInt(value.split(',')[0]))
+    // selectedYearEnd = Math.max(end,parseInt(value.split(',')[1]))
+
     selectedYearBegin = parseInt(value.split(',')[0])
     selectedYearEnd = parseInt(value.split(',')[1])
 
-    if (selectView == "bar"){
- 
-      group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
-      updateBars(group_items, selectMode);
-    }
-    else{
-      group_items = prepareGrid(data, selectedYearBegin, selectedYearEnd);
-      updateBars(group_items, selectMode);
-    }
+    yearFilterShow()
 
-  })
+  } else {
 
+    d3.select("#year1894").property('checked', true);
+
+    selectedYearBegin = 1894;
+    selectedYearEnd = 1919;
+
+    yearFilterShow()
+
+  }
+})
+//-------------------end of year
 });
     
 }
@@ -415,6 +542,9 @@ function initialize(group_items){
   
   d3.select("#showimg").property('checked', true);
   d3.select("#hideimg").property('checked', false);
+
+  d3.selectAll(".year").property('checked', false);
+  d3.select("#year1894").property('checked', true);
 
 
 
