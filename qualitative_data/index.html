@@ -28,13 +28,35 @@
     </div> -->
   
   
+  <!-- </div> -->
+  <div id="infotip">
+
+    <div id="infotip-header">
+      <div id="infotip-title"></div>
+      <div id="infotip-btn" style="font-size: 1.5rem; cursor: pointer;" onclick=closetip()>Close</div>
+    </div>
+
+    <div id="infotip-img">
+      <div id="infotip-left"></div>
+      <div id="infotip-right"></div>
+      
+    </div>
+
+    <div id="infotip-color-wrapper-top" class="infotip-color-wrapper"></div>
+    <div id="infotip-color-wrapper-bottom" class="infotip-color-wrapper"></div>
+
   </div>
   
   <div id="landing-page">
           <div id="landing-page-left" class="resize">
 
             <div id="left-up" class="up">
-              <div class="page-title"><h1>The <br>World<br> Created <br>by <br>Helen <br>Hyde</h1></div>
+              <div id="page-title"><h1>The <br>World<br> Created <br>by <br>Helen <br>Hyde</h1></div>
+              <img id="page-title-img" class="page-title-hide" src="./src/Helen_Hyde.jpg" alt="">
+              <div class="page-title-hide" style="text-align: center;"> 
+                Helen Hyde(April 6, 1868 – May 13, 1919) was an American etcher and engraver. She is best known for her color etching process and woodblock prints reflecting Japanese women and children characterizations.
+              </div>
+              <div class="page-title-hide">  </div>
             </div>
             <div id="left-down" class="down">
               <div class="page-title page-title-small">
@@ -53,6 +75,12 @@
   <div id="landing-page-right" class="resize">
 
     <div id="right-up" class="up">
+      <img id="landing-img" src="./images/Hide and Seek.jpg" alt="">
+      <div id="landing-introtext">There is a charm about her rendition of children, whether they be Japanese, Chinese, Mexican or American, which gives token to her sympathy with childhood; and with her passing has gone from the world of life of cheerfulness and courage and high purpose which, like a flower of sweet fragrance, has added beauty to life.
+
+        — American Magazine of Art</div>
+    </div>
+    <!-- <div id="right-up" class="up">
       
       <div id="right-usa" class="country-block up">
         <div class="country-color-wrapper">
@@ -92,13 +120,81 @@
         
 
         <h2 class="country-name">Mexico</h2>
-      </div>
+      </div> -->
 
 
-    </div>
+    <!-- </div> -->
+
     <div id="right-down" class="down"></div>
 
+    
+    
     <div id="visualization">
+      <div id="menu">
+  
+        <div class="filter-section">
+          
+          <h3>View</h3>
+
+          <input id="barview" class="view" type="checkbox">
+          <label>Cluster</label>
+        
+          <input id="gridview" class="view" type="checkbox">
+          <label>Gallery</label>
+        
+        </div>
+
+        <div class="filter-section">
+        <h3>Images</h3>
+
+        <input id="showimg" class="mode" type="checkbox">
+        <label>Show</label>
+
+        <input id="hideimg" class="mode" type="checkbox">
+        <label>Hide</label>
+        </div>
+
+        <!-- <select class="mode">
+          <option value="show">Show Images</option>
+          <option value="hide">Hide Images</option>
+        </select> -->
+
+        <div class="filter-section" id="filter-section-time">
+          <div><h3>Time</h3></div>
+        
+
+        <!-- <select class="year">
+          <option value="1894,1919">All</option>
+          <option value="1894,1899">1894–1899 | USA</option>
+          <option value="1899,1901">1899–1901 | Japan</option>
+          <option value="1901,1902">1901–1902 | USA</option>
+          <option value="1902,1910">1902–1910 | Japan</option>
+          <option value="1910,1912">1910–1912 | Mexico</option>
+          <option value="1912,1914">1912–1914 | Japan</option>
+          <option value="1914,1919">1914–1919 | USA</option>
+        </select> -->
+
+        <input id="year1894" value="1894,1919" class="yearAll" type="checkbox">
+        <label>All</label>
+        <input value="1894,1899" class="year" type="checkbox">
+        <label class="usa-color-text"><b>1894–1899 <br> USA </b></label>
+        <input value="1899,1901" class="year" type="checkbox">
+        <label class="japan-color-text"><b>1901–1902 <br> Japan</b> </label>
+        <input value="1901,1902" class="year" type="checkbox">
+        <label class="usa-color-text"><b>1901–1902 <br> USA </b></label>
+        <input value="1902,1910" class="year" type="checkbox">
+        <label class="japan-color-text"><b>1902–1910 <br> Japan </b></label>
+        <input value="1910,1912" class="year" type="checkbox">
+        <label class="mexico-color-text"><b>1910–1912 <br> Mexico </b></label>
+        <input value="1912,1914" class="year" type="checkbox">
+        <label class="japan-color-text"><b>1912–1914 <br> Japan </b></label>
+        <input value="1914,1919" class="year" type="checkbox">
+        <label class="usa-color-text"><b>1914–1919 <br> USA </b></label>
+
+
+        </div>
+
+      </div>
 
       <div id="chart">
           <svg id="mysvg">
@@ -114,53 +210,7 @@
             </g>
           </svg>
       </div>
-        <div id="menu">
-  
-          <div class="filter-section">
-            
-            <h3>View</h3>
-  
-            <input id="barview" class="view" type="checkbox">
-            <label>Cluster</label>
-          
-            <input id="gridview" class="view" type="checkbox">
-            <label>Gallery</label>
-          
-          </div>
-  
-          <div class="filter-section">
-          <h3>Images</h3>
-  
-          <input id="showimg" class="mode" type="checkbox">
-          <label>Show</label>
-  
-          <input id="hideimg" class="mode" type="checkbox">
-          <label>Hide</label>
-          </div>
-  
-          <!-- <select class="mode">
-            <option value="show">Show Images</option>
-            <option value="hide">Hide Images</option>
-          </select> -->
-  
-          <div class="filter-section">
-  
-          <h3>Time</h3>
-  
-          <select class="year">
-            <option value="1894,1919">All</option>
-            <option value="1894,1899">1894–1899 | USA</option>
-            <option value="1899,1901">1899–1901 | Japan</option>
-            <option value="1901,1902">1901–1902 | USA</option>
-            <option value="1902,1910">1902–1910 | Japan</option>
-            <option value="1910,1912">1910–1912 | Mexico</option>
-            <option value="1912,1914">1912–1914 | Japan</option>
-            <option value="1914,1919">1914–1919 | USA</option>
-          </select>
-  
-          </div>
-  
-        </div>
+
   
         <!-- end of visualization -->
   </div> 
@@ -174,7 +224,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/split.js/1.6.0/split.min.js"></script>
       <script src="lib/d3.min.js"></script>
       <script src="lib/lodash.min.js"></script>
+      <script src="src/infotip.js"></script>
+      <script src="src/sliding.js"></script>
       <script src="src/main.js"></script>
+     
+    </body>
     </body>
    
 
