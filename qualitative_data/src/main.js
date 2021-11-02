@@ -247,8 +247,18 @@ function getGroupCounts(group_items){
 function prepareJson(data, selectedYearBegin, selectedYearEnd){
 
     //make sure after filtering, the remaining categories stored in 'groups' still in the same order
+    //group_dict = {
+    
+//     "Child" : "Children",
+//     "Figur" : "Mothers(Adults)",
+//     "Tools" : "Accessories",
+//     "Lands" : "Landscape",
+//     "Animl" : "Animals",
+//     "Plant" : "Plants"
+// }
+
    
-    let order = ['Child', 'Mom(Adult)', 'Tool', 'Landscape', 'Animal', 'Plant']
+    let order = ['Children', 'Mothers(Adults)', 'Accessories', 'Landscape', 'Animals', 'Plants']
 
     let g = data.map( d => { return d.group})
     let groups_raw = [...new Set(g)]

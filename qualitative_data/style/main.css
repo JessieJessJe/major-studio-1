@@ -1,9 +1,9 @@
 body {
-  font-family: Old Standard TT serif;
+  font-family: 'Old Standard TT', serif;
 }
 
 h1 {
-  font-family: Old Standard TT;
+  font-family: 'Old Standard TT';
   font-size: 3rem;
   font-style: bold;
   font-weight: 80;
