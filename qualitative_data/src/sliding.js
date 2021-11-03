@@ -36,7 +36,7 @@ const resizeObserver_1= new ResizeObserver(entries => {
             hideRight(ratio)
         }
 
-        if (ratio > 0.7){
+        if (ratio > 0.6){
             //show right-side content
             hideLeft();
         } else {
@@ -58,7 +58,7 @@ function showRight(ratio){
     document.getElementById("landing-introtext").innerHTML = "There is a charm about her rendition of children, whether they be Japanese, Chinese, Mexican or American, which gives token to her sympathy with childhood; and with her passing has gone from the world of life of cheerfulness and courage and high purpose which, like a flower of sweet fragrance, has added beauty to life.";
    
     if (ratio < 0.45){ showImgA()}
-    else if (ratio < 0.6){ showImgB();}
+    else if (ratio < 0.55){ showImgB();}
     else { showImgC()}
 
     document.getElementById("landing-img").style.display = "flex";

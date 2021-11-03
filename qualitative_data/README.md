@@ -29,7 +29,7 @@ TBD
 - - [x] Edit outliers: Title: \"The Goblins 'l Git Yer\"
 - - [ ] Edit outliers: Little Dancer of the \"No\", A Javanese \"Small Person\" ,
 - - [ ]       The%20Goblins%20'l%20Git%20Yer.jpg:1 GET http://127.0.0.1:5500/images/The%20Goblins%20'l%20Git%20Yer.jpg 404 (Not Found)
-- - [ ] Crop Images: 60/125
+- - [ ] Crop Images: 90/125
 - - [x] T-SNE Sorting 
 - - [ ] Modify Time/Location Color tagging
 

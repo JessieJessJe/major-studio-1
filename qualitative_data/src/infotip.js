@@ -4,15 +4,22 @@ function clickinfo(d){
 
     let ratio, srcH, srcW;
 
-    var leftH = document.getElementById("infotip-left").clientHeight;
-    var leftW = document.getElementById("infotip-left").clientWidth;
+    // var leftH = document.getElementById("infotip-left").clientHeight;
+    // var leftW = document.getElementById("infotip-left").clientWidth;
+
+
+    var leftH = window.innerHeight * 0.40;
+    var leftW = window.innerWidth *0.40;
+
+    console.log('infotipleft', leftH, leftW)
 
     var myimg = new Image();
     myimg.src = `./images/${d.title}.jpg`;
     myimg.onload = function(){
+
         srcH = myimg.naturalHeight;
         srcW = myimg.naturalWidth;
-        console.log(srcH, srcW)
+        
 
         ratio = Math.min( leftW / srcW, leftH / srcH)
 
@@ -20,6 +27,8 @@ function clickinfo(d){
 
             //add img
         var elem = document.createElement("img");
+        elem.setAttribute("id", `infotip-micro-img`);
+
         elem.setAttribute("src", `./images/${d.title}.jpg`);
 
         elem.setAttribute("width", imgW );
@@ -84,11 +93,32 @@ function addcolor(d){
 }
 
 function addheader(d){
-    let text = `<h2>${d.title}</h2>
-                <p>${d.date}</p>
-                <button style="cursor:pointer;" onclick="window.open('${d.link}');">Read More</button>
+
+    d3.json("./data.json", function(err, data) {
+
+        let medium = data.find(item => item.title == d.title).medium
+
+    let text = `<div>
+                <h2>${d.title}</h2>
+                <p>Date: ${d.date}</p>
+                <p>Location: est.${d.place}</p>
+                <p>Medium: ${medium}</p>
+                <button class="hover-underline-effect">View this item at SAAM</button>
+                </div>
+               
     `
+
+    // let linkText = `
+    //             <h2 onclick="window.open('${d.link}');>Read More<h2>
+    // `
     document.getElementById("infotip-title").innerHTML = text;
+    // document.getElementById("infotip-link").innerHTML = linkText;
+    // document.getElementById("infotip-link").onclick = function(){
+    //     window.open(d.link);
+    // }
+
+    })//end of d3 == not efficient?????
+
 }
 
 function closetip(){

@@ -1,1955 +1,5 @@
 [
     {
-        "itemid": "4",
-        "group": "Plants",
-        "title": "A Mexican Rebecca",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant4@A Mexican Rebecca.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "120",
-        "group": "Plants",
-        "title": "An April Evening",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Plant120@An April Evening.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "33",
-        "group": "Children",
-        "title": "August",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child33@August.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Plants",
-        "title": "Cherry Snow",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant4@Cherry Snow.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Plants",
-        "title": "A Spring Poem",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant1@A Spring Poem.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Plants",
-        "title": "Confidences",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant3@Confidences.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "58",
-        "group": "Accessories",
-        "title": "A Weary Little Mother",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools58@A Weary Little Mother.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "118",
-        "group": "Accessories",
-        "title": "The Good Luck Branch",
-        "date": 1907,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools118@The Good Luck Branch.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "6",
-        "group": "Accessories",
-        "title": "The Daruma Branch",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Tools6@The Daruma Branch.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "66",
-        "group": "Mothers(Adults)",
-        "title": "Mother and Child",
-        "date": 1897,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur66@Mother and Child.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "55",
-        "group": "Animals",
-        "title": "Complaints",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Animl55@Complaints.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "34",
-        "group": "Accessories",
-        "title": "August",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools34@August.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "61",
-        "group": "Mothers(Adults)",
-        "title": "A Weary Little Mother",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur61@A Weary Little Mother.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "43",
-        "group": "Children",
-        "title": "A Japanese Madonna",
-        "date": 1900,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child43@A Japanese Madonna.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "42",
-        "group": "Mothers(Adults)",
-        "title": "A Japanese Madonna",
-        "date": 1900,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur42@A Japanese Madonna.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "67",
-        "group": "Mothers(Adults)",
-        "title": "In Their Holiday Clothes",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur67@In Their Holiday Clothes.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "117",
-        "group": "Children",
-        "title": "The Good Luck Branch",
-        "date": 1907,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child117@The Good Luck Branch.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "The Bath",
-        "date": 1905,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@The Bath.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "11",
-        "group": "Children",
-        "title": "The Blue Umbrella",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child11@The Blue Umbrella.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "A Day in June",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Child1@A Day in June.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "128",
-        "group": "Mothers(Adults)",
-        "title": "An April Evening",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Figur128@An April Evening.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Accessories",
-        "title": "The Family Umbrella",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools2@The Family Umbrella.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "100",
-        "group": "Animals",
-        "title": "The Lucky Branch",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Animl100@The Lucky Branch.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Accessories",
-        "title": "A Snowy Day",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools2_1@A Snowy Day.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "38",
-        "group": "Accessories",
-        "title": "New Brooms",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Tools38@New Brooms.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "10",
-        "group": "Accessories",
-        "title": "The Blue Umbrella",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools10@The Blue Umbrella.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "82",
-        "group": "Animals",
-        "title": "The White Peacock",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Animl82@The White Peacock.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Accessories",
-        "title": "A Mexican Rebecca",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools3@A Mexican Rebecca.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "83",
-        "group": "Animals",
-        "title": "The White Peacock",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Animl83@The White Peacock.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "52",
-        "group": "Plants",
-        "title": "The Daikon and the Baby",
-        "date": 1903,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant52@The Daikon and the Baby.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "39",
-        "group": "Animals",
-        "title": "The Furious Dragon",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Animl39@The Furious Dragon.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Plants",
-        "title": "The Secret",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant1@The Secret.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "6",
-        "group": "Plants",
-        "title": "Bamboo Gate",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Plant6@Bamboo Gate.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "37",
-        "group": "Plants",
-        "title": "New Brooms",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Plant37@New Brooms.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Plants",
-        "title": "Jeffrey Boy",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant2@Jeffrey Boy.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Plants",
-        "title": "Blossom Child",
-        "date": 1902,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant1@Blossom Child.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Plants",
-        "title": "Interior Decoration",
-        "date": 1900,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant3@Interior Decoration.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "59",
-        "group": "Plants",
-        "title": "A Weary Little Mother",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Plant59@A Weary Little Mother.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "56",
-        "group": "Children",
-        "title": "Complaints",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child56@Complaints.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Children",
-        "title": "The Secret",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child3@The Secret.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "Jeffrey Boy",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child1@Jeffrey Boy.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Plants",
-        "title": "A Mexican Coquette",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant4@A Mexican Coquette.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Children",
-        "title": "Confidences",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child4@Confidences.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "101",
-        "group": "Mothers(Adults)",
-        "title": "The Lucky Branch",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur101@The Lucky Branch.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "109",
-        "group": "Accessories",
-        "title": "A Summer Shower",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools109@A Summer Shower.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Accessories",
-        "title": "Teasing the Daruma",
-        "date": 1905,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools2@Teasing the Daruma.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Children",
-        "title": "Belated",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child3@Belated.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Animals",
-        "title": "An Interlude",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Animl4@An Interlude.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Plants",
-        "title": "A Day in June",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Plant3@A Day in June.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "5",
-        "group": "Accessories",
-        "title": "Blossom Time in Tokyo",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools5@Blossom Time in Tokyo.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Plants",
-        "title": "The Bamboo Fence",
-        "date": 1904,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant4@The Bamboo Fence.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Accessories",
-        "title": "Blossom Time in Tokyo",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools2@Blossom Time in Tokyo.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "5",
-        "group": "Accessories",
-        "title": "An Interlude",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools5@An Interlude.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "97",
-        "group": "Plants",
-        "title": "A Windy Ride",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant97@A Windy Ride.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "Baby Talk",
-        "date": 1908,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child1@Baby Talk.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Accessories",
-        "title": "The Go-Cart",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools1@The Go-Cart.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "9",
-        "group": "Landscape",
-        "title": "Sausalito",
-        "date": 1898,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Lands9@Sausalito.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "40",
-        "group": "Children",
-        "title": "The Furious Dragon",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child40@The Furious Dragon.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "119",
-        "group": "Landscape",
-        "title": "Survival of the Fittest",
-        "date": 1916,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Lands119@Survival of the Fittest.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "68",
-        "group": "Children",
-        "title": "In Their Holiday Clothes",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child68@In Their Holiday Clothes.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Animals",
-        "title": "Interior Decoration",
-        "date": 1900,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Animl2@Interior Decoration.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "32",
-        "group": "Plants",
-        "title": "A Roundelay",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant32@A Roundelay.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "84",
-        "group": "Plants",
-        "title": "The White Peacock",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Plant84@The White Peacock.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "77",
-        "group": "Children",
-        "title": "Moon Bridge at Kameido",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child77@Moon Bridge at Kameido.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "60",
-        "group": "Children",
-        "title": "A Weary Little Mother",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child60@A Weary Little Mother.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "105",
-        "group": "Children",
-        "title": "A Summer Shower",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child105@A Summer Shower.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "57",
-        "group": "Plants",
-        "title": "Complaints",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Plant57@Complaints.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "Interior Decoration",
-        "date": 1900,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child1@Interior Decoration.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "79",
-        "group": "Plants",
-        "title": "Moon Bridge at Kameido",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Plant79@Moon Bridge at Kameido.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "22",
-        "group": "Accessories",
-        "title": "A Child of the People",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools22@A Child of the People.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "64",
-        "group": "Accessories",
-        "title": "Little Pink Plum",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools64@Little Pink Plum.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "110",
-        "group": "Accessories",
-        "title": "A Summer Shower",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools110@A Summer Shower.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "My Neighbors",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@My Neighbors.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "The Hired Baby",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child1@The Hired Baby.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "27",
-        "group": "Mothers(Adults)",
-        "title": "On the Bund at Tokyo",
-        "date": 1900,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur27@On the Bund at Tokyo.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Mothers(Adults)",
-        "title": "A Mexican Rebecca",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur2@A Mexican Rebecca.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Children",
-        "title": "Teasing the Daruma",
-        "date": 1905,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child3@Teasing the Daruma.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "129",
-        "group": "Children",
-        "title": "An April Evening",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Child129@An April Evening.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "The Go-Cart",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@The Go-Cart.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Children",
-        "title": "Butterflies",
-        "date": 1908,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child4@Butterflies.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Accessories",
-        "title": "A Summer Girl",
-        "date": 1905,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools4@A Summer Girl.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "Casting Out Bad Luck",
-        "date": 1904,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@Casting Out Bad Luck.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "6",
-        "group": "Landscape",
-        "title": "The Seats of the Mighty",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Lands6@The Seats of the Mighty.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "41",
-        "group": "Children",
-        "title": "The Furious Dragon",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child41@The Furious Dragon.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "45",
-        "group": "Landscape",
-        "title": "Oaxaca Market",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Lands45@Oaxaca Market.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "The Daruma Branch",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Child2@The Daruma Branch.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "44",
-        "group": "Landscape",
-        "title": "Mount Orizaba",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Lands44@Mount Orizaba.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "96",
-        "group": "Children",
-        "title": "A Windy Ride",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child96@A Windy Ride.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "69",
-        "group": "Children",
-        "title": "In Their Holiday Clothes",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child69@In Their Holiday Clothes.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "20",
-        "group": "Landscape",
-        "title": "The Year at the Spring",
-        "date": 1899,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Lands20@The Year at the Spring.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Landscape",
-        "title": "A Southern Spring",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Lands4@A Southern Spring.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "5",
-        "group": "Children",
-        "title": "The Bamboo Fence",
-        "date": 1904,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child5@The Bamboo Fence.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "26",
-        "group": "Plants",
-        "title": "From the Rice Fields",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Plant26@From the Rice Fields.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Children",
-        "title": "The Bamboo Fence",
-        "date": 1904,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child3@The Bamboo Fence.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "7",
-        "group": "Landscape",
-        "title": "Sausalito",
-        "date": 1898,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Lands7@Sausalito.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Animals",
-        "title": "My Neighbors",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Animl3@My Neighbors.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "122",
-        "group": "Accessories",
-        "title": "The Mirror",
-        "date": 1904,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools122@The Mirror.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "73",
-        "group": "Children",
-        "title": "A Monarch of Japan",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child73@A Monarch of Japan.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "72",
-        "group": "Plants",
-        "title": "A Monarch of Japan",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Plant72@A Monarch of Japan.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "115",
-        "group": "Accessories",
-        "title": "Carry On",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools115@Carry On.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Plants",
-        "title": "Butterflies",
-        "date": 1908,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant3@Butterflies.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "95",
-        "group": "Children",
-        "title": "A Windy Ride",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child95@A Windy Ride.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "8",
-        "group": "Plants",
-        "title": "Forbidden Fruit",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Plant8@Forbidden Fruit.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "A Common Scold",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@A Common Scold.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "12",
-        "group": "Mothers(Adults)",
-        "title": "The Blue Umbrella",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur12@The Blue Umbrella.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Mothers(Adults)",
-        "title": "An Interlude",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur1@An Interlude.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Children",
-        "title": "The Go-Cart",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child3@The Go-Cart.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "A Mexican Coquette",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child1@A Mexican Coquette.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "A Mexican Coquette",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@A Mexican Coquette.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Mothers(Adults)",
-        "title": "The Secret",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur2@The Secret.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "63",
-        "group": "Children",
-        "title": "Little Pink Plum",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child63@Little Pink Plum.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "6",
-        "group": "Landscape",
-        "title": "Church at Cuernavaca, Mexico",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Lands6@Church at Cuernavaca, Mexico.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Animals",
-        "title": "A Mexican Coquette",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Animl3@A Mexican Coquette.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Landscape",
-        "title": "The Sauce-Pan Shop",
-        "date": 1908,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Lands1_2@The Sauce-Pan Shop.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Animals",
-        "title": "A Common Scold",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Animl1@A Common Scold.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "126",
-        "group": "Landscape",
-        "title": "Cypress Swamp",
-        "date": 1917,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Lands126@Cypress Swamp.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "53",
-        "group": "Children",
-        "title": "The Daikon and the Baby",
-        "date": 1903,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child53@The Daikon and the Baby.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Landscape",
-        "title": "The Pink Fountain at Jalapa",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Lands1@The Pink Fountain at Jalapa.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "104",
-        "group": "Landscape",
-        "title": "Alley in Chinatown",
-        "date": 1898,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Lands104@Alley in Chinatown.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "Bamboo Gate",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child1@Bamboo Gate.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "46",
-        "group": "Landscape",
-        "title": "The Home of Gabriel",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Lands46@The Home of Gabriel.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Children",
-        "title": "An Interlude",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child3@An Interlude.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "The Bamboo Fence",
-        "date": 1904,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@The Bamboo Fence.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Accessories",
-        "title": "The Joggling Board",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools2@The Joggling Board.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "35",
-        "group": "Children",
-        "title": "New Brooms",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Child35@New Brooms.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "6",
-        "group": "Accessories",
-        "title": "The Bath",
-        "date": 1905,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools6@The Bath.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "103",
-        "group": "Children",
-        "title": "Alley in Chinatown",
-        "date": 1898,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child103@Alley in Chinatown.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "93",
-        "group": "Plants",
-        "title": "Sunday Morning",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant93@Sunday Morning.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "62",
-        "group": "Plants",
-        "title": "Little Pink Plum",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant62@Little Pink Plum.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "Alfonso and Conchita",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@Alfonso and Conchita.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "112",
-        "group": "Plants",
-        "title": "Over the Garden Wall",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant112@Over the Garden Wall.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Landscape",
-        "title": "Cypress Trees",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Lands1@Cypress Trees.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Plants",
-        "title": "Belated",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Plant4@Belated.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "19",
-        "group": "Plants",
-        "title": "Little Miss Muffet",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Plant19@Little Miss Muffet.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "121",
-        "group": "Children",
-        "title": "The Mirror",
-        "date": 1904,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child121@The Mirror.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "5",
-        "group": "Accessories",
-        "title": "Belated",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools5@Belated.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "28",
-        "group": "Animals",
-        "title": "On the Bund at Tokyo",
-        "date": 1900,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Animl28@On the Bund at Tokyo.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "6",
-        "group": "Children",
-        "title": "The Bamboo Fence",
-        "date": 1904,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child6@The Bamboo Fence.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "65",
-        "group": "Children",
-        "title": "Mother and Child",
-        "date": 1897,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child65@Mother and Child.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "The Family Umbrella",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child1@The Family Umbrella.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "Bamboo Gate",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child2@Bamboo Gate.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "102",
-        "group": "Mothers(Adults)",
-        "title": "Alley in Chinatown",
-        "date": 1898,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur102@Alley in Chinatown.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "13",
-        "group": "Children",
-        "title": "Head of Ah Ho",
-        "date": 1899,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child13@Head of Ah Ho.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "5",
-        "group": "Children",
-        "title": "Bamboo Gate",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child5@Bamboo Gate.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Animals",
-        "title": "Feeding the Geese",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Animl1@Feeding the Geese.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Children",
-        "title": "Bamboo Gate",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child4@Bamboo Gate.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Plants",
-        "title": "My Neighbors",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Plant1@My Neighbors.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Children",
-        "title": "Cherry Snow",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child3@Cherry Snow.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "Blossom Time in Tokyo",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child1@Blossom Time in Tokyo.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Children",
-        "title": "A Native Daughter",
-        "date": 1898,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child3@A Native Daughter.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "6",
-        "group": "Children",
-        "title": "Ice Cream Pails",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child6@Ice Cream Pails.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "103",
-        "group": "Children",
-        "title": "A Summer Shower",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child103@A Summer Shower.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "31",
-        "group": "Children",
-        "title": "A Roundelay",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child31@A Roundelay.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "5",
-        "group": "Children",
-        "title": "Alfonso and Conchita",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child5@Alfonso and Conchita.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "Marching as to War",
-        "date": 1904,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child1@Marching as to War.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "21",
-        "group": "Children",
-        "title": "A Child of the People",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child21@A Child of the People.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "Blossom Child",
-        "date": 1902,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@Blossom Child.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "91",
-        "group": "Mothers(Adults)",
-        "title": "Sunday Morning",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur91@Sunday Morning.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "113",
-        "group": "Children",
-        "title": "Little Dancer of the No",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child113@Little Dancer of the No.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "54",
-        "group": "Accessories",
-        "title": "Complaints",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools54@Complaints.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "A Spring Poem",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@A Spring Poem.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "99",
-        "group": "Children",
-        "title": "The Lucky Branch",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child99@The Lucky Branch.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "114",
-        "group": "Accessories",
-        "title": "Carry On",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Tools114@Carry On.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "124",
-        "group": "Accessories",
-        "title": "Going to the Fair",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Tools124@Going to the Fair.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "111",
-        "group": "Children",
-        "title": "Over the Garden Wall",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child111@Over the Garden Wall.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "70",
-        "group": "Mothers(Adults)",
-        "title": "O Tsuyu San",
-        "date": 1900,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur70@O Tsuyu San.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "107",
-        "group": "Children",
-        "title": "A Summer Shower",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child107@A Summer Shower.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Children",
-        "title": "Bamboo Gate",
-        "date": 1915,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child3@Bamboo Gate.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "106",
-        "group": "Mothers(Adults)",
-        "title": "A Summer Shower",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur106@A Summer Shower.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "36",
-        "group": "Children",
-        "title": "New Brooms",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Child36@New Brooms.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Accessories",
-        "title": "A Rainy Night",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Tools1@A Rainy Night.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "127",
-        "group": "Mothers(Adults)",
-        "title": "A Javanese Small Person",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur127@A Javanese Small Person.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "The Chase",
-        "date": 1903,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child1@The Chase.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Mothers(Adults)",
-        "title": "A Rainy Night",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur2@A Rainy Night.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "49",
-        "group": "Children",
-        "title": "The Goblins 'l Git Yer",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child49@The Goblins 'l Git Yer.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "8",
-        "group": "Landscape",
-        "title": "Sausalito",
-        "date": 1898,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Lands8@Sausalito.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "108",
-        "group": "Mothers(Adults)",
-        "title": "A Summer Shower",
-        "date": 1909,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur108@A Summer Shower.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
-        "group": "Children",
-        "title": "A Rainy Night",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child3@A Rainy Night.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "30",
-        "group": "Children",
-        "title": "A Roundelay",
-        "date": 1906,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child30@A Roundelay.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "17",
-        "group": "Children",
-        "title": "Little Miss Muffet",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child17@Little Miss Muffet.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "25",
-        "group": "Children",
-        "title": "From the Rice Fields",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child25@From the Rice Fields.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "Feeding the Geese",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child2@Feeding the Geese.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "116",
-        "group": "Children",
-        "title": "Carry On",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child116@Carry On.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "The Chase",
-        "date": 1903,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child2@The Chase.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "Ah Yen",
-        "date": 1898,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child1@Ah Yen.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "92",
-        "group": "Mothers(Adults)",
-        "title": "Sunday Morning",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur92@Sunday Morning.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "24",
-        "group": "Children",
-        "title": "From the Rice Fields",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child24@From the Rice Fields.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Children",
-        "title": "Baby San",
-        "date": 1900,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child4@Baby San.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "23",
-        "group": "Mothers(Adults)",
-        "title": "From the Rice Fields",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur23@From the Rice Fields.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Mothers(Adults)",
-        "title": "Friday's Child",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur1@Friday's Child.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "4",
-        "group": "Mothers(Adults)",
-        "title": "By the Great Peedee",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur4@By the Great Peedee.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Children",
-        "title": "Friday's Child",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child2@Friday's Child.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "98",
-        "group": "Children",
-        "title": "Fisher Boy",
-        "date": 1899,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child98@Fisher Boy.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "5",
-        "group": "Children",
-        "title": "By the Great Peedee",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child5@By the Great Peedee.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "2",
-        "group": "Mothers(Adults)",
-        "title": "A Gentleman of France",
-        "date": 1899,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur2@A Gentleman of France.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
         "itemid": "51",
         "group": "Plants",
         "title": "First Spring",
@@ -1957,17 +7,7 @@
         "place": "USA",
         "color": "#8CC6D4",
         "root": "./images/cropping/Plant51@First Spring.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "47",
-        "group": "Children",
-        "title": "The Home of Gabriel",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child47@The Home of Gabriel.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32789"
     },
     {
         "itemid": "14",
@@ -1977,7 +17,7 @@
         "place": "USA",
         "color": "#8CC6D4",
         "root": "./images/cropping/Child14@The Joggling Board.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32941"
     },
     {
         "itemid": "125",
@@ -1987,17 +27,17 @@
         "place": "Mexico",
         "color": "#EAD971",
         "root": "./images/cropping/Child125@Going to the Fair.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33025"
     },
     {
-        "itemid": "2",
+        "itemid": "70",
         "group": "Mothers(Adults)",
-        "title": "A Southern Spring",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur2@A Southern Spring.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "title": "O Tsuyu San",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur70@O Tsuyu San.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33011"
     },
     {
         "itemid": "123",
@@ -2007,27 +47,7 @@
         "place": "Mexico",
         "color": "#EAD971",
         "root": "./images/cropping/Figur123@Going to the Fair.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "50",
-        "group": "Children",
-        "title": "The Goblins 'l Git Yer",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Child50@The Goblins 'l Git Yer.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "48",
-        "group": "Children",
-        "title": "The Goblins 'l Git Yer",
-        "date": 1910,
-        "place": "Mexico",
-        "color": "#EAD971",
-        "root": "./images/cropping/Child48@The Goblins 'l Git Yer.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33025"
     },
     {
         "itemid": "80",
@@ -2037,27 +57,7 @@
         "place": "USA",
         "color": "#8CC6D4",
         "root": "./images/cropping/Child80@Moon Bridge at Kameido.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "7",
-        "group": "Children",
-        "title": "Forbidden Fruit",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child7@Forbidden Fruit.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "71",
-        "group": "Children",
-        "title": "O Tsuyu San",
-        "date": 1900,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child71@O Tsuyu San.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33033"
     },
     {
         "itemid": "90",
@@ -2067,27 +67,7 @@
         "place": "Japan",
         "color": "#BAABC8",
         "root": "./images/cropping/Child90@Sunday Morning.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "18",
-        "group": "Animals",
-        "title": "Little Miss Muffet",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Animl18@Little Miss Muffet.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "1",
-        "group": "Children",
-        "title": "The Joggling Board",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child1@The Joggling Board.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33062"
     },
     {
         "itemid": "94",
@@ -2097,27 +77,17 @@
         "place": "Japan",
         "color": "#BAABC8",
         "root": "./images/cropping/Child94@Sunday Morning.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33062"
     },
     {
-        "itemid": "1",
-        "group": "Mothers(Adults)",
-        "title": "A Snowy Day",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur1@A Snowy Day.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "89",
-        "group": "Mothers(Adults)",
-        "title": "Sunday Morning",
-        "date": 1912,
+        "itemid": "107",
+        "group": "Children",
+        "title": "A Summer Shower",
+        "date": 1909,
         "place": "Japan",
         "color": "#BAABC8",
-        "root": "./images/cropping/Figur89@Sunday Morning.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "root": "./images/cropping/Child107@A Summer Shower.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33023"
     },
     {
         "itemid": "76",
@@ -2127,37 +97,27 @@
         "place": "USA",
         "color": "#8CC6D4",
         "root": "./images/cropping/Child76@Moon Bridge at Kameido.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33033"
     },
     {
-        "itemid": "3",
+        "itemid": "71",
         "group": "Children",
-        "title": "The Joggling Board",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child3@The Joggling Board.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "title": "O Tsuyu San",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child71@O Tsuyu San.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33011"
     },
     {
-        "itemid": "81",
-        "group": "Children",
-        "title": "Moon Bridge at Kameido",
-        "date": 1914,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Child81@Moon Bridge at Kameido.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "3",
+        "itemid": "106",
         "group": "Mothers(Adults)",
-        "title": "A Southern Spring",
-        "date": 1918,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur3@A Southern Spring.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "title": "A Summer Shower",
+        "date": 1909,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur106@A Summer Shower.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33023"
     },
     {
         "itemid": "78",
@@ -2167,17 +127,27 @@
         "place": "USA",
         "color": "#8CC6D4",
         "root": "./images/cropping/Child78@Moon Bridge at Kameido.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33033"
     },
     {
-        "itemid": "15",
+        "itemid": "81",
         "group": "Children",
-        "title": "The Joggling Board",
-        "date": 1918,
+        "title": "Moon Bridge at Kameido",
+        "date": 1914,
         "place": "USA",
         "color": "#8CC6D4",
-        "root": "./images/cropping/Child15@The Joggling Board.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "root": "./images/cropping/Child81@Moon Bridge at Kameido.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33033"
+    },
+    {
+        "itemid": "89",
+        "group": "Mothers(Adults)",
+        "title": "Sunday Morning",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur89@Sunday Morning.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33062"
     },
     {
         "itemid": "29",
@@ -2187,17 +157,137 @@
         "place": "Japan",
         "color": "#BAABC8",
         "root": "./images/cropping/Child29@A Roundelay.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32800"
     },
     {
         "itemid": "1",
-        "group": "Mothers(Adults)",
-        "title": "Baby Talk",
-        "date": 1908,
+        "group": "Children",
+        "title": "The Chase",
+        "date": 1903,
         "place": "Japan",
         "color": "#BAABC8",
-        "root": "./images/cropping/Figur1@Baby Talk.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "root": "./images/cropping/Child1@The Chase.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33050"
+    },
+    {
+        "itemid": "108",
+        "group": "Mothers(Adults)",
+        "title": "A Summer Shower",
+        "date": 1909,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur108@A Summer Shower.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33023"
+    },
+    {
+        "itemid": "8",
+        "group": "Landscape",
+        "title": "Sausalito",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands8@Sausalito.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32790"
+    },
+    {
+        "itemid": "30",
+        "group": "Children",
+        "title": "A Roundelay",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child30@A Roundelay.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32800"
+    },
+    {
+        "itemid": "25",
+        "group": "Children",
+        "title": "From the Rice Fields",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child25@From the Rice Fields.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33049"
+    },
+    {
+        "itemid": "3",
+        "group": "Mothers(Adults)",
+        "title": "A Southern Spring",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur3@A Southern Spring.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33037"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "The Chase",
+        "date": 1903,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@The Chase.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33050"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "Friday's Child",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child2@Friday's Child.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33067"
+    },
+    {
+        "itemid": "15",
+        "group": "Children",
+        "title": "The Joggling Board",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child15@The Joggling Board.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32941"
+    },
+    {
+        "itemid": "91",
+        "group": "Mothers(Adults)",
+        "title": "Sunday Morning",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur91@Sunday Morning.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33062"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "The Joggling Board",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child3@The Joggling Board.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32941"
+    },
+    {
+        "itemid": "92",
+        "group": "Mothers(Adults)",
+        "title": "Sunday Morning",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur92@Sunday Morning.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33062"
+    },
+    {
+        "itemid": "24",
+        "group": "Children",
+        "title": "From the Rice Fields",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child24@From the Rice Fields.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33049"
     },
     {
         "itemid": "16",
@@ -2207,97 +297,307 @@
         "place": "USA",
         "color": "#8CC6D4",
         "root": "./images/cropping/Child16@The Joggling Board.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32941"
+    },
+    {
+        "itemid": "23",
+        "group": "Mothers(Adults)",
+        "title": "From the Rice Fields",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur23@From the Rice Fields.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33049"
+    },
+    {
+        "itemid": "7",
+        "group": "Children",
+        "title": "Forbidden Fruit",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child7@Forbidden Fruit.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32796"
+    },
+    {
+        "itemid": "72",
+        "group": "Plants",
+        "title": "A Monarch of Japan",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant72@A Monarch of Japan.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33014"
     },
     {
         "itemid": "1",
         "group": "Mothers(Adults)",
-        "title": "The Bath",
-        "date": 1905,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur1@The Bath.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "title": "Friday's Child",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur1@Friday's Child.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33067"
     },
     {
-        "itemid": "120",
-        "group": "Mothers(Adults)",
-        "title": "The Mirror",
-        "date": 1904,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur120@The Mirror.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "itemid": "47",
+        "group": "Children",
+        "title": "The Home of Gabriel",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child47@The Home of Gabriel.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33048"
     },
     {
-        "itemid": "74",
-        "group": "Mothers(Adults)",
+        "itemid": "73",
+        "group": "Children",
         "title": "A Monarch of Japan",
         "date": 1901,
         "place": "USA",
         "color": "#8CC6D4",
-        "root": "./images/cropping/Figur74@A Monarch of Japan.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
-    },
-    {
-        "itemid": "75",
-        "group": "Mothers(Adults)",
-        "title": "A Monarch of Japan",
-        "date": 1901,
-        "place": "USA",
-        "color": "#8CC6D4",
-        "root": "./images/cropping/Figur75@A Monarch of Japan.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "root": "./images/cropping/Child73@A Monarch of Japan.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33014"
     },
     {
         "itemid": "1",
         "group": "Children",
-        "title": "A Summer Girl",
-        "date": 1905,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child1@A Summer Girl.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "title": "The Joggling Board",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child1@The Joggling Board.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32941"
+    },
+    {
+        "itemid": "7",
+        "group": "Landscape",
+        "title": "Sausalito",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands7@Sausalito.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32790"
+    },
+    {
+        "itemid": "79",
+        "group": "Plants",
+        "title": "Moon Bridge at Kameido",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant79@Moon Bridge at Kameido.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33033"
+    },
+    {
+        "itemid": "18",
+        "group": "Animals",
+        "title": "Little Miss Muffet",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl18@Little Miss Muffet.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32943"
+    },
+    {
+        "itemid": "48",
+        "group": "Children",
+        "title": "The Goblins l Git Yer",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child48@The Goblins 'l Git Yer.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32943"
     },
     {
         "itemid": "2",
         "group": "Mothers(Adults)",
-        "title": "A Day in June",
+        "title": "A Southern Spring",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur2@A Southern Spring.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33037"
+    },
+    {
+        "itemid": "50",
+        "group": "Children",
+        "title": "The Goblins 'l Git Yer",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child50@The Goblins 'l Git Yer.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33037"
+    },
+    {
+        "itemid": "102",
+        "group": "Mothers(Adults)",
+        "title": "Alley in Chinatown",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur102@Alley in Chinatown.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33007"
+    },
+    {
+        "itemid": "127",
+        "group": "Mothers(Adults)",
+        "title": "A Javanese Small Person",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur127@A Javanese Small Person.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33007"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "The Family Umbrella",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child1@The Family Umbrella.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11055"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child3@Bamboo Gate.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11054"
+    },
+    {
+        "itemid": "4",
+        "group": "Children",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child4@Bamboo Gate.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11054"
+    },
+    {
+        "itemid": "36",
+        "group": "Children",
+        "title": "New Brooms",
         "date": 1910,
         "place": "Mexico",
         "color": "#EAD971",
-        "root": "./images/cropping/Figur2@A Day in June.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "root": "./images/cropping/Child36@New Brooms.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32814"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child2@Bamboo Gate.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11054"
+    },
+    {
+        "itemid": "5",
+        "group": "Children",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child5@Bamboo Gate.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11054"
+    },
+    {
+        "itemid": "2",
+        "group": "Mothers(Adults)",
+        "title": "A Gentleman of France",
+        "date": 1899,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur2@A Gentleman of France.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32932"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "Blossom Time in Tokyo",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child1@Blossom Time in Tokyo.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33065"
+    },
+    {
+        "itemid": "5",
+        "group": "Children",
+        "title": "By the Great Peedee",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child5@By the Great Peedee.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32786"
     },
     {
         "itemid": "4",
         "group": "Mothers(Adults)",
-        "title": "My Neighbors",
-        "date": 1913,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Figur4@My Neighbors.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "title": "By the Great Peedee",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur4@By the Great Peedee.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32786"
     },
     {
-        "itemid": "1",
-        "group": "Children",
-        "title": "A Mexican Rebecca",
-        "date": 1912,
-        "place": "Japan",
-        "color": "#BAABC8",
-        "root": "./images/cropping/Child1@A Mexican Rebecca.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "itemid": "54",
+        "group": "Accessories",
+        "title": "Complaints",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools54@Complaints.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32811"
     },
     {
-        "itemid": "1",
+        "itemid": "31",
         "group": "Children",
-        "title": "The Bamboo Fence",
-        "date": 1904,
+        "title": "A Roundelay",
+        "date": 1906,
         "place": "Japan",
         "color": "#BAABC8",
-        "root": "./images/cropping/Child1@The Bamboo Fence.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "root": "./images/cropping/Child31@A Roundelay.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32800"
+    },
+    {
+        "itemid": "4",
+        "group": "Children",
+        "title": "Baby San",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child4@Baby San.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32934"
+    },
+    {
+        "itemid": "21",
+        "group": "Children",
+        "title": "A Child of the People",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child21@A Child of the People.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33012"
+    },
+    {
+        "itemid": "2",
+        "group": "Mothers(Adults)",
+        "title": "A Rainy Night",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur2@A Rainy Night.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33055"
     },
     {
         "itemid": "3",
@@ -2307,17 +607,67 @@
         "place": "USA",
         "color": "#8CC6D4",
         "root": "./images/cropping/Figur3@Blossom Time in Tokyo.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33065"
     },
     {
-        "itemid": "85",
+        "itemid": "1",
         "group": "Children",
-        "title": "The White Peacock",
-        "date": 1914,
+        "title": "Ah Yen",
+        "date": 1898,
         "place": "USA",
         "color": "#8CC6D4",
-        "root": "./images/cropping/Child85@The White Peacock.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "root": "./images/cropping/Child1@Ah Yen.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32930"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "A Mexican Rebecca",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child1@A Mexican Rebecca.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33027"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "A Rainy Night",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child3@A Rainy Night.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33055"
+    },
+    {
+        "itemid": "4",
+        "group": "Plants",
+        "title": "The Bamboo Fence",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant4@The Bamboo Fence.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33453"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "Feeding the Geese",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child2@Feeding the Geese.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32803"
+    },
+    {
+        "itemid": "17",
+        "group": "Children",
+        "title": "Little Miss Muffet",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child17@Little Miss Muffet.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32943"
     },
     {
         "itemid": "87",
@@ -2327,7 +677,17 @@
         "place": "USA",
         "color": "#8CC6D4",
         "root": "./images/cropping/Child87@The White Peacock.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33035"
+    },
+    {
+        "itemid": "116",
+        "group": "Children",
+        "title": "Carry On",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child116@Carry On.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32787"
     },
     {
         "itemid": "86",
@@ -2337,6 +697,1646 @@
         "place": "USA",
         "color": "#8CC6D4",
         "root": "./images/cropping/Child86@The White Peacock.jpg",
-        "link": "https://americanart.si.edu/collections/search/artwork/?id=11057"
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33035"
+    },
+    {
+        "itemid": "98",
+        "group": "Children",
+        "title": "Fisher Boy",
+        "date": 1899,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child98@Fisher Boy.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32931"
+    },
+    {
+        "itemid": "5",
+        "group": "Children",
+        "title": "Alfonso and Conchita",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child5@Alfonso and Conchita.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32795"
+    },
+    {
+        "itemid": "49",
+        "group": "Children",
+        "title": "The Goblins 'l Git Yer",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child49@The Goblins 'l Git Yer.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32795"
+    },
+    {
+        "itemid": "1",
+        "group": "Animals",
+        "title": "Feeding the Geese",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl1@Feeding the Geese.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32803"
+    },
+    {
+        "itemid": "1",
+        "group": "Mothers(Adults)",
+        "title": "A Snowy Day",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur1@A Snowy Day.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33016"
+    },
+    {
+        "itemid": "3",
+        "group": "Animals",
+        "title": "A Mexican Coquette",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Animl3@A Mexican Coquette.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33060"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child1@Bamboo Gate.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11054"
+    },
+    {
+        "itemid": "53",
+        "group": "Children",
+        "title": "The Daikon and the Baby",
+        "date": 1903,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child53@The Daikon and the Baby.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32792"
+    },
+    {
+        "itemid": "1",
+        "group": "Plants",
+        "title": "My Neighbors",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant1@My Neighbors.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33064"
+    },
+    {
+        "itemid": "65",
+        "group": "Children",
+        "title": "Mother and Child",
+        "date": 1897,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child65@Mother and Child.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32929"
+    },
+    {
+        "itemid": "111",
+        "group": "Children",
+        "title": "Over the Garden Wall",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child111@Over the Garden Wall.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33061"
+    },
+    {
+        "itemid": "6",
+        "group": "Landscape",
+        "title": "Church at Cuernavaca, Mexico",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Lands6@Church at Cuernavaca, Mexico.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32794"
+    },
+    {
+        "itemid": "122",
+        "group": "Accessories",
+        "title": "The Mirror",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools122@The Mirror.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33019"
+    },
+    {
+        "itemid": "1",
+        "group": "Landscape",
+        "title": "The Sauce Pan Shop",
+        "date": 1908,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Lands1@The Sauce Pan Shop.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32778"
+    },
+    {
+        "itemid": "126",
+        "group": "Landscape",
+        "title": "Cypress Swamp",
+        "date": 1917,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands126@Cypress Swamp.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33066"
+    },
+    {
+        "itemid": "4",
+        "group": "Mothers(Adults)",
+        "title": "My Neighbors",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur4@My Neighbors.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33064"
+    },
+    {
+        "itemid": "2",
+        "group": "Mothers(Adults)",
+        "title": "A Day in June",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Figur2@A Day in June.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33024"
+    },
+    {
+        "itemid": "6",
+        "group": "Landscape",
+        "title": "The Seats of the Mighty",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Lands6@The Seats of the Mighty.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33032"
+    },
+    {
+        "itemid": "1",
+        "group": "Accessories",
+        "title": "A Rainy Night",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools1@A Rainy Night.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33055"
+    },
+    {
+        "itemid": "120",
+        "group": "Mothers(Adults)",
+        "title": "The Mirror",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur120@The Mirror.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33019"
+    },
+    {
+        "itemid": "13",
+        "group": "Children",
+        "title": "Head of Ah Ho",
+        "date": 1899,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child13@Head of Ah Ho.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32933"
+    },
+    {
+        "itemid": "1",
+        "group": "Mothers(Adults)",
+        "title": "The Bath",
+        "date": 1905,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur1@The Bath.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33020"
+    },
+    {
+        "itemid": "6",
+        "group": "Children",
+        "title": "Ice Cream Pails",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child6@Ice Cream Pails.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32804"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "The Bamboo Fence",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child1@The Bamboo Fence.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33453"
+    },
+    {
+        "itemid": "74",
+        "group": "Mothers(Adults)",
+        "title": "A Monarch of Japan",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur74@A Monarch of Japan.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33014"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "Cherry Snow",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child3@Cherry Snow.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33051"
+    },
+    {
+        "itemid": "85",
+        "group": "Children",
+        "title": "The White Peacock",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child85@The White Peacock.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33035"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "A Native Daughter",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child3@A Native Daughter.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32783"
+    },
+    {
+        "itemid": "113",
+        "group": "Children",
+        "title": "Little Dancer of the No",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child113@Little Dancer of the No.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32783"
+    },
+    {
+        "itemid": "75",
+        "group": "Mothers(Adults)",
+        "title": "A Monarch of Japan",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur75@A Monarch of Japan.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33014"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "Blossom Child",
+        "date": 1902,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@Blossom Child.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32936"
+    },
+    {
+        "itemid": "99",
+        "group": "Children",
+        "title": "The Lucky Branch",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child99@The Lucky Branch.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32940"
+    },
+    {
+        "itemid": "114",
+        "group": "Accessories",
+        "title": "Carry On",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools114@Carry On.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32787"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "A Mexican Coquette",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@A Mexican Coquette.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33060"
+    },
+    {
+        "itemid": "64",
+        "group": "Accessories",
+        "title": "Little Pink Plum",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools64@Little Pink Plum.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11056"
+    },
+    {
+        "itemid": "5",
+        "group": "Accessories",
+        "title": "Blossom Time in Tokyo",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools5@Blossom Time in Tokyo.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33065"
+    },
+    {
+        "itemid": "124",
+        "group": "Accessories",
+        "title": "Going to the Fair",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Tools124@Going to the Fair.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33025"
+    },
+    {
+        "itemid": "19",
+        "group": "Plants",
+        "title": "Little Miss Muffet",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant19@Little Miss Muffet.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32943"
+    },
+    {
+        "itemid": "28",
+        "group": "Animals",
+        "title": "On the Bund at Tokyo",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Animl28@On the Bund at Tokyo.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32797"
+    },
+    {
+        "itemid": "121",
+        "group": "Children",
+        "title": "The Mirror",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child121@The Mirror.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33019"
+    },
+    {
+        "itemid": "104",
+        "group": "Landscape",
+        "title": "Alley in Chinatown",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands104@Alley in Chinatown.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33007"
+    },
+    {
+        "itemid": "3",
+        "group": "Plants",
+        "title": "A Day in June",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Plant3@A Day in June.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33024"
+    },
+    {
+        "itemid": "1",
+        "group": "Landscape",
+        "title": "The Pink Fountain at Jalapa",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Lands1@The Pink Fountain at Jalapa.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33031"
+    },
+    {
+        "itemid": "5",
+        "group": "Accessories",
+        "title": "Belated",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools5@Belated.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32935"
+    },
+    {
+        "itemid": "6",
+        "group": "Children",
+        "title": "The Bamboo Fence",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child6@The Bamboo Fence.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33453"
+    },
+    {
+        "itemid": "46",
+        "group": "Landscape",
+        "title": "The Home of Gabriel",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands46@The Home of Gabriel.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33048"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "The Bamboo Fence",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child3@The Bamboo Fence.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33453"
+    },
+    {
+        "itemid": "2",
+        "group": "Accessories",
+        "title": "The Joggling Board",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools2@The Joggling Board.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32941"
+    },
+    {
+        "itemid": "26",
+        "group": "Plants",
+        "title": "From the Rice Fields",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant26@From the Rice Fields.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33049"
+    },
+    {
+        "itemid": "5",
+        "group": "Children",
+        "title": "The Bamboo Fence",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child5@The Bamboo Fence.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33453"
+    },
+    {
+        "itemid": "4",
+        "group": "Landscape",
+        "title": "A Southern Spring",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands4@A Southern Spring.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33037"
+    },
+    {
+        "itemid": "60",
+        "group": "Children",
+        "title": "A Weary Little Mother",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child60@A Weary Little Mother.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32816"
+    },
+    {
+        "itemid": "69",
+        "group": "Children",
+        "title": "In Their Holiday Clothes",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child69@In Their Holiday Clothes.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33003"
+    },
+    {
+        "itemid": "45",
+        "group": "Landscape",
+        "title": "Oaxaca Market",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Lands45@Oaxaca Market.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33030"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "A Summer Girl",
+        "date": 1905,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child1@A Summer Girl.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32817"
+    },
+    {
+        "itemid": "44",
+        "group": "Landscape",
+        "title": "Mount Orizaba",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Lands44@Mount Orizaba.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33029"
+    },
+    {
+        "itemid": "4",
+        "group": "Accessories",
+        "title": "A Summer Girl",
+        "date": 1905,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools4@A Summer Girl.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32817"
+    },
+    {
+        "itemid": "6",
+        "group": "Accessories",
+        "title": "The Bath",
+        "date": 1905,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools6@The Bath.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33020"
+    },
+    {
+        "itemid": "1",
+        "group": "Mothers(Adults)",
+        "title": "Baby Talk",
+        "date": 1908,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur1@Baby Talk.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33058"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "Marching as to War",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child1@Marching as to War.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32942"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "Alfonso and Conchita",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@Alfonso and Conchita.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32795"
+    },
+    {
+        "itemid": "112",
+        "group": "Plants",
+        "title": "Over the Garden Wall",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant112@Over the Garden Wall.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33061"
+    },
+    {
+        "itemid": "1",
+        "group": "Landscape",
+        "title": "Cypress Trees",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands1@Cypress Trees.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32782"
+    },
+    {
+        "itemid": "4",
+        "group": "Plants",
+        "title": "Belated",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant4@Belated.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32935"
+    },
+    {
+        "itemid": "93",
+        "group": "Plants",
+        "title": "Sunday Morning",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant93@Sunday Morning.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33062"
+    },
+    {
+        "itemid": "4",
+        "group": "Animals",
+        "title": "An Interlude",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Animl4@An Interlude.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33026"
+    },
+    {
+        "itemid": "2",
+        "group": "Accessories",
+        "title": "Blossom Time in Tokyo",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools2@Blossom Time in Tokyo.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33065"
+    },
+    {
+        "itemid": "67",
+        "group": "Mothers(Adults)",
+        "title": "In Their Holiday Clothes",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur67@In Their Holiday Clothes.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33003"
+    },
+    {
+        "itemid": "109",
+        "group": "Accessories",
+        "title": "A Summer Shower",
+        "date": 1909,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools109@A Summer Shower.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33023"
+    },
+    {
+        "itemid": "2",
+        "group": "Accessories",
+        "title": "Teasing the Daruma",
+        "date": 1905,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools2@Teasing the Daruma.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32810"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "Baby Talk",
+        "date": 1908,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child1@Baby Talk.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33058"
+    },
+    {
+        "itemid": "5",
+        "group": "Accessories",
+        "title": "An Interlude",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools5@An Interlude.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33026"
+    },
+    {
+        "itemid": "97",
+        "group": "Plants",
+        "title": "A Windy Ride",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant97@A Windy Ride.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32815"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "Belated",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child3@Belated.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32935"
+    },
+    {
+        "itemid": "2",
+        "group": "Plants",
+        "title": "Jeffrey Boy",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant2@Jeffrey Boy.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33054"
+    },
+    {
+        "itemid": "20",
+        "group": "Landscape",
+        "title": "The Year at the Spring",
+        "date": 1899,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Lands20@The Year at the Spring.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33005"
+    },
+    {
+        "itemid": "2",
+        "group": "Animals",
+        "title": "Interior Decoration",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Animl2@Interior Decoration.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33009"
+    },
+    {
+        "itemid": "9",
+        "group": "Landscape",
+        "title": "Sausalito",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands9@Sausalito.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32790"
+    },
+    {
+        "itemid": "3",
+        "group": "Plants",
+        "title": "Interior Decoration",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant3@Interior Decoration.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33009"
+    },
+    {
+        "itemid": "119",
+        "group": "Landscape",
+        "title": "Survival of the Fittest",
+        "date": 1916,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Lands119@Survival of the Fittest.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32805"
+    },
+    {
+        "itemid": "68",
+        "group": "Children",
+        "title": "In Their Holiday Clothes",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child68@In Their Holiday Clothes.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33003"
+    },
+    {
+        "itemid": "3",
+        "group": "Animals",
+        "title": "My Neighbors",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Animl3@My Neighbors.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33064"
+    },
+    {
+        "itemid": "57",
+        "group": "Plants",
+        "title": "Complaints",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant57@Complaints.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32811"
+    },
+    {
+        "itemid": "105",
+        "group": "Children",
+        "title": "A Summer Shower",
+        "date": 1909,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child105@A Summer Shower.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33023"
+    },
+    {
+        "itemid": "32",
+        "group": "Plants",
+        "title": "A Roundelay",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant32@A Roundelay.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32800"
+    },
+    {
+        "itemid": "40",
+        "group": "Children",
+        "title": "The Furious Dragon",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child40@The Furious Dragon.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32939"
+    },
+    {
+        "itemid": "35",
+        "group": "Children",
+        "title": "New Brooms",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Child35@New Brooms.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32814"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "Interior Decoration",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child1@Interior Decoration.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33009"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "The Bamboo Fence",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@The Bamboo Fence.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33453"
+    },
+    {
+        "itemid": "22",
+        "group": "Accessories",
+        "title": "A Child of the People",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools22@A Child of the People.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33012"
+    },
+    {
+        "itemid": "115",
+        "group": "Accessories",
+        "title": "Carry On",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools115@Carry On.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32787"
+    },
+    {
+        "itemid": "3",
+        "group": "Plants",
+        "title": "Butterflies",
+        "date": 1908,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant3@Butterflies.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32806"
+    },
+    {
+        "itemid": "110",
+        "group": "Accessories",
+        "title": "A Summer Shower",
+        "date": 1909,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools110@A Summer Shower.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33023"
+    },
+    {
+        "itemid": "43",
+        "group": "Children",
+        "title": "A Japanese Madonna",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child43@A Japanese Madonna.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33010"
+    },
+    {
+        "itemid": "42",
+        "group": "Mothers(Adults)",
+        "title": "A Japanese Madonna",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur42@A Japanese Madonna.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33010"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "Jeffrey Boy",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child1@Jeffrey Boy.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33054"
+    },
+    {
+        "itemid": "59",
+        "group": "Plants",
+        "title": "A Weary Little Mother",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant59@A Weary Little Mother.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32816"
+    },
+    {
+        "itemid": "4",
+        "group": "Children",
+        "title": "Confidences",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child4@Confidences.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33053"
+    },
+    {
+        "itemid": "101",
+        "group": "Mothers(Adults)",
+        "title": "The Lucky Branch",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur101@The Lucky Branch.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32940"
+    },
+    {
+        "itemid": "55",
+        "group": "Animals",
+        "title": "Complaints",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl55@Complaints.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32811"
+    },
+    {
+        "itemid": "34",
+        "group": "Accessories",
+        "title": "August",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools34@August.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32809"
+    },
+    {
+        "itemid": "2",
+        "group": "Accessories",
+        "title": "A Snowy Day",
+        "date": 1901,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools2_1@A Snowy Day.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33016"
+    },
+    {
+        "itemid": "38",
+        "group": "Accessories",
+        "title": "New Brooms",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Tools38@New Brooms.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32814"
+    },
+    {
+        "itemid": "61",
+        "group": "Mothers(Adults)",
+        "title": "A Weary Little Mother",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur61@A Weary Little Mother.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32816"
+    },
+    {
+        "itemid": "82",
+        "group": "Animals",
+        "title": "The White Peacock",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl82@The White Peacock.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33035"
+    },
+    {
+        "itemid": "1",
+        "group": "Mothers(Adults)",
+        "title": "An Interlude",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur1@An Interlude.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33026"
+    },
+    {
+        "itemid": "100",
+        "group": "Animals",
+        "title": "The Lucky Branch",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl100@The Lucky Branch.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32940"
+    },
+    {
+        "itemid": "83",
+        "group": "Animals",
+        "title": "The White Peacock",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl83@The White Peacock.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33035"
+    },
+    {
+        "itemid": "10",
+        "group": "Accessories",
+        "title": "The Blue Umbrella",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools10@The Blue Umbrella.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32798"
+    },
+    {
+        "itemid": "1",
+        "group": "Plants",
+        "title": "The Secret",
+        "date": 1909,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant1@The Secret.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32823"
+    },
+    {
+        "itemid": "84",
+        "group": "Plants",
+        "title": "The White Peacock",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant84@The White Peacock.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33035"
+    },
+    {
+        "itemid": "3",
+        "group": "Accessories",
+        "title": "A Mexican Rebecca",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools3@A Mexican Rebecca.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33027"
+    },
+    {
+        "itemid": "37",
+        "group": "Plants",
+        "title": "New Brooms",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Plant37@New Brooms.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32814"
+    },
+    {
+        "itemid": "52",
+        "group": "Plants",
+        "title": "The Daikon and the Baby",
+        "date": 1903,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant52@The Daikon and the Baby.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32792"
+    },
+    {
+        "itemid": "39",
+        "group": "Animals",
+        "title": "The Furious Dragon",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Animl39@The Furious Dragon.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32939"
+    },
+    {
+        "itemid": "1",
+        "group": "Plants",
+        "title": "Blossom Child",
+        "date": 1902,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant1@Blossom Child.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32936"
+    },
+    {
+        "itemid": "4",
+        "group": "Plants",
+        "title": "Cherry Snow",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant4@Cherry Snow.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33051"
+    },
+    {
+        "itemid": "6",
+        "group": "Plants",
+        "title": "Bamboo Gate",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant6@Bamboo Gate.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11054"
+    },
+    {
+        "itemid": "56",
+        "group": "Children",
+        "title": "Complaints",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child56@Complaints.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32811"
+    },
+    {
+        "itemid": "77",
+        "group": "Children",
+        "title": "Moon Bridge at Kameido",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child77@Moon Bridge at Kameido.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33033"
+    },
+    {
+        "itemid": "1",
+        "group": "Plants",
+        "title": "A Spring Poem",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant1@A Spring Poem.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33056"
+    },
+    {
+        "itemid": "3",
+        "group": "Plants",
+        "title": "Confidences",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant3@Confidences.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33053"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "The Secret",
+        "date": 1909,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child3@The Secret.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32823"
+    },
+    {
+        "itemid": "66",
+        "group": "Mothers(Adults)",
+        "title": "Mother and Child",
+        "date": 1897,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur66@Mother and Child.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32929"
+    },
+    {
+        "itemid": "118",
+        "group": "Accessories",
+        "title": "The Good Luck Branch",
+        "date": 1907,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools118@The Good Luck Branch.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32788"
+    },
+    {
+        "itemid": "95",
+        "group": "Children",
+        "title": "A Windy Ride",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child95@A Windy Ride.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32815"
+    },
+    {
+        "itemid": "12",
+        "group": "Mothers(Adults)",
+        "title": "The Blue Umbrella",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Figur12@The Blue Umbrella.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32798"
+    },
+    {
+        "itemid": "58",
+        "group": "Accessories",
+        "title": "A Weary Little Mother",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools58@A Weary Little Mother.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32816"
+    },
+    {
+        "itemid": "27",
+        "group": "Mothers(Adults)",
+        "title": "On the Bund at Tokyo",
+        "date": 1900,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur27@On the Bund at Tokyo.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32797"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "A Common Scold",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@A Common Scold.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32813"
+    },
+    {
+        "itemid": "6",
+        "group": "Accessories",
+        "title": "The Daruma Branch",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Tools6@The Daruma Branch.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32822"
+    },
+    {
+        "itemid": "2",
+        "group": "Accessories",
+        "title": "The Family Umbrella",
+        "date": 1915,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Tools2@The Family Umbrella.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11055"
+    },
+    {
+        "itemid": "62",
+        "group": "Plants",
+        "title": "Little Pink Plum",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant62@Little Pink Plum.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11056"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "The Hired Baby",
+        "date": 1909,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child1@The Hired Baby.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32807"
+    },
+    {
+        "itemid": "2",
+        "group": "Mothers(Adults)",
+        "title": "A Mexican Rebecca",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur2@A Mexican Rebecca.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33027"
+    },
+    {
+        "itemid": "103",
+        "group": "Children",
+        "title": "Alley in Chinatown",
+        "date": 1898,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child103@Alley in Chinatown.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33007"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "My Neighbors",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@My Neighbors.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33064"
+    },
+    {
+        "itemid": "103",
+        "group": "Children",
+        "title": "A Summer Shower",
+        "date": 1909,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child103@A Summer Shower.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33023"
+    },
+    {
+        "itemid": "4",
+        "group": "Plants",
+        "title": "A Mexican Coquette",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant4@A Mexican Coquette.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33060"
+    },
+    {
+        "itemid": "4",
+        "group": "Children",
+        "title": "Butterflies",
+        "date": 1908,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child4@Butterflies.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32806"
+    },
+    {
+        "itemid": "4",
+        "group": "Plants",
+        "title": "A Mexican Rebecca",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Plant4@A Mexican Rebecca.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33027"
+    },
+    {
+        "itemid": "117",
+        "group": "Children",
+        "title": "The Good Luck Branch",
+        "date": 1907,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child117@The Good Luck Branch.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32788"
+    },
+    {
+        "itemid": "63",
+        "group": "Children",
+        "title": "Little Pink Plum",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child63@Little Pink Plum.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=11056"
+    },
+    {
+        "itemid": "128",
+        "group": "Mothers(Adults)",
+        "title": "An April Evening",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Figur128@An April Evening.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32802"
+    },
+    {
+        "itemid": "120",
+        "group": "Plants",
+        "title": "An April Evening",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Plant120@An April Evening.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32802"
+    },
+    {
+        "itemid": "11",
+        "group": "Children",
+        "title": "The Blue Umbrella",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child11@The Blue Umbrella.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32798"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "A Day in June",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Child1@A Day in June.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33024"
+    },
+    {
+        "itemid": "1",
+        "group": "Children",
+        "title": "A Mexican Coquette",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child1@A Mexican Coquette.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33060"
+    },
+    {
+        "itemid": "129",
+        "group": "Children",
+        "title": "An April Evening",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Child129@An April Evening.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32802"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "The Bath",
+        "date": 1905,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@The Bath.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33020"
+    },
+    {
+        "itemid": "1",
+        "group": "Accessories",
+        "title": "The Go-Cart",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Tools1@The Go-Cart.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32938"
+    },
+    {
+        "itemid": "8",
+        "group": "Plants",
+        "title": "Forbidden Fruit",
+        "date": 1918,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Plant8@Forbidden Fruit.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32796"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "Casting Out Bad Luck",
+        "date": 1904,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@Casting Out Bad Luck.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32812"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "The Daruma Branch",
+        "date": 1910,
+        "place": "Mexico",
+        "color": "#EAD971",
+        "root": "./images/cropping/Child2@The Daruma Branch.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32822"
+    },
+    {
+        "itemid": "1",
+        "group": "Animals",
+        "title": "A Common Scold",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Animl1@A Common Scold.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32813"
+    },
+    {
+        "itemid": "2",
+        "group": "Mothers(Adults)",
+        "title": "The Secret",
+        "date": 1909,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Figur2@The Secret.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32823"
+    },
+    {
+        "itemid": "96",
+        "group": "Children",
+        "title": "A Windy Ride",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child96@A Windy Ride.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32815"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "Teasing the Daruma",
+        "date": 1905,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child3@Teasing the Daruma.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32810"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "The Go-Cart",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child3@The Go-Cart.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32938"
+    },
+    {
+        "itemid": "3",
+        "group": "Children",
+        "title": "An Interlude",
+        "date": 1912,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child3@An Interlude.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33026"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "A Spring Poem",
+        "date": 1906,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@A Spring Poem.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=33056"
+    },
+    {
+        "itemid": "2",
+        "group": "Children",
+        "title": "The Go-Cart",
+        "date": 1913,
+        "place": "Japan",
+        "color": "#BAABC8",
+        "root": "./images/cropping/Child2@The Go-Cart.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32938"
+    },
+    {
+        "itemid": "41",
+        "group": "Children",
+        "title": "The Furious Dragon",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child41@The Furious Dragon.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32939"
+    },
+    {
+        "itemid": "33",
+        "group": "Children",
+        "title": "August",
+        "date": 1914,
+        "place": "USA",
+        "color": "#8CC6D4",
+        "root": "./images/cropping/Child33@August.jpg",
+        "link": "https://americanart.si.edu/collections/search/artwork/?id=32809"
     }
 ]

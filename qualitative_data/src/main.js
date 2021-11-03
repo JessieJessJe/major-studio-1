@@ -3,6 +3,11 @@
   // var h = document.getElementById("landing-page-right").offsetHeight;
 
   var tilesPerRow = 6;
+  const GRID_TILES = 30;
+  const BAR_TILES = 6;
+
+  var chart_distance_to_top = 900;
+
   var tileSize = (w * 0.9 )/ ((tilesPerRow * 6));
   var barWidth = tilesPerRow * tileSize + w*0.01;
   
@@ -14,15 +19,24 @@
 //   "Mexico": "#EAD971"
 // }
 
-function setTileSize(){
+function setTileSize( tilesPerRow ){
   w = document.getElementById("landing-page-right").offsetWidth;
-  tileSize = (w * 0.9 )/ ((tilesPerRow * 6));
-  barWidth = tilesPerRow * tileSize + w*0.01;
+
+  if (tilesPerRow == BAR_TILES){
+    // multiple by # of colulms (6)
+    tileSize = (w * 0.9 )/ ((tilesPerRow * 6));
+    barWidth = tilesPerRow * tileSize + w*0.01;
+  } else {
+    tileSize = (w * 0.9)/ (tilesPerRow);
+    barWidth = tilesPerRow * tileSize;
+  }
+
 }
 
 function setTilesPerRow(a){
   tilesPerRow = a;
   barWidth = tilesPerRow * tileSize + 10;
+  setTileSize(tilesPerRow);
 }
 
 function getTiles(num) {
@@ -39,12 +53,21 @@ function getTiles(num) {
   return tiles
 }
 
+
+
+function reformatTitle(title){
+  let re = `/^[A-Za-z]+$/`
+  let newTitle = title.replaceAll(re, "").replaceAll(" ", "");
+  
+  return newTitle;
+}
+
 function updateBarHide(d, i, items) {
 
   var tiles = getTiles(d);
 
   var u = d3.select("#_" + i)
-    .attr("transform", "translate(" + i * barWidth + ", 900)")
+    .attr("transform", "translate(" + i * barWidth + ", " + chart_distance_to_top + ")")
     .selectAll("rect")
     .data(tiles);
 
@@ -82,18 +105,20 @@ function updateBarHide(d, i, items) {
 
 }
 
-
+// d: how many small dots to show for each bar
+// i: nth bar, range(1~6)
+//items: meta data for each small dots
 function updateBar(d, i, items) {
 
   var tiles = getTiles(d);
 
   var u = d3.select("#_" + i)
-    .attr("transform", "translate(" + i * barWidth + ", 900)")
+    .attr("transform", "translate(" + i * barWidth + ", " + chart_distance_to_top +")")
     .selectAll("image")
     .data(tiles);
 
 
-      // customize image square ------------------------------
+      // image square ------------------------------
       // u.enter()
       // .append("svg:image")
       // .merge(u)
@@ -119,8 +144,12 @@ function updateBar(d, i, items) {
 
       //  u.append('svg:defs');
 
+      //image dots -------------------------
+
       d3.select("#_" + i).append("svg:defs")  
 
+      //first creating a circel clipping mask for each dots
+      //we need to create one for each dots bc the locations are different
       tiles.forEach(function(d,index){
 
           d3.select("#_" + i)  
@@ -134,10 +163,11 @@ function updateBar(d, i, items) {
 
       )
       
-
+    //for each dots, add image and then apply the cliping mask
     var myimg =  u.enter()
        .append("svg:image")
        .merge(u)
+       .attr("class", function(d,i){ return "cropped " + reformatTitle(items[i].title) })
        .attr("x", function(d) {       
          return d.x;
        })
@@ -146,7 +176,7 @@ function updateBar(d, i, items) {
        })
        .attr("cursor", "pointer")
        .on("click", function(d,i) {
-        clickinfo(items[i])
+        clickinfo(items[i]) //the micro info window
       })
 
       myimg.transition()
@@ -164,6 +194,45 @@ function updateBar(d, i, items) {
          return `url(#clipObj${i})`
        })
 
+       myimg.on("mouseover", function(d,i){
+
+          var className = "."+reformatTitle(items[i].title);  
+
+          d3.selectAll(".cropped")
+          .filter(function() {
+            return !this.classList.contains(reformatTitle(items[i].title))
+          })
+          .transition(200)       
+          .style("opacity", 0.4)
+
+    
+          
+          .selectAll(className)    
+          .style("opacity", 1)
+          .transition(200)
+          // .attr('clip-path', null)
+          .attr("width", tileSize* 1.2)
+          .attr("height", tileSize* 1.2)})
+   
+          
+
+        .on("mouseout", function(d,i){
+
+          // var className = "."+reformatTitle(items[i].title);  
+
+            d3.selectAll(".cropped") 
+            .transition(200)   
+            .style("opacity", 1)
+            .attr("width", tileSize)
+            .attr("height", tileSize);
+            
+            // .attr("xlink:href", function(d,i){
+            //   return `${items[i].root}`
+            // })
+            // .attr('clip-path', function(d,i){
+            //   return `url(#clipObj${i})`
+            // })
+      })
 
        // end of image in circles
 
@@ -238,10 +307,19 @@ function getGroupCounts(group_items){
     for (let i=0; i< group_items.length; i++){
       counts[i] = group_items[i].length
     }
-  
+    
+    getMaxHeight(counts)
+
     return counts
   
   }
+
+function getMaxHeight(counts){
+    let max = Math.max(...counts);
+    chart_distance_to_top = Math.floor( (Math.trunc(max / tilesPerRow) + 1) * tileSize * 1.25 );
+
+    console.log(chart_distance_to_top)
+}
 
 //re-arrange the data_json file to creat bar charts in d3
 function prepareJson(data, selectedYearBegin, selectedYearEnd){
@@ -360,7 +438,7 @@ d3.json("./data_crop.json", function(err, data) {
       d3.select("#gridview").property('checked', false);
 
       selectView = "bar";
-      setTilesPerRow(5);
+      setTilesPerRow(BAR_TILES);
       group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
       updateBars(group_items, selectMode);
 
@@ -371,7 +449,7 @@ d3.json("./data_crop.json", function(err, data) {
       d3.select("#gridview").property('checked', true);
 
       selectView = "grid";
-      setTilesPerRow(30)
+      setTilesPerRow(GRID_TILES)
 
       group_items = prepareGrid(data, selectedYearBegin, selectedYearEnd)
       updateBars(group_items, selectMode);
@@ -388,7 +466,7 @@ d3.json("./data_crop.json", function(err, data) {
       d3.select("#barview").property('checked', false);
 
       selectView = "grid";
-      setTilesPerRow(30);
+      setTilesPerRow(GRID_TILES);
 
       group_items = prepareGrid(data, selectedYearBegin, selectedYearEnd)
       updateBars(group_items, selectMode);
@@ -400,7 +478,7 @@ d3.json("./data_crop.json", function(err, data) {
       d3.select("#barview").property('checked', true);
 
       selectView = "bar";
-      setTilesPerRow(5)
+      setTilesPerRow(BAR_TILES)
       group_items = prepareJson(data, selectedYearBegin, selectedYearEnd);
       updateBars(group_items, selectMode);
 
@@ -559,11 +637,11 @@ const resizeObserver = new ResizeObserver(entries => {
       // Firefox implements `contentBoxSize` as a single content rect, rather than an array
       const contentBoxSize = Array.isArray(entry.contentBoxSize) ? entry.contentBoxSize[0] : entry.contentBoxSize;
       console.log("changesize,", entry.contentRect.width)
-          setTileSize();
+          setTileSize(tilesPerRow);
           drawD3();
     } else {
         console.log("changesize,", entry.contentRect.width)
-          setTileSize();
+          setTileSize(tilesPerRow);
           drawD3();
     }
   }
