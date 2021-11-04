@@ -9,7 +9,7 @@ Split(['#landing-page-left', '#landing-page-right'], {
             'flex-basis': gutterSize + 'px',
         }
     },
-    sizes: [80, 20],
+    sizes: [20, 80],
   
   })
 
@@ -101,7 +101,7 @@ function showImgC(){
 
 function hideLeft(){
 
-    document.getElementById("page-title").innerHTML = "<h1>The <br>World<br> Created <br>by <br>Helen <br>Hyde</h1>";
+    // document.getElementById("page-title").innerHTML = "<h1>The <br>World<br> Created <br>by <br>Helen <br>Hyde</h1>";
     document.querySelectorAll(".page-title-hide").forEach( function(d){
         d.style.display = "none"
     })
@@ -113,7 +113,7 @@ function showLeft(ratio){
     if (ratio<0.5){ showImgHelen()}
     else {showImgHelen2()}
 
-    document.getElementById("page-title").innerHTML = "<h1>The World Created by Helen Hyde</h1>"
+    // document.getElementById("page-title").innerHTML = "<h1>The World Created by Helen Hyde</h1>"
     document.querySelectorAll(".page-title-hide").forEach( function(d){
         d.style.display = "flex"
     })

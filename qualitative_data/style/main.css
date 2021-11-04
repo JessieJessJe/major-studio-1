@@ -6,7 +6,7 @@ h1 {
   font-family: 'Old Standard TT';
   font-size: 3rem;
   font-style: bold;
-  font-weight: 80;
+  font-weight: 700;
   margin: 0;
   /* f
   line-height: 59px; */
@@ -36,6 +36,11 @@ button{
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+.gutter{
+  flex-basis: 3rem;
+  width: 10%;
 }
 
 .usa-color{
@@ -160,16 +165,76 @@ button{
 
 }
 
+.title-font{
+
+  font-family: Old Standard TT;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 65px;
+ 
+  letter-spacing: -0.01em;
+
+  color: #000000;
+
+}
+
 #page-title{
-  display: flex;
+  /* display: flex;
   position: relative;
   flex-direction: column;
 
   justify-content: center;
 
   display: block;
-  margin: 0 auto 0; 
+  margin: 0 auto 0;  */
+
+  position: absolute;
+  width: 227px;
+  height: 292px;
+  left: 59px;
+  top: 49px;
+
   
+}
+
+#page-title-elen{
+  position: absolute;
+  /* width: 120px;
+  height: 73px; */
+  left: 113px;
+  top: 340px;
+
+}
+
+#page-title-yde{
+  position: absolute;
+  /* width: 100px;
+  height: 73px; */
+  left: 113px;
+  top: 443px;
+}
+#page-title-ellipse{
+  position: absolute;
+  width: 381px;
+  height: 621px;
+  left: 34px;
+  top: 54px;
+/*   
+  border: 2px solid #000000;
+  box-sizing: border-box; */
+}
+
+
+#page-title-img-hh{
+  position: absolute;
+  width: 50px ;
+  height: auto;
+  left: 59px;
+  top: 354px;
+
+  /* background: url(Helen_Hyde_HH.png); */
+  mix-blend-mode: normal;
 }
 
 #page-title-img{
