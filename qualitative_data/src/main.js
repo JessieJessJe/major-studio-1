@@ -316,7 +316,7 @@ function getGroupCounts(group_items){
 
 function getMaxHeight(counts){
     let max = Math.max(...counts);
-    chart_distance_to_top = Math.floor( (Math.trunc(max / tilesPerRow) + 1) * tileSize * 1.25 );
+    chart_distance_to_top = Math.floor( (Math.trunc(max / tilesPerRow) + 1) * tileSize + 2 * tileSize );
 
     console.log(chart_distance_to_top)
 }
