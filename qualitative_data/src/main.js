@@ -411,7 +411,7 @@ function prepareGrid(data, selectedYearBegin, selectedYearEnd){
 function drawD3(){
 
 
-d3.json("./data_crop.json", function(err, data) {
+d3.json("./data_crop_update.json", function(err, data) {
 
   function yearFilterShow(){
     if (selectView == "bar"){

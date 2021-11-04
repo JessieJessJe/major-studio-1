@@ -47,7 +47,7 @@ function clickinfo(d){
 
     let cropImgSize = document.getElementById("infotip-right").clientWidth / 2.5;
 
-    d3.json("./data_crop.json", function(err, data) {
+    d3.json("./data_crop_update.json", function(err, data) {
         document.getElementById("infotip-right").innerHTML = '';
 
         data.forEach(da => {
@@ -94,7 +94,7 @@ function addcolor(d){
 
 function addheader(d){
 
-    d3.json("./data.json", function(err, data) {
+    d3.json("./data_update.json", function(err, data) {
 
         let medium = data.find(item => item.title == d.title).medium
 
