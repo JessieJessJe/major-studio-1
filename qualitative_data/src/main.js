@@ -179,6 +179,7 @@ function updateBar(d, i, items) {
         clickinfo(items[i]) //the micro info window
       })
 
+      
       myimg.transition()
        .delay(function(d, i) {
          return i * 2;
@@ -194,9 +195,13 @@ function updateBar(d, i, items) {
          return `url(#clipObj${i})`
        })
 
-       myimg.on("mouseover", function(d,i){
 
-          var className = "."+reformatTitle(items[i].title);  
+ 
+       
+       myimg.on("mouseenter", function(d,i){
+
+        var className = "."+reformatTitle(items[i].title);  
+
 
           d3.selectAll(".cropped")
           .filter(function() {
@@ -205,18 +210,18 @@ function updateBar(d, i, items) {
           .transition(200)       
           .style("opacity", 0.4)
 
-    
-          
-          .selectAll(className)    
-          .style("opacity", 1)
-          .transition(200)
-          // .attr('clip-path', null)
-          .attr("width", tileSize* 1.2)
-          .attr("height", tileSize* 1.2)})
-   
-          
 
-        .on("mouseout", function(d,i){
+          .selectAll(className)    
+          .style("opacity", 0.8)
+          .transition(200)
+          // // .attr('clip-path', null)
+          // .attr("width", tileSize* 1.2)
+          // .attr("height", tileSize* 1.2)
+        })
+   
+
+
+        .on("mouseleave", function(d,i){
 
           // var className = "."+reformatTitle(items[i].title);  
 
@@ -233,6 +238,31 @@ function updateBar(d, i, items) {
             //   return `url(#clipObj${i})`
             // })
       })
+
+
+
+      myimg.on("mouseover", function(d,i){
+
+          //the circle hovered on
+          d3.select(this)
+          .transition(200) 
+          .style("opacity", 1)
+          .attr("width", tileSize*1.2)
+          .attr("height", tileSize*1.2)
+
+          d3.select(this)
+          .on("mouseout", function(){
+
+            d3.select(this)
+            .transition(200) 
+            .attr("width", tileSize*1)
+            .attr("height", tileSize*1)
+    
+        })
+
+       })
+
+      
 
        // end of image in circles
 
