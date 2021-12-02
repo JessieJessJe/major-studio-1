@@ -1,5 +1,8 @@
 
-import {dragControls,dragAction} from './drag.js';
+import {dragControls} from './drag.js';
+
+let img_index = '5';
+let img_length = 9;
 
 function main() {
 
@@ -23,10 +26,10 @@ const light = new THREE.AmbientLight( 0xffffff ); // soft white light
 //Add image
 let img_width = 300, img_height;
 let baseURL = './data/'
-let img_index = '1'
 
 const img_plane = new Image();
-let mesh_plane;
+let img_group = new THREE.Group();
+scene.add(img_group);
 
 img_plane.src = baseURL + img_index + '.jpg'; 
 
@@ -38,10 +41,12 @@ img_plane.onload = () => {
 
     // plane to display
     const geometry_plane = new THREE.PlaneGeometry(img_width, img_height);
-    mesh_plane = new THREE.Mesh(geometry_plane,
+    const mesh_plane = new THREE.Mesh(geometry_plane,
     new THREE.MeshLambertMaterial({ map: texture_plane }))
     mesh_plane.position.set(0, 0, 10);
-    scene.add(mesh_plane);
+
+    img_group.add(mesh_plane)
+    // scene.add(mesh_plane);
 
 };
 
@@ -130,7 +135,7 @@ function onWindowResize() {
 
 }
 
-dragControls(renderer.domElement,scene, dragAction, leftarrow, rightarrow)
+dragControls(renderer.domElement,leftarrow, rightarrow, img_group, img_index, img_length)
 
 const raycaster = new THREE.Raycaster();
 const mouse2D = new THREE.Vector2();
@@ -146,7 +151,7 @@ function onMouseMove(event){
 
     // calculate objects intersecting the picking ray
     // let intersects = raycaster.intersectObjects( [scene.getObjectByName("arrows")], true);
-    let intersects = raycaster.intersectObjects( mesh_plane, true);
+    let intersects = raycaster.intersectObjects( img_group, true);
     
     if (intersects[0]!= undefined){
         document.querySelector('#threejs-canvas').style.cursor = 'pointer';
