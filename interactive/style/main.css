@@ -5,3 +5,10 @@ body {
     background: black;
     overflow: hidden;
   }
+
+  #direction {
+    position: absolute;
+    color: aliceblue;
+    font-size: 2rem;
+    margin: 5px 0 0 5px;
+  }
