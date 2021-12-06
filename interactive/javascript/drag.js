@@ -64,7 +64,7 @@ export function dragControls(canvas, object, object_follow, img_group, img_index
         object.position.x = originX;
         object_follow.position.x = origin_followX;
 
-        document.querySelector('#threejs-canvas').style.cursor = 'default';
+        // document.querySelector('#threejs-canvas').style.cursor = 'default';
 
         
     }

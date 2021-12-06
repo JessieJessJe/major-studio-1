@@ -20,6 +20,7 @@ let camera_z_original = 1000;
 
 function main() {
 
+let pointer = new THREE.Vector2();
 
 // all the initialization
 const canvas = document.querySelector('#threejs-canvas');
@@ -30,7 +31,9 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 window.addEventListener( 'resize', onWindowResize );
-window.addEventListener("mousemove", onMouseMove, false);
+window.addEventListener( 'pointermove', onPointerMove );
+
+// window.addEventListener("mousemove", onMouseMove, false);
 
 document.querySelectorAll('.direction-class').forEach(item => {
     item.addEventListener('click', function(){
@@ -75,8 +78,7 @@ let baseURL = './data/'
 function drawSingleImage(image, x = 0, y = 0, z = 10, img_width = 150, name = 'main', radians = updateRadians(), index = state.index){
 
   
-    let groupname = (name == 'main')? 'main' : (index + name)
-    console.log(groupname)
+    let groupname = (name == 'main')? 'main' : (index + name) 
 
     const img_plane = new Image();
     img_plane.src = baseURL + parseInt(image.imgurl) + '.jpg'; 
@@ -501,51 +503,36 @@ function myDragControls(){
 myDragControls();
 
 //Orbit controls
-    let controls;
+    // let controls;
 
-    controls = new OrbitControls( camera, renderer.domElement );
+    // controls = new OrbitControls( camera, renderer.domElement );
 
 
-    controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
-    controls.dampingFactor = 0.1;
+    // controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
+    // controls.dampingFactor = 0.1;
 
-    controls.enablePan = false;
-    controls.enableZoom = false;
+    // controls.enablePan = false;
+    // controls.enableZoom = false;
 
-    controls.screenSpacePanning = false;
+    // controls.screenSpacePanning = false;
 
-    controls.minDistance = 150;
-    controls.maxDistance = 1000;
+    // controls.minDistance = 150;
+    // controls.maxDistance = 1000;
 
-    controls.maxPolarAngle = Math.PI / 2;
+    // controls.maxPolarAngle = Math.PI / 2;
 
 //end of control
 
-const raycaster = new THREE.Raycaster();
-
-raycaster.params.Line.threshold = 1000;
-
+console.log(arrow_group.children[0], 'arrowgroup')
 //not working -- the whole ray castering thing...
+
 function onMouseMove(event){
 
     const mouse2D = new THREE.Vector2();
     mouse2D.x= (event.clientX / window.innerWidth) * 2 - 1;
     mouse2D.y= -(event.clientY / window.innerHeight) * 2 - 1;
 
-    raycaster.setFromCamera( mouse2D, camera );
-
-    // calculate objects intersecting the picking ray
-    let intersects = raycaster.intersectObjects( arrow_group, true);
-    // let intersects = raycaster.intersectObjects( img_group, true);
-    
-    if (intersects[0]!= undefined){
-        document.querySelector('#threejs-canvas').style.cursor = 'pointer';
-
-        console.log(intersects)
-    }
-    else {
-        document.querySelector('#threejs-canvas').style.cursor = 'default';
-    }
+   
         
     
 }
@@ -586,15 +573,40 @@ function directionAnimation(prev_index){
     
 }
 
+let raycaster = new THREE.Raycaster();
+raycaster.params.Line.threshold = 30;
+
 let points = DynamicShape(renderer.domElement, group)
-console.log(points)
 
 let clock = new THREE.Clock();
 
+function onPointerMove( event ) {
+
+    pointer.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+    pointer.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+
+}
+
 function update(){
-    requestAnimationFrame( update );
-    // controls.update(); 
-    renderer.render( scene, camera );
+
+    camera.updateMatrixWorld();
+
+    //raycaster
+
+    raycaster.setFromCamera( pointer, camera );
+
+    let intersects = raycaster.intersectObjects( arrow_group.children[0].children, true);
+    
+    if (intersects.length > 0){
+        // document.querySelector('#threejs-canvas').style.cursor = `url('/style/smithsonian_logo.png'), auto`;
+        document.querySelector('#threejs-canvas').style.cursor = `grab`;
+    }
+    else {
+        document.querySelector('#threejs-canvas').style.cursor = `url('/style/smithsonian_logo_2.png'), auto`;
+    }
+
+    //-------------end raycaster
+  
 
     //dynamic geometry update
     const time = clock.getElapsedTime() * 10;
@@ -661,6 +673,10 @@ function update(){
 
     group.getObjectByName('dynamicshape').geometry.dispose();
     group.getObjectByName('dynamicshape').geometry = newgeometry;
+
+    requestAnimationFrame( update );
+    // controls.update(); 
+    renderer.render( scene, camera );
    
 }
 
