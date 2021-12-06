@@ -1,5 +1,6 @@
 
 import {OrbitControls} from './OrbitControls.js';
+import { DynamicShape } from './dynamicshape.js';
 
 let mydata = [{ "info": { "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design"}], "right":[{ "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":4, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":5, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":4, "imgurl":"4", "name":"a poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":6, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":5, "imgurl":"5", "name":"a poster", "time": 2000, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":6, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } }]
 
@@ -69,7 +70,6 @@ scene.add(group)
 
 //Add image
 let baseURL = './data/'
-
 
 
 function drawSingleImage(image, x = 0, y = 0, z = 10, img_width = 150, name = 'main', radians = updateRadians(), index = state.index){
@@ -251,6 +251,7 @@ function updateImage2(prev_index){
     })
 }
 
+//update along the axis
 function updateImage(left_or_right = 'left'){
 
    
@@ -262,7 +263,7 @@ function updateImage(left_or_right = 'left'){
 
         createjs.Tween
         .get(img_group.getObjectByName( state.index + "leftimage" ).scale, { loop: false })
-        .to({ x:2, y:2}, 500);
+        .to({ x:1, y:1}, 500);
 
 
         createjs.Tween
@@ -271,7 +272,7 @@ function updateImage(left_or_right = 'left'){
 
         createjs.Tween
         .get(img_group.getObjectByName( "mainimage" ).scale, { loop: false })
-        .to({ x:1/2, y:1/2}, 500)
+        .to({ x:1, y:1}, 500)
         .call(function(evt){
             drawImage(state)
         });
@@ -284,7 +285,7 @@ function updateImage(left_or_right = 'left'){
 
         createjs.Tween
         .get(img_group.getObjectByName( "mainimage" ).scale, { loop: false })
-        .to({ x:1/2, y:1/2, z:0 }, 500);
+        .to({ x:1, y:1, z:0 }, 500);
 
         createjs.Tween
         .get(img_group.getObjectByName( state.index + "rightimage" ).position, { loop: false })
@@ -292,7 +293,7 @@ function updateImage(left_or_right = 'left'){
 
         createjs.Tween
         .get(img_group.getObjectByName( state.index + "rightimage" ).scale, { loop: false })
-        .to({ x:2, y:2}, 500)
+        .to({ x:1, y:1}, 500)
         .call(function(evt){
             drawImage(state)
         });
@@ -563,6 +564,10 @@ function directionAnimation(prev_index){
         createjs.Tween
             .get(img_group.getObjectByName( "mainimage" ).rotation, { loop: false })
             .to({ y:radians}, 1500, createjs.Ease.getPowInOut(3));
+
+        createjs.Tween
+            .get(group.getObjectByName( "dynamicshape" ).rotation, { loop: false })
+            .to({ y:radians}, 1500, createjs.Ease.getPowInOut(3));
  
     
         createjs.Tween
@@ -581,12 +586,84 @@ function directionAnimation(prev_index){
     
 }
 
+let points = DynamicShape(renderer.domElement, group)
+console.log(points)
+
+let clock = new THREE.Clock();
+
 function update(){
     requestAnimationFrame( update );
     // controls.update(); 
     renderer.render( scene, camera );
+
+    //dynamic geometry update
+    const time = clock.getElapsedTime() * 10;
+
+
+    for (let i = 0; i< points.length; i++){
+
+        points[i].setX( points[i].x + Math.sin( i / 4 + ( time + i ) / 4 ) * 0.4 )
+        points[i].setY( points[i].y + Math.sin( i * 2 /4 + ( time + i )  ) * 0.1 )
+
+    }
+
+//method1
+    // const newshape = new THREE.Shape()
+    //     .moveTo( points[0].x , points[0].y )
+
+    // let t = 1 //tension
+
+    // for (let i = 1; i < points.length; i++) {
+
+    //     // var p0 = (i > 0) ? points[i - 1] : points[0];
+    //     // var p1 = points[i];
+    //     // var p2 = points[i + 1];
+    //     // var p3 = (i != points.length - 2) ? points[i + 2] : p2;
+
+    //     // console.log(p1, p2)
+    //     // var cp1x = p1.x + (p2.x - p0.x) / 6 * t;
+    //     // var cp1y = p1.y + (p2.y - p0.y) / 6 * t;
+
+    //     // var cp2x = p2.x - (p3.x - p1.x) / 6 * t;
+    //     // var cp2y = p2.y - (p3.y - p1.y) / 6 * t;
+
+    //     // newshape.bezierCurveTo(cp1x, cp1y, cp2x, cp2y, p2.x, p2.y);
+
+    //     newshape.bezierCurveTo(
+    //        points[i - 1].x + (points[i].x - points[i - 1].x) / 10,
+    //        points[i - 1].y,
+    //        points[i - 1].x + (points[i].x - points[i - 1].x) / 10,
+    //        points[i].y,
+    //        points[i].x,
+    //        points[i].y);
+    //   }
+
+// method2
+    const newshape = new THREE.Shape()
+        .moveTo( points[0].x , points[0].y )
+
+        .bezierCurveTo( points[1].x, points[1].y, points[2].x, points[2].y, points[3].x, points[3].y )
+
+        .bezierCurveTo( points[4].x, points[4].y, points[5].x, points[5].y, points[6].x, points[6].y )
+
+        .bezierCurveTo( points[7].x, points[7].y, points[8].x, points[8].y, points[9].x, points[9].y )
+
+        .bezierCurveTo( points[10].x, points[10].y, points[11].x, points[11].y, points[12].x, points[12].y )
+
+        .bezierCurveTo( points[13].x, points[13].y, points[14].x, points[14].y, points[15].x, points[15].y )
+        .bezierCurveTo( points[16].x, points[16].y, points[17].x, points[17].y, points[18].x, points[18].y )
+        .bezierCurveTo( points[19].x, points[19].y, points[20].x, points[20].y, points[21].x, points[21].y )
+        .bezierCurveTo( points[22].x, points[22].y, points[23].x, points[23].y, points[24].x, points[24].y )
+        .bezierCurveTo( points[25].x, points[25].y, points[26].x, points[26].y, points[0].x, points[0].y )
+
+
+    let newgeometry = new THREE.BufferGeometry().setFromPoints(newshape.getSpacedPoints());
+
+    group.getObjectByName('dynamicshape').geometry.dispose();
+    group.getObjectByName('dynamicshape').geometry = newgeometry;
    
 }
+
     
 update();
 
