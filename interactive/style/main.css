@@ -5,7 +5,7 @@ body {
     background: black;
     overflow: hidden;
 
-    cursor: url('style/smithsonian_logo_2.png') 10 10, auto;
+    cursor: url('smithsonian_logo_2.png') 10 10, auto;
 /* 
     
     font-family: minion-pro, serif;
@@ -108,7 +108,7 @@ h1{
 }
 
 .direction-class:hover{
-  cursor: url('style/smithsonian_logo.png') 10 10, auto;
+  cursor: url('smithsonian_logo.png') 10 10, auto;
   background-color: #009cde;
   color: #ffcd00;
 }

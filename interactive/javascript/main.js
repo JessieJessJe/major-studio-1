@@ -632,7 +632,8 @@ function update(){
         document.querySelector('#threejs-canvas').style.cursor = `grab`;
     }
     else {
-        document.querySelector('#threejs-canvas').style.cursor = `url('/style/smithsonian_logo_2.png') 10 10, auto`;
+        // document.querySelector('#threejs-canvas').style.cursor = `url('/style/smithsonian_logo_2.png') 10 10, auto`;
+        document.querySelector('#threejs-canvas').style.cursor = `url('smithsonian_logo_2.png') 10 10, auto`;
     }
 
     //-------------end raycaster
@@ -752,9 +753,9 @@ function DrawStar(scene){
         // );
 
        
-        let x = Math.random() * 2000 - 1000;
+        let x = Math.random() * 1000 - 500;
         let y = Math.random() * 1000 - 500;
-        let z = Math.random() * 2000 - 1000;
+        let z = Math.random() * 1000 - 500;
       
        
         starlist.push(x,y,z);
@@ -767,12 +768,12 @@ function DrawStar(scene){
     starGeo.computeBoundingSphere();
 
     let loader =  new THREE.TextureLoader();
-    loader.crossOrigin = '';
+    // loader.crossOrigin = '';
 
-    let sprite = loader.load( 'style/smithsonian_logo_2.png' );
+    let sprite = loader.load( 'smithsonian_logo_2.png' );
 
     let starMaterial = new THREE.PointsMaterial({
-      color: 0xaaaaaa,
+      color: 0xffffff,
       size: 2,
       map: sprite
     });
