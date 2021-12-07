@@ -766,7 +766,10 @@ function DrawStar(scene){
 
     starGeo.computeBoundingSphere();
 
-    let sprite = new THREE.TextureLoader().load( '/style/smithsonian_logo_2.png' );
+    let loader =  new THREE.TextureLoader();
+    loader.crossOrigin = '';
+
+    let sprite = loader.load( 'https://github.com/JessieJessJe/major-studio-1/blob/master/interactive/style/smithsonian_logo.png' );
 
     let starMaterial = new THREE.PointsMaterial({
       color: 0xaaaaaa,
