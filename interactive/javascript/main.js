@@ -35,13 +35,28 @@ window.addEventListener( 'pointermove', onPointerMove );
 
 // window.addEventListener("mousemove", onMouseMove, false);
 
-document.querySelectorAll('.direction-class').forEach(item => {
+document.querySelectorAll('.direction-class').forEach((item, INDEX) => {
     item.addEventListener('click', function(){
       //handle click
       var index = this.getAttribute("data-index");
 
+      //styling
+      document.querySelectorAll('.direction-class').forEach((it, index) => {
+          if (index){
+            it.style.color = "#ffffff";
+
+            if (index == INDEX){
+                item.style.color = "#ffcd00";
+            }
+          }
+         
+         
+      })
+
       //do nothing if 'search' clicked
       if (index && index != state.index){
+
+        
 
         var prev_index = state.index;
         var axis = axislist.find( (axis) => axis.index == index);
@@ -455,7 +470,6 @@ function myDragControls(){
 
         arrow_group.position.x = originX;
         
-        // document.querySelector('#threejs-canvas').style.cursor = 'default';
     }
 
     function dragAction(deltaX, mouseX) {
@@ -502,24 +516,31 @@ function myDragControls(){
 
 myDragControls();
 
-//Orbit controls
-    // let controls;
+// Orbit controls
+    let controls;
 
-    // controls = new OrbitControls( camera, renderer.domElement );
+    controls = new OrbitControls( camera, renderer.domElement );
 
 
-    // controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
-    // controls.dampingFactor = 0.1;
 
-    // controls.enablePan = false;
-    // controls.enableZoom = false;
+    controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
+    controls.dampingFactor = 0.1;
 
-    // controls.screenSpacePanning = false;
+    controls.enablePan = false;
+    controls.screenSpacePanning = false;
 
-    // controls.minDistance = 150;
-    // controls.maxDistance = 1000;
+    controls.enableZoom = true;    
+    controls.minDistance = 300;
+    controls.maxDistance = 1000;
 
-    // controls.maxPolarAngle = Math.PI / 2;
+   
+    // controls.enableRotate = false;
+
+    controls.maxPolarAngle = Math.PI / 3 * 2;
+    controls.minPolarAngle = Math.PI / 3;
+
+    controls.minAzimuthAngle = 0;
+    controls.maxAzimuthAngle = 0;
 
 //end of control
 
@@ -560,7 +581,14 @@ function directionAnimation(prev_index){
         createjs.Tween
             .get(camera.rotation, { loop: false })
             .wait(1500)
-            .to({y:radians}, 500, createjs.Ease.getPowOut(3));
+            .to({y:radians}, 500, createjs.Ease.getPowOut(3))
+            .call(function(Evt){
+                controls.minAzimuthAngle = radians;
+                controls.maxAzimuthAngle = radians;
+                controls.update(); 
+                
+            });
+
     
         createjs.Tween 
             .get(camera.position)
@@ -602,7 +630,7 @@ function update(){
         document.querySelector('#threejs-canvas').style.cursor = `grab`;
     }
     else {
-        document.querySelector('#threejs-canvas').style.cursor = `url('/style/smithsonian_logo_2.png'), auto`;
+        document.querySelector('#threejs-canvas').style.cursor = `url('/style/smithsonian_logo_2.png') 10 10, auto`;
     }
 
     //-------------end raycaster
