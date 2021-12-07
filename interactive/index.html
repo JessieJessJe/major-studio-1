@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/qcn1dij.css">
     <link rel="stylesheet" href="./style/main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.js" integrity="sha512-NLtnLBS9Q2w7GKK9rKxdtgL7rA7CAS85uC/0xd9im4J/yOL4F9ZVlv634NAM7run8hz3wI2GabaA6vv8vJtHiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://code.createjs.com/1.0.0/tweenjs.min.js"></script>
@@ -14,12 +15,41 @@
     
     <canvas id="threejs-canvas"></canvas>
 
-    <div id="direction">
-        <div class="direction-class" id="direction-search" data-index=0>Search</div>
-        <div class="direction-class" id="direction-time" data-index=1>Institution</div>
-        <div class="direction-class" id="direction-institution" data-index=2>Time</div>
-        <div class="direction-class" id="direction-theme" data-index=3>Theme</div>
+    <div id="header">
+        <h1>On Exhibition</h1> The Wandering Version
     </div>
+
+    <div id="direction">
+      
+       
+      
+        <div class="direction-subtitle">
+
+                    <div class="direction-subtitle-text" >Search Items</div>
+
+                    <div class="direction-class" id="direction-search" data-index=0>type here</div>
+      
+        </div>
+
+
+        <div class="direction-subtitle"> 
+            <div class="direction-subtitle-text">Choose Directions</div>
+
+            <div class="direction-class" id="direction-time" data-index=1>Institution</div>
+            <div class="direction-class" id="direction-institution" data-index=2>Time</div>
+            <div class="direction-class" id="direction-theme" data-index=3>Theme</div>
+
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <img id="logo" src="style/smithsonian-logo-nav.png" alt=""> 
+    </div>
+
+    <!-- <img id="logo" src="src/smithsonian_logo.svg" alt=""> -->
+
+    <!-- <script src="javascript/cursor.js"></script> -->
     
     <script type="module" src="javascript/main.js"></script>
 </body>

@@ -706,6 +706,9 @@ function update(){
 
     requestAnimationFrame( update );
     // controls.update(); 
+
+    // stars.rotation.y +=0.002;
+
     renderer.render( scene, camera );
    
 }

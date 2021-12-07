@@ -4,11 +4,117 @@ body {
     margin: 0;
     background: black;
     overflow: hidden;
+
+    cursor: url('smithsonian_logo_2.png') 10 10, auto;
+/* 
+    
+    font-family: minion-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+
+    
+    font-family: minion-pro, serif;
+    font-weight: 500;
+    font-style: italic;
+
+
+    font-family: minion-pro,serif;
+    font-weight: 400;
+    font-style: italic; 
+
+    /* regular */
+    font-family: minion-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+#logo{
+
+  max-width: 100%;
+  height: auto;
+
+  width: 200px;
+
+  z-index: 1;
+
+}
+
+#footer{
+  position: fixed;
+
+  bottom: 3vh;
+  left: 3vw;
+  z-index: 10;
+  /* margin: auto auto 20px 20px; */
+}
+
+#header{
+  color: white;
+  position: fixed;
+  top: 2vh;
+  left: 3vw;
+  z-index: 3;  
+}
+
+#direction {
+
+    /* regular */
+    font-family: minion-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    position: fixed;
+    color: white;
+    font-size: 1.5rem;
+    right: 3vw;
+    top: 2vh;
+    z-index: 3;  
   }
 
-  #direction {
-    position: absolute;
-    color: aliceblue;
-    font-size: 2rem;
-    margin: 5px 0 0 5px;
+.direction-subtitle{
+
+  font-weight: 400;
+  font-style: italic; 
+
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+
+}
+
+.direction-subtitle-text{
+  margin-bottom: 0.1rem;
+  color: #D0D7DE;
+}
+
+#direction-search{
+  margin: 0.5rem 0 1rem;
+  border: #D0D7DE solid 1px;
+  color:black;
+}
+
+.direction-class{
+
+  font-size: 1.2rem;
+  padding: 0 1rem 0 0;
+  margin: 0;
+  font-weight: 400;
+  font-style: normal; 
+
+}
+
+.direction-class:hover{
+  cursor: url('smithsonian_logo.png') 10 10, auto;
+  background-color: #009cde;
+  color: #ffcd00;
+}
+
+  #threejs-canvas{
+    position: fixed;
+    top: 2vh;
+    z-index: 2;
   }
