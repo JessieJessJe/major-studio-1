@@ -1,6 +1,7 @@
 
 import {OrbitControls} from './OrbitControls.js';
 import { DynamicShape } from './dynamicshape.js';
+// import { DrawStar } from './stars.js';
 
 let mydata = [{ "info": { "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design"}], "right":[{ "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":4, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":5, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":4, "imgurl":"4", "name":"a poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":6, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":5, "imgurl":"5", "name":"a poster", "time": 2000, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":6, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } }]
 
@@ -390,6 +391,7 @@ camera.rotation.set(0, 0, 0)
 scene.add(camera);
 scene.add(light);
 
+
 function updateState_Image(left_or_right = 'left'){
     
         let prev_neighbors = mydata.find( (d) => d.info.id == state.id);
@@ -708,6 +710,7 @@ function update(){
    
 }
 
+DrawStar(scene);
     
 update();
 
@@ -728,4 +731,50 @@ main();
 
 function updateRadians( index = state.index){
     return Math.PI / 6 * (index - 2)
+}
+
+
+function DrawStar(scene){
+
+    let starGeo = new THREE.BufferGeometry();
+
+    let starlist = []
+
+    for(let i=0;i< 500;i++) {
+
+        // let star = new THREE.Vector3(
+        //     Math.random() * 600 - 300,
+        //     Math.random() * 600 - 300,
+        //     Math.random() * 600 - 300
+        // );
+
+       
+        let x = Math.random() * 2000 - 1000;
+        let y = Math.random() * 1000 - 500;
+        let z = Math.random() * 2000 - 1000;
+      
+       
+        starlist.push(x,y,z);
+
+    //   starGeo.vertices.push(star);
+    }
+
+    starGeo.setAttribute( 'position', new THREE.Float32BufferAttribute( starlist, 3 ) );
+
+    starGeo.computeBoundingSphere();
+
+    let sprite = new THREE.TextureLoader().load( '/style/smithsonian_logo_2.png' );
+
+    let starMaterial = new THREE.PointsMaterial({
+      color: 0xaaaaaa,
+      size: 2,
+      map: sprite
+    });
+
+
+    let stars = new THREE.Points(starGeo,starMaterial);
+    scene.add(stars);
+
+    console.log(stars)
+    
 }
