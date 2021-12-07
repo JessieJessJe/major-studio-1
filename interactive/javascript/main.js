@@ -769,7 +769,7 @@ function DrawStar(scene){
     let loader =  new THREE.TextureLoader();
     loader.crossOrigin = '';
 
-    let sprite = loader.load( './style/smithsonian_logo_2.png' );
+    let sprite = loader.load( 'style/smithsonian_logo_2.png' );
 
     let starMaterial = new THREE.PointsMaterial({
       color: 0xaaaaaa,
