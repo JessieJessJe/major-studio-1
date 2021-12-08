@@ -1,0 +1,338 @@
+[
+  {
+    "info": {
+      "id": "edanmdm-npg_NPG.2015.136",
+      "index": 2723
+    },
+    "time": {
+      "left": [
+        {
+          "id": "edanmdm-npg_NPG.2019.5",
+          "index": 2719
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-nmaahc_2007.3.37",
+          "index": 2511
+        }
+      ]
+    },
+    "institute": {
+      "left": [
+        {
+          "id": "edanmdm-saam_1983.95.201",
+          "index": 1337
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-nmaahc_2011.90",
+          "index": 1967
+        }
+      ]
+    },
+    "theme": {
+      "left": [
+        {
+          "id": "edanmdm-npg_NPG.93.272",
+          "index": 1337
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-npg_NPG.99.3",
+          "index": 1967
+        }
+      ]
+    }
+  },
+  {
+    "info": {
+      "id": "edanmdm-npg_NPG.2019.5",
+      "index": 2719
+    },
+    "time": {
+      "left": [
+        {
+          "id": "edanmdm-npg_NPG.84.34",
+          "index": 2558
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-npg_NPG.2015.136",
+          "index": 2723
+        }
+      ]
+    },
+    "institute": {
+      "left": [
+        {
+          "id": "edanmdm-saam_1958.11.14",
+          "index": 1182
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-nmaahc_2014.102",
+          "index": 2250
+        }
+      ]
+    },
+    "theme": {
+      "left": [
+        {
+          "id": "edanmdm-npg_NPG.2016.125",
+          "index": 1182
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-npg_NPG.77.244",
+          "index": 2250
+        }
+      ]
+    }
+  },
+  {
+    "info": {
+      "id": "edanmdm-nmaahc_2007.3.37",
+      "index": 2511
+    },
+    "time": {
+      "left": [
+        {
+          "id": "edanmdm-nmaahc_2007.3.39",
+          "index": 2411
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-nmaahc_2015.19.3.1-.2",
+          "index": 2740
+        }
+      ]
+    },
+    "institute": {
+      "left": [
+        {
+          "id": "edanmdm-nmah_375161",
+          "index": 2009
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-npg_NPG.69.54",
+          "index": 2229
+        }
+      ]
+    },
+    "theme": {
+      "left": [
+        {
+          "id": "edanmdm-nmaahc_2007.3.35",
+          "index": 2009
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-nmaahc_2007.3.36",
+          "index": 2229
+        }
+      ]
+    }
+  },
+  {
+    "info": {
+      "id": "edanmdm-saam_1983.95.201",
+      "index": 1337
+    },
+    "time": {
+      "left": [
+        {
+          "id": "edanmdm-saam_XX23",
+          "index": 1818
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-saam_1952.13.72",
+          "index": 1167
+        }
+      ]
+    },
+    "institute": {
+      "left": [
+        {
+          "id": "edanmdm-nmaahc_2016.48.49.5",
+          "index": 1157
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-npg_NPG.2016.125",
+          "index": 2691
+        }
+      ]
+    },
+    "theme": {
+      "left": [
+        {
+          "id": "edanmdm-saam_1983.95.194",
+          "index": 1157
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-saam_1983.95.213",
+          "index": 2691
+        }
+      ]
+    }
+  },
+  {
+    "info": {
+      "id": "edanmdm-nmaahc_2011.90",
+      "index": 1967
+    },
+    "time": {
+      "left": [
+        {
+          "id": "edanmdm-nmaahc_2013.118.302ab",
+          "index": 2508
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-nmaahc_2011.125ab",
+          "index": 2573
+        }
+      ]
+    },
+    "institute": {
+      "left": [
+        {
+          "id": "edanmdm-npg_NPG.93.272",
+          "index": 2541
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-saam_1983.95.201",
+          "index": 1337
+        }
+      ]
+    },
+    "theme": {
+      "left": [
+        {
+          "id": "edanmdm-nmaahc_2016.48.49.5",
+          "index": 2541
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-nmaahc_2016.48.60",
+          "index": 1337
+        }
+      ]
+    }
+  },
+  {
+    "info": {
+      "id": "edanmdm-npg_NPG.93.272",
+      "index": 2541
+    },
+    "time": {
+      "left": [
+        {
+          "id": "edanmdm-npg_NPG.86.142",
+          "index": 2091
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-npg_NPG.69.54",
+          "index": 2229
+        }
+      ]
+    },
+    "institute": {
+      "left": [
+        {
+          "id": "edanmdm-nmaahc_2011.90",
+          "index": 1967
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-saam_1921.1.1",
+          "index": 1394
+        }
+      ]
+    },
+    "theme": {
+      "left": [
+        {
+          "id": "edanmdm-npg_NPG.2015.136",
+          "index": 1967
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-npg_NPG.99.3",
+          "index": 1394
+        }
+      ]
+    }
+  },
+  {
+    "info": {
+      "id": "edanmdm-npg_NPG.99.3",
+      "index": 2256
+    },
+    "time": {
+      "left": [
+        {
+          "id": "edanmdm-npg_NPG.97.100",
+          "index": 2363
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-npg_NPG.69.54",
+          "index": 2229
+        }
+      ]
+    },
+    "institute": {
+      "left": [
+        {
+          "id": "edanmdm-nmaahc_2013.120.12.2",
+          "index": 2526
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-saam_1983.31.3",
+          "index": 1171
+        }
+      ]
+    },
+    "theme": {
+      "left": [
+        {
+          "id": "edanmdm-npg_NPG.93.272",
+          "index": 2526
+        }
+      ],
+      "right": [
+        {
+          "id": "edanmdm-npg_NPG.2015.136",
+          "index": 1171
+        }
+      ]
+    }
+  }
+]

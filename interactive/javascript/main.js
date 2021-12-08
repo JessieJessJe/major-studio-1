@@ -3,12 +3,13 @@ import {OrbitControls} from './OrbitControls.js';
 import { DynamicShape } from './dynamicshape.js';
 // import { DrawStar } from './stars.js';
 
-let mydata = [{ "info": { "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design"}], "right":[{ "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":4, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":5, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":4, "imgurl":"4", "name":"a poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":6, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":5, "imgurl":"5", "name":"a poster", "time": 2000, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":6, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } }]
+// let mydata = [{ "info": { "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design"}], "right":[{ "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":4, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":5, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":4, "imgurl":"4", "name":"a poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":6, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":5, "imgurl":"5", "name":"a poster", "time": 2000, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":6, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } }]
 
-let metadata = [ { "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":4, "imgurl":"4", "name":"a poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":5, "imgurl":"5", "name":"aa poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":6, "imgurl":"6", "name":"aaa poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":7, "imgurl":"7", "name":"aaaa poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" } ]
+// let mydata = [{ "info": { "id":"edanmdm-npm_0.260305.152.70.1", "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design"}], "right":[{ "id":"edanmdm-nmaahc_2016.48.106a-i", "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":"edanmdm-npm_0.260305.152.70.1", "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_0.260305.152.70.1", "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":"edanmdm-npm_0.260305.152.70.1", "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_0.260305.152.70.1", "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":"edanmdm-npm_2011.2004.45", "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"4", "name":"a poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":"edanmdm-nmaahc_2016.48.106a-i", "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"5", "name":"a poster", "time": 2000, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } }]
+// let metadata = [ { "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":4, "imgurl":"4", "name":"a poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":5, "imgurl":"5", "name":"aa poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":6, "imgurl":"6", "name":"aaa poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":7, "imgurl":"7", "name":"aaaa poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" } ]
 
 let state = {
-    id: '1',
+    id: 'edanmdm-saam_1986.65.292',
     dimention: 'time',
     index: 2
 }
@@ -19,7 +20,7 @@ let axislist = [
 
 let camera_z_original = 1000;
 
-function main() {
+function main(mydata, metadata) {
 
 let pointer = new THREE.Vector2();
 
@@ -97,7 +98,10 @@ function drawSingleImage(image, x = 0, y = 0, z = 10, img_width = 150, name = 'm
     let groupname = (name == 'main')? 'main' : (index + name) 
 
     const img_plane = new Image();
-    img_plane.src = baseURL + parseInt(image.imgurl) + '.jpg'; 
+    img_plane.crossOrigin = "";
+
+    console.log(image, 'image')
+    img_plane.src = image["img_url"]; 
 
     // texture variable &activation to update it
     const texture_plane = new THREE.Texture(img_plane);
@@ -731,7 +735,7 @@ function onWindowResize() {
 
 }
 
-main();
+
 
 function updateRadians( index = state.index){
     return Math.PI / 6 * (index - 2)
@@ -781,7 +785,35 @@ function DrawStar(scene){
 
     let stars = new THREE.Points(starGeo,starMaterial);
     scene.add(stars);
-
-    console.log(stars)
     
 }
+
+
+fetch("./metadata.json")
+.then(response => {
+   return response.json();
+})
+.then(metadata => {
+
+    
+
+    fetch("./nndata.json")
+    .then(response => {
+       return response.json();
+    })
+    .then(mydata => {
+
+        state.id = mydata[0]["info"]["id"]
+    
+        console.log("run main")
+    
+        main(mydata, metadata);
+    }
+        
+    );
+
+    //end of first fetch
+}
+    
+);
+
