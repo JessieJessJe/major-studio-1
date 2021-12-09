@@ -33,12 +33,89 @@ h1{
   margin: 0;
 }
 
+h3{
+  font-weight: 400;
+  margin: 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  font-style: italic;
+  color: white;
+  text-decoration: underline;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-basis: auto;
+  
+  position: fixed;
+  height: 25%;
+
+  bottom: 3vh;
+  left: 3vh;
+
+  width: 20vw;
+  
+  /* transform: translate(-50%, 0); */
+  overflow: auto;
+
+  z-index: 10;
+
+  overflow: auto;
+
+}
+
+#img-title{
+ 
+  overflow: auto;
+  max-height: 30%;
+
+  margin-bottom: 0.5rem;
+  overflow: auto;
+  height: fit-content;
+
+
+}
+
+#img-text{
+  display: flexbox;
+  padding-left: 1rem;
+  color:white;
+  overflow: auto;
+  height: fit-content;
+  /* position: fixed; */
+
+  
+
+  border-left: aliceblue solid 0.5px;
+  z-index: 10;
+}
+
+.img-text-subtitle{
+  display: inline;
+
+  font-weight: 400;
+  font-style: italic; 
+
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+
+  color: #D0D7DE;
+}
+
 #logo{
 
   max-width: 100%;
   height: auto;
 
-  width: 200px;
+  width: 150px;
 
   z-index: 1;
 
@@ -47,7 +124,7 @@ h1{
 #footer{
   position: fixed;
 
-  bottom: 3vh;
+  top: 15vh;
   left: 3vw;
   z-index: 10;
   /* margin: auto auto 20px 20px; */
