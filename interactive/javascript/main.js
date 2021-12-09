@@ -811,7 +811,7 @@ function DrawStar(scene){
         // );
 
        
-        let x = Math.random() * 1000 - 500;
+        let x = Math.random() * 2000 - 1000;
         let y = Math.random() * 1000 - 500;
         let z = Math.random() * 1000 - 500;
       
