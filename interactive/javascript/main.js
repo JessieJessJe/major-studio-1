@@ -5,13 +5,13 @@ import { DynamicShape } from './dynamicshape.js';
 
 let state = {
     id: 'edanmdm-saam_1986.65.292',
-    dimention: 'time',
+    dimention: 'institute',
     index: 2
 }
 
 //to match with key value in nndata
 let axislist = [
-    {index: 1, dimention:'institute'}, {index:2, dimention:'time'}, {index:3, dimention:'theme'}
+    {index: 1, dimention:'time'}, {index:2, dimention:'institute'}, {index:3, dimention:'theme'}
 ]
 
 let camera_z_original = 1000;
@@ -119,15 +119,42 @@ function drawSingleImage(image, x = 0, y = 0, z = 10, img_width = 150, name = 'm
 
 function drawImage(state){
 
+    //main image
+    let main_image = metadata.find( ({ id }) => id == state.id);
+
     //update filter - text highlighted 
     let hight_id = "#direction-" + axislist[state.index-1]["dimention"]
     document.querySelector(hight_id).style.color = "#ffcd00";
 
+    //return image text
+
+    let url = main_image["record_url"]
+    let title = main_image["title"]
+    let date = main_image["date"]
+    let keyword = main_image["topic"].join(", ")
+    let unit = main_image["unit"]
+
+    document.getElementById("container").innerHTML = `
+            
+
+            <div id="img-title">
+            <h3><a href="${url}">${title}</a><h3>
+
+            </div>
+
+
+            <div id="img-text">
+            <p class="img-text-subtitle">Date:</p>  ${date} <br> 
+            <p class="img-text-subtitle">Institution:</p> ${unit}  <br>
+            <p class="img-text-subtitle">Keywords:</p> ${keyword} <br>
+            </div>
+            
+            `
+
+    //end of image text
+
     img_group.clear()
     let x, y, z; 
-
-    //main image
-    let main_image = metadata.find( ({ id }) => id == state.id);
 
     drawSingleImage(main_image)
 
@@ -289,7 +316,7 @@ function updateImage2(prev_index){
 
     createjs.Tween
     .get(img_group.getObjectByName( "mainimage" ).position, { loop: false })
-    .wait(3000)
+    .wait(1500)
     .call(function(evt){
         drawImage(state);
     })
