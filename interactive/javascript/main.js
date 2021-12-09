@@ -3,17 +3,13 @@ import {OrbitControls} from './OrbitControls.js';
 import { DynamicShape } from './dynamicshape.js';
 // import { DrawStar } from './stars.js';
 
-// let mydata = [{ "info": { "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design"}], "right":[{ "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":4, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":5, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":4, "imgurl":"4", "name":"a poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":6, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":5, "imgurl":"5", "name":"a poster", "time": 2000, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":6, "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":6, "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":7, "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } }]
-
-// let mydata = [{ "info": { "id":"edanmdm-npm_0.260305.152.70.1", "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design"}], "right":[{ "id":"edanmdm-nmaahc_2016.48.106a-i", "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":"edanmdm-npm_0.260305.152.70.1", "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_0.260305.152.70.1", "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":"edanmdm-npm_0.260305.152.70.1", "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_0.260305.152.70.1", "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":"edanmdm-npm_2011.2004.45", "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"4", "name":"a poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } },{ "info": { "id":"edanmdm-nmaahc_2016.48.106a-i", "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }, "time": { "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"5", "name":"a poster", "time": 2000, "institute":"Cooper Hewitt", "theme": "Design" }] }, "institute":{ "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"6", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"7", "name":"placeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] }, "theme":{ "left":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"6", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }], "right":[{ "id":"edanmdm-npm_2011.2004.45", "imgurl":"7", "name":"themeholder", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }] } }]
-// let metadata = [ { "id":1, "imgurl":"1", "name":"a poster", "time": 1990, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":2, "imgurl":"2", "name":"another poster", "time": 1980, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":3, "imgurl":"3", "name":"aaa poster", "time": 1995, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":4, "imgurl":"4", "name":"a poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":5, "imgurl":"5", "name":"aa poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":6, "imgurl":"6", "name":"aaa poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" }, { "id":7, "imgurl":"7", "name":"aaaa poster", "time": 1970, "institute":"Cooper Hewitt", "theme": "Design" } ]
-
 let state = {
     id: 'edanmdm-saam_1986.65.292',
     dimention: 'time',
     index: 2
 }
 
+//to match with key value in nndata
 let axislist = [
     {index: 1, dimention:'institute'}, {index:2, dimention:'time'}, {index:3, dimention:'theme'}
 ]
@@ -35,7 +31,7 @@ document.body.appendChild(renderer.domElement);
 window.addEventListener( 'resize', onWindowResize );
 window.addEventListener( 'pointermove', onPointerMove );
 
-// window.addEventListener("mousemove", onMouseMove, false);
+
 
 document.querySelectorAll('.direction-class').forEach((item, INDEX) => {
     item.addEventListener('click', function(){
@@ -56,9 +52,7 @@ document.querySelectorAll('.direction-class').forEach((item, INDEX) => {
       })
 
       //do nothing if 'search' clicked
-      if (index && index != state.index){
-
-        
+      if (index && index != state.index){    
 
         var prev_index = state.index;
         var axis = axislist.find( (axis) => axis.index == index);
@@ -89,7 +83,7 @@ scene.add(group)
     group.add(arrow_group);
 
 //Add image
-let baseURL = './data/'
+let baseURL = './data/images/'
 
 
 function drawSingleImage(image, x = 0, y = 0, z = 10, img_width = 150, name = 'main', radians = updateRadians(), index = state.index){
@@ -97,11 +91,11 @@ function drawSingleImage(image, x = 0, y = 0, z = 10, img_width = 150, name = 'm
   
     let groupname = (name == 'main')? 'main' : (index + name) 
 
-    const img_plane = new Image();
-    img_plane.crossOrigin = "";
+    let imgname = (image["index"] == '') ? "images" : image["index"];
 
-    console.log(image, 'image')
-    img_plane.src = image["img_url"]; 
+    const img_plane = new Image();
+    // img_plane.crossOrigin = "";
+    img_plane.src = baseURL + imgname +'.jpg'; 
 
     // texture variable &activation to update it
     const texture_plane = new THREE.Texture(img_plane);
@@ -125,11 +119,16 @@ function drawSingleImage(image, x = 0, y = 0, z = 10, img_width = 150, name = 'm
 
 function drawImage(state){
 
+    //update filter - text highlighted 
+    let hight_id = "#direction-" + axislist[state.index-1]["dimention"]
+    document.querySelector(hight_id).style.color = "#ffcd00";
+
     img_group.clear()
     let x, y, z; 
 
     //main image
     let main_image = metadata.find( ({ id }) => id == state.id);
+
     drawSingleImage(main_image)
 
     //get neighbor info
@@ -186,69 +185,74 @@ function getXYZ(i, radians, size){
     // x: camera_z_original * (Math.sin(radians)), y: 0, z: camera_z_original * (Math.cos(radians)) 
 }
 
-function updateImageAnimation(size = 150, index){
+function updateImageAnimation(index_l_to_s, index_s_to_l){
 
-    let x1, x2, y1, y2, z1, z2;
-    let factor = (index == 2)? 1 : 10;
-    let scale = (size == 150)? factor : (factor/10);
+    let x1, x2, y1, y2, z1, z2, x0, y0, z0, x00, y00, z00;
 
-    if (index ==150){
+    let factor = 10;
+
+    let scale_l = 1/10, scale_s = 10;
+    let size_l = 150, size_s = 500;
+
+    // let factor = (index == 2)? 1 : 10;
+    // let scale = (size == 150)? factor : (factor/10);
+
+    // if (size==150){
         //zoom in -> animate position first
 
-        [x1, y1, z1] = getXYZ( -1, updateRadians(index), size);
+        [x0, y0, z0] = getXYZ( -1, updateRadians(index_l_to_s), size_s);
 
         createjs.Tween
-        .get(img_group.getObjectByName( index + "leftimage" ).position, { loop: false })
-        .wait(1500)
-        .to({ x:x1, y:y1, z:z1 }, 500, createjs.Ease.getBackOut(0.5));
-
-        createjs.Tween
-        .get(img_group.getObjectByName( index + "leftimage" ).scale, { loop: false })
+        .get(img_group.getObjectByName( index_l_to_s + "leftimage" ).position, { loop: false })
         .wait(500)
-        .to({ x:scale, y:scale}, 500, createjs.Ease.getBackOut(0.5));
-
-        [x2, y2, z2] = getXYZ( 1, updateRadians(index), size)
+        .to({ x:x0, y:y0, z:z0 }, 500, createjs.Ease.getBackOut(0.5));
 
         createjs.Tween
-        .get(img_group.getObjectByName( index + "rightimage" ).position, { loop: false })
-        .wait(1500)
-        .to({ x:x2, y:y2, z:z2 }, 500, createjs.Ease.getBackOut(0.5));
-
-        createjs.Tween
-        .get(img_group.getObjectByName( index + "rightimage" ).scale, { loop: false })
+        .get(img_group.getObjectByName( index_l_to_s + "leftimage" ).scale, { loop: false })
         .wait(500)
-        .to({ x:scale, y:scale}, 500, createjs.Ease.getBackOut(0.5));
+        .to({ x:scale_l, y:scale_l}, 500, createjs.Ease.getBackOut(0.5));
+
+        [x00, y00, z00] = getXYZ( 1, updateRadians(index_l_to_s), size_s)
+
+        createjs.Tween
+        .get(img_group.getObjectByName( index_l_to_s + "rightimage" ).position, { loop: false })
+        .wait(500)
+        .to({ x:x00, y:y00, z:z00 }, 500, createjs.Ease.getBackOut(0.5));
+
+        createjs.Tween
+        .get(img_group.getObjectByName( index_l_to_s + "rightimage" ).scale, { loop: false })
+        .wait(500)
+        .to({ x:scale_l, y:scale_l}, 500, createjs.Ease.getBackOut(0.5));
 
 
-    }
-    else{
+    // }
+    // else{
         //zoom out -> animate scale first
 
-        [x1, y1, z1] = getXYZ( -1, updateRadians(index), size);
+        [x1, y1, z1] = getXYZ( -1, updateRadians(index_s_to_l), size_l);
 
         createjs.Tween
-        .get(img_group.getObjectByName( index + "leftimage" ).scale, { loop: false })
-
-        .to({ x:scale, y:scale}, 500, createjs.Ease.getBackOut(0.5));
+        .get(img_group.getObjectByName( index_s_to_l + "leftimage" ).scale, { loop: false })
+        .to({ x:scale_s, y:scale_s}, 500, createjs.Ease.getBackOut(0.5));
 
         createjs.Tween
-        .get(img_group.getObjectByName( index + "leftimage" ).position, { loop: false })
+        .get(img_group.getObjectByName( index_s_to_l + "leftimage" ).position, { loop: false })
         .wait(500)
         .to({ x:x1, y:y1, z:z1 }, 500, createjs.Ease.getBackOut(0.5));
 
 
-        [x2, y2, z2] = getXYZ( 1, updateRadians(index), size)
+        [x2, y2, z2] = getXYZ( 1, updateRadians(index_s_to_l), size_l)
 
         createjs.Tween
-        .get(img_group.getObjectByName( index + "rightimage" ).scale, { loop: false })
-        .to({ x:scale, y:scale}, 500, createjs.Ease.getBackOut(0.5));
+        .get(img_group.getObjectByName( index_s_to_l + "rightimage" ).scale, { loop: false })
+        .to({ x:scale_s, y:scale_s}, 500, createjs.Ease.getBackOut(0.5));
 
         createjs.Tween
-        .get(img_group.getObjectByName( index + "rightimage" ).position, { loop: false })
+        .get(img_group.getObjectByName( index_s_to_l + "rightimage" ).position, { loop: false })
         .wait(500)
         .to({ x:x2, y:y2, z:z2 }, 500, createjs.Ease.getBackOut(0.5));
 
-    }
+    // }
 
 
   
@@ -256,21 +260,40 @@ function updateImageAnimation(size = 150, index){
     
 }
 
+//update when rotating, changing image size
+//called by directionAnimation
+
 function updateImage2(prev_index){
 
-    axislist.forEach( axis => {
+    
+    // axislist.forEach( (axis) => {
 
        
-        if (axis.index == state.index){
-             //main view
-            updateImageAnimation(150, axis.index)
+        // if (axis.index == state.index){
+             
+        //     //left and right imgs on new axis enlarged
 
-        }else if (axis.index == prev_index){
+        //     // updateImageAnimation(150, axis.index)
 
-            updateImageAnimation(50, prev_index)
+        // }else if (axis.index == prev_index){
 
-        }
+        //     //the left / right imgs shrink back
+
+        //     // updateImageAnimation(50, prev_index)
+
+        // }
+
+    // })
+
+    updateImageAnimation(prev_index, state.index)
+
+    createjs.Tween
+    .get(img_group.getObjectByName( "mainimage" ).position, { loop: false })
+    .wait(3000)
+    .call(function(evt){
+        drawImage(state);
     })
+
 }
 
 //update along the axis
@@ -296,6 +319,7 @@ function updateImage(left_or_right = 'left'){
         .get(img_group.getObjectByName( "mainimage" ).scale, { loop: false })
         .to({ x:1, y:1}, 500)
         .call(function(evt){
+            img_group.clear()
             drawImage(state)
         });
         
@@ -317,6 +341,7 @@ function updateImage(left_or_right = 'left'){
         .get(img_group.getObjectByName( state.index + "rightimage" ).scale, { loop: false })
         .to({ x:1, y:1}, 500)
         .call(function(evt){
+            img_group.clear()
             drawImage(state)
         });
 
@@ -570,7 +595,7 @@ function directionAnimation(prev_index){
 
         var radians = updateRadians();
 
-        // animation
+        // animation step 1. rotation
         createjs.Tween
             .get(arrow_group.rotation, { loop: false })
             .to({ y:radians}, 1500, createjs.Ease.getPowInOut(3));
@@ -601,6 +626,8 @@ function directionAnimation(prev_index){
             .wait(1500)
             .to({x: camera_z_original * (Math.sin(radians)), y: 0, z: camera_z_original * (Math.cos(radians)) }, 500, createjs.Ease.getPowOut(3))
             .call(function(Evt){
+
+                //animation 2. image scale ...
                 updateImage2(prev_index);
             })
 
