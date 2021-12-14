@@ -597,8 +597,6 @@ d3.json("./data_crop_update.json", function(err, data) {
   d3.selectAll(".year")
   .on("change", function() {
 
-    console.log(this.checked, 'checkbox')
-
   if ( this.checked == true){
 
     d3.selectAll(".year").property('checked', false);

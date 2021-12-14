@@ -154,23 +154,27 @@
         <div class="filter-section">
           
           <h3>View</h3>
-
+          
           <input id="barview" class="view" type="checkbox">
-          <label>Cluster</label>
-        
+          <label for="barview">Cluster</label>
+
+          
           <input id="gridview" class="view" type="checkbox">
-          <label>Gallery</label>
+          <label for="gridview">Gallery
+          </label>
         
         </div>
 
         <div class="filter-section">
         <h3>Images</h3>
-
+       
         <input id="showimg" class="mode" type="checkbox">
-        <label>Show</label>
+        <label for="showimg"> Show</label>
 
+        
         <input id="hideimg" class="mode" type="checkbox">
-        <label>Hide</label>
+        <label for="hideimg"> Hide</label>
+
         </div>
 
         <!-- <select class="mode">
@@ -178,44 +182,77 @@
           <option value="hide">Hide Images</option>
         </select> -->
 
-        <div class="filter-section" id="filter-section-time">
-          <div><h3>Time</h3></div>
-
-
-        <input id="year1894" value="1894,1919" class="yearAll" type="checkbox">
-        <label>All</label>
-        <input value="1894,1899" class="year" type="checkbox">
-        <label class="usa-color-text"><b>1894–1899 </b></label>
-        <input value="1899,1901" class="year" type="checkbox">
-        <label class="japan-color-text"><b>1899–1901</b> </label>
-        <input value="1901,1902" class="year" type="checkbox">
-        <label class="usa-color-text"><b>1901–1902</b></label>
-        <input value="1902,1910" class="year" type="checkbox">
-        <label class="japan-color-text"><b>1902–1910</b></label>
-        <input value="1910,1912" class="year" type="checkbox">
-        <label class="mexico-color-text"><b>1910–1912</b></label>
-        <input value="1912,1914" class="year" type="checkbox">
-        <label class="japan-color-text"><b>1912–1914</b></label>
-        <input value="1914,1919" class="year" type="checkbox">
-        <label class="usa-color-text"><b>1914–1919</b></label>
-
-
-        </div>
-
-
         <div class="filter-section" id="filter-section-loc">
           <div><h3>Location</h3></div>
-          <div class="filter-loc"> <label class="usa-color"><b>USA</b></label>
-            USA </div>
-          <div class="filter-loc"><label class="japan-color"><b>JPN</b></label>
-            Japan</div>
-          <div class="filter-loc"><label class="mexico-color"><b>MXC</b></label>
-            Mexico </div>
+          <div class="filter-loc"> <div class="usa-color filter-loc-color"><b>USA</b></div>
+            USA
+          </div>
+          <div class="filter-loc">  <div class="japan-color filter-loc-color"><b>JPN</b></div>
+            Japan
+           </div>
+          <div class="filter-loc">  <div class="mexico-color filter-loc-color"><b>MXC</b></div>
+            Mexico
+        </div>
 <!-- 
           <div class="filter-square usa-color-text"><b>USA</b></div>
           <div class="filter-square japan-color-text"><b>Japan</b></div>
           <div class="filter-square mexico-color-text"><b>Mexico</b></div> -->
         </div>
+
+
+
+        <div class="filter-section" id="filter-section-time">
+          <div><h3>Time</h3></div>
+
+      
+            <input id="year1894" value="1894,1919" class="yearAll" type="checkbox">
+            <label for="year1894">
+              All</label>
+
+          <div id="filter-section-time-second">
+
+            
+             
+              <input id="t1"  value="1894,1899" class="year" type="checkbox">
+      
+              <label for="t1" class="usa-color-text"><b>1894–1899 </b></label>
+      
+              
+              <input id="t2" value="1899,1901" class="year" type="checkbox">
+              <label for="t2" class="japan-color-text"><b>1899–1901</b> </label>
+      
+              
+              <input id="t3" value="1901,1902" class="year" type="checkbox">
+              <label for="t3" class="usa-color-text"><b>1901–1902</b></label>
+      
+              <input id="t4" value="1902,1910" class="year" type="checkbox">
+
+              <label for="t4" class="japan-color-text">
+              <b>1902–1910</b></label>
+      
+              
+              <input id="t5" value="1910,1912" class="year" type="checkbox">
+              <label for="t5" class="mexico-color-text">
+              <b>1910–1912</b></label>
+      
+              
+              <input id="t6" value="1912,1914" class="year" type="checkbox">
+              <label for="t6" class="japan-color-text">
+              <b>1912–1914</b></label>
+      
+             
+              <input id="t7" value="1914,1919" class="year" type="checkbox">
+              <label for="t7" class="usa-color-text">
+              <b>1914–1919</b></label>
+      
+
+          </div>
+       
+
+        </div>
+
+
+
 
       </div>
 

@@ -9,7 +9,7 @@ Split(['#landing-page-left', '#landing-page-right'], {
             'flex-basis': gutterSize + 'px',
         }
     },
-    sizes: [20, 80],
+    sizes: [16, 84],
   
   })
 
